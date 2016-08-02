@@ -254,7 +254,6 @@ HEADERS += src/qt/bitcoingui.h src/proofs.h src/amount.h \
     src/rpcclient.h \
     src/rpcprotocol.h \
     src/rpcserver.h \
-    src/timedata.h \
     src/qt/overviewpage.h \
     src/qt/csvmodelwriter.h \
     src/crypter.h \
@@ -296,7 +295,8 @@ HEADERS += src/qt/bitcoingui.h src/proofs.h src/amount.h \
     src/qt/addeditatomnode.h \
     src/qt/atomnodeconfigdialog.h \
     src/qt/qcustomplot.h \
-    src/qt/qvalidatedtextedit.h
+    src/qt/qvalidatedtextedit.h \
+    src/limitedmap.h
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp src/proofs.cpp src/uint256.cpp src/amount.cpp \
     src/qt/transactiontablemodel.cpp \
@@ -359,7 +359,6 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp src/proofs.cpp src/uint256.c
     src/rpcwallet.cpp \
     src/rpcblockchain.cpp \
     src/rpcrawtransaction.cpp \
-    src/timedata.cpp \
     src/qt/overviewpage.cpp \
     src/qt/csvmodelwriter.cpp \
     src/crypter.cpp \
