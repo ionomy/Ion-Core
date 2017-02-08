@@ -4023,7 +4023,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         MarkBlockAsReceived(inv.hash, pfrom->GetId());
 
         ProcessBlock(pfrom, &block);
-        if (block.nDoS) pfrom->Misbehaving(block.nDoS);
+        if (block.nDoS) Misbehaving(pfrom->GetId(), block.nDoS);
     }
 
     // This asymmetric behavior for inbound and outbound connections was introduced

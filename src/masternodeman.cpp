@@ -641,7 +641,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
 
         if(pubkeyScript.size() != 25) {
             LogPrintf("dsee - pubkey the wrong size\n");
-            pfrom->Misbehaving(100);
+            Misbehaving(pfrom->GetId(), 100);
             return;
         }
 
@@ -650,7 +650,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
 
         if(pubkeyScript2.size() != 25) {
             LogPrintf("dsee - pubkey2 the wrong size\n");
-            pfrom->Misbehaving(100);
+            Misbehaving(pfrom->GetId(), 100);
             return;
         }
 
@@ -662,7 +662,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         std::string errorMessage = "";
         if(!darkSendSigner.VerifyMessage(pubkey, vchSig, strMessage, errorMessage)){
             LogPrintf("dsee - Got bad masternode address signature\n");
-            pfrom->Misbehaving(100);
+            Misbehaving(pfrom->GetId(), 100);
             return;
         }
 
@@ -700,7 +700,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
         //  - this is expensive, so it's only done once per masternode
         if(!darkSendSigner.IsVinAssociatedWithPubkey(vin, pubkey)) {
             LogPrintf("dsee - Got mismatched pubkey and vin\n");
-            pfrom->Misbehaving(100);
+            Misbehaving(pfrom->GetId(), 100);
             return;
         }
 
@@ -725,7 +725,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
 
             if(GetInputAge(vin) < MASTERNODE_MIN_CONFIRMATIONS){
                 LogPrintf("dsee - Input must have least %d confirmations\n", MASTERNODE_MIN_CONFIRMATIONS);
-                pfrom->Misbehaving(20);
+                Misbehaving(pfrom->GetId(), 20);
                 return;
             }
 
@@ -778,7 +778,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
                 LogPrintf("dsee - %s from %s %s was not accepted into the memory pool\n", tx.GetHash().ToString().c_str(),
                     pfrom->addr.ToString().c_str(), pfrom->cleanSubVer.c_str());
                 if (nDoS > 0)
-                    pfrom->Misbehaving(nDoS);
+                    Misbehaving(pfrom->GetId(), nDoS);
             }
         }
     }
@@ -817,7 +817,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
                 if(!darkSendSigner.VerifyMessage(pmn->pubkey2, vchSig, strMessage, errorMessage))
                 {
                     LogPrintf("dseep - Got bad masternode address signature %s \n", vin.ToString().c_str());
-                    //pfrom->Misbehaving(100);
+                    //Misbehaving(pfrom->GetId(), 100);
                     return;
                 }
 
@@ -902,7 +902,7 @@ void CMasternodeMan::ProcessMessage(CNode* pfrom, std::string& strCommand, CData
                 {
                     int64_t t = (*i).second;
                     if (GetTime() < t) {
-                        pfrom->Misbehaving(34);
+                        Misbehaving(pfrom->GetId(), 34);
                         LogPrintf("dseg - peer already asked me for the list\n");
                         return;
                     }
