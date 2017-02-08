@@ -1,9 +1,10 @@
-// Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2017 The Bitcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #include "init.h"
+
+#include "addrman.h"
 #include "main.h"
 #include "chainparams.h"
 #include "txdb.h"
@@ -24,6 +25,7 @@
 #include "spork.h"
 
 #ifdef ENABLE_WALLET
+#include "db.h"
 #include "wallet.h"
 #include "walletdb.h"
 #endif
@@ -56,6 +58,7 @@ unsigned int nDerivationMethodIndex;
 unsigned int nMinerSleep;
 bool fUseFastIndex;
 bool fOnlyTor = false;
+
 
 //////////////////////////////////////////////////////////////////////////////
 //
@@ -433,6 +436,8 @@ bool AppInit2(boost::thread_group& threadGroup)
             LogPrintf("AppInit2 : parameter interaction: -salvagewallet=1 -> setting -rescan=1\n");
     }
 
+
+
     // ********************************************************* Step 3: parameter-to-internal-flags
 
     fDebug = !mapMultiArgs["-debug"].empty();
@@ -777,6 +782,31 @@ bool AppInit2(boost::thread_group& threadGroup)
         return InitError(_("Error loading block database"));
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // as LoadBlockIndex can take several minutes, it's possible the user
     // requested to kill bitcoin-qt during the last operation. If so, exit.
     // As the program has not fully started yet, Shutdown() is possibly overkill.
@@ -1032,8 +1062,6 @@ bool AppInit2(boost::thread_group& threadGroup)
         fEnableDarksend = true;
         nDarksendRounds = 99999;
     }
-
-	if(fPendingTest) { fEnableDarksend = false; }
 
     nAnonymizeIonAmount = GetArg("-anonymizeionamount", 0);
     if(nAnonymizeIonAmount > 999999) nAnonymizeIonAmount = 999999;

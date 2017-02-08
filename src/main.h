@@ -49,10 +49,8 @@ static const unsigned int MAX_TX_SIGOPS = MAX_BLOCK_SIGOPS/5;
 static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 /** Default for -maxorphanblocks, maximum number of orphan blocks kept in memory */
 static const unsigned int DEFAULT_MAX_ORPHAN_BLOCKS = 10000;
-/** The maximum number of entries in an 'inv' protocol message */
-static const unsigned int MAX_INV_SZ = 50000;
 /** Fees smaller than this (in satoshi) are considered zero fee (for transaction creation) */
-static const int64_t MIN_TX_FEE = 1000;
+static const int64_t MIN_TX_FEE = (0.001*COIN);
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
@@ -1025,7 +1023,7 @@ public:
 
     int64_t GetPastTimeLimit() const
     {
-        return GetBlockTime() - 600;
+        return GetBlockTime() - 16200;
     }
 
     enum { nMedianTimeSpan=11 };

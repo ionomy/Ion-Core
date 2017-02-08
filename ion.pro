@@ -79,6 +79,19 @@ contains(USE_DBUS, 1) {
     QT += dbus
 }
 
+# use: qmake "USE_IPV6=1" (enabled by default)
+#  or: qmake "USE_IPV6=0" (disabled by default)
+#  or: qmake "USE_IPV6=-" (not supported)
+contains(USE_IPV6, -) {
+    message(Building without IPv6 support)
+} else {
+    message(Building with IPv6 support)
+    count(USE_IPV6, 0) {
+        USE_IPV6=1
+    }
+    DEFINES += USE_IPV6=$$USE_IPV6
+}
+
 contains(BITCOIN_NEED_QT_PLUGINS, 1) {
     DEFINES += BITCOIN_NEED_QT_PLUGINS
     QTPLUGIN += qcncodecs qjpcodecs qtwcodecs qkrcodecs qtaccessiblewidgets
@@ -241,7 +254,6 @@ HEADERS += src/qt/bitcoingui.h src/proofs.h src/amount.h \
     src/rpcclient.h \
     src/rpcprotocol.h \
     src/rpcserver.h \
-    src/timedata.h \
     src/qt/overviewpage.h \
     src/qt/csvmodelwriter.h \
     src/crypter.h \
@@ -283,7 +295,8 @@ HEADERS += src/qt/bitcoingui.h src/proofs.h src/amount.h \
     src/qt/addeditatomnode.h \
     src/qt/atomnodeconfigdialog.h \
     src/qt/qcustomplot.h \
-    src/qt/qvalidatedtextedit.h
+    src/qt/qvalidatedtextedit.h \
+    src/limitedmap.h
 
 SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp src/proofs.cpp src/uint256.cpp src/amount.cpp \
     src/qt/transactiontablemodel.cpp \
@@ -346,7 +359,6 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp src/proofs.cpp src/uint256.c
     src/rpcwallet.cpp \
     src/rpcblockchain.cpp \
     src/rpcrawtransaction.cpp \
-    src/timedata.cpp \
     src/qt/overviewpage.cpp \
     src/qt/csvmodelwriter.cpp \
     src/crypter.cpp \
