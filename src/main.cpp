@@ -3897,12 +3897,12 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         }
 
         else if (strCommand == "dstx") {
-            inv = CInv(MSG_DSTX, tx.GetHash());
+            vRecv >> tx >> vin >> vchSig >> sigTime;
+	    inv = CInv(MSG_DSTX, tx.GetHash());
             // Check for recently rejected (and do other quick existence checks)
             if (AlreadyHave(txdb, inv))
                 return true;
             //these allow masternodes to publish a limited amount of free transactions
-            vRecv >> tx >> vin >> vchSig >> sigTime;
 
             CMasternode* pmn = mnodeman.Find(vin);
             if(pmn != NULL)
