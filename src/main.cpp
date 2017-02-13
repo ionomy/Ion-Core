@@ -3882,8 +3882,8 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
         //masternode signed transaction
         bool ignoreFees = false;
-        CInv inv; 
-	CTxIn vin;
+        CInv inv;
+        CTxIn vin;
         vector<unsigned char> vchSig;
         int64_t sigTime;
         CTxDB txdb("r");
@@ -3898,7 +3898,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
         else if (strCommand == "dstx") {
             vRecv >> tx >> vin >> vchSig >> sigTime;
-	    inv = CInv(MSG_DSTX, tx.GetHash());
+            inv = CInv(MSG_DSTX, tx.GetHash());
             // Check for recently rejected (and do other quick existence checks)
             if (AlreadyHave(txdb, inv))
                 return true;
@@ -4021,7 +4021,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 
         LogPrint("net", "received block %s\n", hashBlock.ToString());
 
-        inv = CInv(MSG_BLOCK, hashBlock);
+        CInv inv(MSG_BLOCK, hashBlock);
         pfrom->AddInventoryKnown(inv);
 
         LOCK(cs_main);
@@ -4058,7 +4058,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
         mempool.queryHashes(vtxid);
         vector<CInv> vInv;
         CInv inv;
-	for (unsigned int i = 0; i < vtxid.size(); i++) {
+        for (unsigned int i = 0; i < vtxid.size(); i++) {
             inv = CInv(MSG_TX, vtxid[i]);
             vInv.push_back(inv);
             if (i == (MAX_INV_SZ - 1))
