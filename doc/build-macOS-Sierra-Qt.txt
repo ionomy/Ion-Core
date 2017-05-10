@@ -1,0 +1,153 @@
+Build ionx-Qt on macOS 10.12+ Sierra
+
+confirmed to work with
+miniupnpc 2.0
+boost 1.64.0_1
+qt 5.8.0_2
+openssl 1.0.2k
+berkeley-db4 4.8.30
+gmp 6.1.2
+
+Install Xcode https://developer.apple.com/download
+Install the associated Command Line Tools to your Xcode version https://developer.apple.com/download/more
+
+Launch Terminal
+Install brew from http://brew.sh
+
+Brew some recipes!
+brew install autoconf automake berkeley-db4 gmp libpng libtool miniupnpc openssl qrencode qt5
+brew install boost --c++11 --without-single --without-static
+
+Manually link your openssl dependency paths to the brew cellar (recommend /usr/local/opt/openssl/lib and /usr/local/opt/openssl/include):
+mkdir /usr/local/opt/openssl
+ln -s /usr/local/Cellar/openssl/1.0.2k/lib /usr/local/opt/openssl/lib
+ln -s /usr/local/Cellar/openssl/1.0.2k/include /usr/local/opt/openssl/include
+
+NOTE: replace the openssl version path (1.0.2k at time of writing) with the version that brew installed
+
+NOTE: Might need to force brew to link berkeley-db4:
+brew link --force berkeley-db4
+
+DOWNLOAD ION SOURCE
+
+git clone https://github.com/ionomy/ion
+cd ion/src/secp256k1
+./autogen.sh
+./configure
+make
+make install
+
+
+Modify these lines in ion.pro to match as follows, or according to your preferences/environment:
+
+isEmpty(BOOST_LIB_PATH) {
+    macx:BOOST_LIB_PATH = /usr/local/opt/boost/lib
+}
+
+isEmpty(BOOST_INCLUDE_PATH) {
+    macx:BOOST_INCLUDE_PATH = /usr/local/opt/boost/include
+}
+
+isEmpty(BDB_LIB_PATH) {
+    macx:BDB_LIB_PATH = /usr/local/opt/berkeley-db4/lib
+}
+
+isEmpty(BDB_INCLUDE_PATH) {
+    macx:BDB_INCLUDE_PATH = /usr/local/opt/berkeley-db4/include
+}
+
+isEmpty(MINIUPNPC_INCLUDE_PATH) {
+    macx:MINIUPNPC_INCLUDE_PATH=/usr/locale/opt/miniupnpc/include
+}
+
+isEmpty(MINIUPNPC_LIB_PATH) {
+    macx:MINIUPNPC_LIB_PATH=/usr/local/opt/miniupnpc/lib/
+}
+
+isEmpty(OPENSSL_LIB_PATH) {
+    macx:OPENSSL_LIB_PATH = /usr/local/opt/openssl/lib/
+}
+
+isEmpty(OPENSSL_INCLUDE_PATH) {
+    macx:OPENSSL_INCLUDE_PATH = /usr/local/opt/openssl/include
+}
+
+
+If making the daemon, modify these lines in src/makefile.osx as follows, or according to your preferences/environment:
+
+INCLUDEPATHS= \
+ -I"$(CURDIR)" \
+ -I"$(CURDIR)"/obj \
+ -I"$(DEPSDIR)/include" \
+ -I"$(DEPSDIR)/opt/boost/include" \
+ -I"$(DEPSDIR)/opt/berkeley-db4/include" \
+ -I"$(DEPSDIR)/opt/openssl/include"
+
+LIBPATHS= \
+ -L"$(DEPSDIR)/lib" \
+ -I"$(DEPSDIR)/opt/boost/lib” \
+ -L"$(DEPSDIR)/opt/berkeley-db4/lib" \
+ -L"$(DEPSDIR)/opt/openssl/lib"
+
+ifdef STATIC
+# Build STATIC if you are redistributing the xiond binary
+LIBS += \
+ $(DEPSDIR)/opt/berkeley-db4/lib/libdb_cxx-4.8.a \
+ $(DEPSDIR)/lib/libboost_system.a \
+ $(DEPSDIR)/lib/libboost_filesystem.a \
+ $(DEPSDIR)/lib/libboost_program_options.a \
+ $(DEPSDIR)/lib/libboost_thread-mt.a \
+ $(DEPSDIR)/opt/openssl/lib/libssl.a \
+ $(DEPSDIR)/opt/openssl/lib/libcrypto.a \
+
+
+OPTIONAL: Add Qt paths to user’s environment.
+nano ~/.bash_profile
+Add this line:
+export PATH=/usr/local/opt/qt/bin:$PATH
+control+x to save and exit
+OR
+echo 'export PATH="/usr/local/opt/qt/bin:$PATH"' >> ~/.bash_profile
+
+OPTIONAL: add show and hide hidden files shortcuts. nano ~/.bash_profile
+Add these lines:
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+control+x to save and exit
+
+OR
+echo ‘alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app' >> ~/.bash_profile
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app' >> ~/.bash_profile
+
+
+RELOAD .bash_profile
+ . ~/.bash_profile
+
+
+GET BACK TO REPO ROOT DIR
+cd ../..
+
+BUILD IT
+qmake -config release -config c++11 ion-qt.pro
+make
+
+
+PACKAGE IT
+###OPTIONAL - THIS MAY NOT WORK WITH QT5.7###
+###UNTESTED WITH QT5.8###
+macdeployqt ion-Qt.app -dmg
+
+###THIS WORKS BETTER. IT IS A FANCY PACKAGING SCRIPT THAT ALLOWS TO CUSTOMIZE THE DMG’S APPEARANCE - FROM DARKSILK###
+chmod +x contrib/macdeploy/macdeployqtplus
+contrib/macdeploy/macdeployqtplus ionx-Qt.app -add-qt-tr da,de,es,hu,ru,uk,zh_CN,zh_TW -dmg -fancy contrib/macdeploy/fancy.plist -verbose 2
+
+
+
+RUN IT
+/Applications/ionx-Qt.app/Contents/MacOS/ionx-Qt
+
+OPTIONAL: Create a custom data directory to store the wallet data, where 'XXX' is a unique name (testnet, for example):
+mkdir ~/Library/Application\ Support/ion_test
+ionx-Qt.app/Contents/MacOS/ionx-Qt -testnet -datadir=/Users/YOURUSERNAME/Library/Application\ Support/ion_test &
+
+NOTE: launch with -? to display the list of runtime arguments - there are many useful ones!
