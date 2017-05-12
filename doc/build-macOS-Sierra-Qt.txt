@@ -128,7 +128,7 @@ GET BACK TO REPO ROOT DIR
 cd ../..
 
 BUILD IT
-qmake -config release -config c++11 USE_UPNP=1 USE_QRCODE=1 ion.pro
+qmake -config release -config c++11 ion.pro
 make
 
 
@@ -148,6 +148,6 @@ RUN IT
 
 OPTIONAL: Create a custom data directory to store the wallet data, where 'XXX' is a unique name (testnet, for example):
 mkdir ~/Library/Application\ Support/ion_test
-ionx-Qt.app/Contents/MacOS/ionx-Qt -testnet=1 -datadir=/Users/YOURUSERNAME/Library/Application\ Support/ion_test &
+ionx-Qt.app/Contents/MacOS/ionx-Qt -testnet -datadir=/Users/YOURUSERNAME/Library/Application\ Support/ion_test &
 
 NOTE: launch with -? to display the list of runtime arguments - there are many useful ones!
