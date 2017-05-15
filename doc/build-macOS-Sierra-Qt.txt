@@ -14,7 +14,7 @@ Install the associated Command Line Tools to your Xcode version https://develope
 Launch Terminal
 Install brew from http://brew.sh
 
-Brew some recipies!
+Brew some recipes!
 brew install autoconf automake berkeley-db4 gmp libpng libtool miniupnpc openssl qrencode qt5
 brew install boost --c++11 --without-single --without-static
 
@@ -30,7 +30,7 @@ brew link --force berkeley-db4
 
 DOWNLOAD ION SOURCE
 
-git clone https://github.com/Ion-Network/Ion-Core ion
+git clone https://github.com/ionomy/ion
 cd ion/src/secp256k1
 ./autogen.sh
 ./configure
@@ -104,10 +104,10 @@ LIBS += \
 OPTIONAL: Add Qt paths to user’s environment.
 nano ~/.bash_profile
 Add this line:
-export PATH=/usr/local/opt/Qt/bin:$PATH
+export PATH=/usr/local/opt/qt/bin:$PATH
 control+x to save and exit
 OR
-echo 'export PATH="/usr/local/opt/qt5/bin:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/usr/local/opt/qt/bin:$PATH"' >> ~/.bash_profile
 
 OPTIONAL: add show and hide hidden files shortcuts. nano ~/.bash_profile
 Add these lines:
@@ -128,7 +128,7 @@ GET BACK TO REPO ROOT DIR
 cd ../..
 
 BUILD IT
-qmake -config release -config c++11 ion.pro
+qmake -config release -config c++11 ion-qt.pro
 make
 
 
