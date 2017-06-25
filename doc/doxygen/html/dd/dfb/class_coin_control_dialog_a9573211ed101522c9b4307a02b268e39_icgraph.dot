@@ -1,0 +1,26 @@
+digraph "CoinControlDialog::sortView"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node489 [label="CoinControlDialog::\lsortView",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node489 -> Node490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node490 [label="CoinControlDialog::\lCoinControlDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a0945e59c25f956fdab199dbaf252eff5"];
+  Node489 -> Node491 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node491 [label="CoinControlDialog::\lheaderSectionClicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a00055d2685a3625cb1fc5f84e8cb0a05"];
+  Node491 -> Node490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node489 -> Node492 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node492 [label="CoinControlDialog::\lupdateView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#aadea33050e5c1efd5eae8d2fcfa721f9"];
+  Node492 -> Node493 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node493 [label="CoinControlDialog::\lsetModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a4c34a48574814089c54f763a22f5317a"];
+  Node493 -> Node494 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node494 [label="SendCoinsDialog::coinControl\lButtonClicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a59d757d9e4bea5b380eb480fd79cfb49"];
+  Node494 -> Node495 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node495 [label="SendCoinsDialog::SendCoins\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a0df5bc29d1df68eda44826651afc595f"];
+  Node492 -> Node496 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node496 [label="CoinControlDialog::\lradioTreeMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a1990d478f3ffba666c358a4f1bd395ec"];
+  Node496 -> Node490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node492 -> Node497 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node497 [label="CoinControlDialog::\lradioListMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a775c6d290cb63667a434b09072094533"];
+  Node497 -> Node490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

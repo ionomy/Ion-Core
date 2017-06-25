@@ -1,0 +1,19 @@
+digraph "QCustomPlot::currentLayer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node230 [label="QCustomPlot::currentLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node230 -> Node231 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node231 [label="QCPLayer::~QCPLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#afc1a8940f8e34c9f25ead9dfd4828cae"];
+  Node230 -> Node232 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node232 [label="QCPLayerable::QCPLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#a76592e80a4657e03da4bfd91aab91ef3"];
+  Node230 -> Node233 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node233 [label="QCPAxis::QCPAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#ac62c042968bae0e6d474fcfc57c9b71f"];
+  Node230 -> Node234 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node234 [label="QCustomPlot::addPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ab7ad9174f701f9c6f64e378df77927a6"];
+  Node234 -> Node235 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node235 [label="QCustomPlot::addGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a6fb2873d35a8a8089842d81a70a54167"];
+  Node230 -> Node236 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node236 [label="QCPPlotTitle::QCPPlotTitle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de4/class_q_c_p_plot_title.html#aaae17bee2de6d6a1e695f76fb1abed03"];
+}

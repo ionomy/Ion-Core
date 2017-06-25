@@ -1,0 +1,31 @@
+digraph "GenerateRandomSecret"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node85 [label="GenerateRandomSecret",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node85 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="WalletModel::sendCoins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a053fb3ff2b8b0347f83e6bb591126746"];
+  Node86 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="SendCoinsDialog::send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#afd8d436a16ea7dba1276e8fdfdc8b2d3"];
+  Node87 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+  Node85 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="CStealthAddress::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d37/class_c_stealth_address.html#aafdb2534bed64a42a3e3147a997514eb"];
+  Node85 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="CWallet::NewStealthAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ae3bb56ad5d165525e45e4a0c9ad034f2"];
+  Node90 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="AddressTableModel::\laddRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a08ab9ae401a18d193f0e39551de81280"];
+  Node91 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="EditAddressDialog::\lsaveCurrentRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#a8494a551799cd1f4c253e557424c206c"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="EditAddressDialog::\laccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#ac52b71129806bccf6533d0e9441393b6"];
+  Node90 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="getnewstealthaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a59139de50de79af3d3960ddbb5ee5340"];
+  Node85 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="CWallet::SendStealthMoney\lToDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#afce932bf3aa678046ab75eccff004858"];
+  Node95 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="sendtostealthaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#ad901105908c7eea072067a49643a906e"];
+  Node96 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="sendtoaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a134064858f9cfa4775a6ae34cac2b133"];
+}

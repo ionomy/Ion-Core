@@ -1,0 +1,21 @@
+digraph "QCPAxisRect::axis"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node50 [label="QCPAxisRect::axis",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node50 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8"];
+  Node50 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="QCPAxisRect::removeAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a03c39cd9704f0d36fb6cf980cdddcbaa"];
+  Node50 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="QCPAxisRect::setupFullAxesBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4"];
+  Node50 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="QCPColorScaleAxisRectPrivate\l::QCPColorScaleAxisRectPrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#ad3b242f75dd2b33581364a4e668a80db"];
+  Node50 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="QCPColorScaleAxisRectPrivate\l::axisSelectionChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#a6112ad4291ac1695d37659cb049d598d"];
+  Node55 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="QCPColorScaleAxisRectPrivate\l::axisSelectableChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#a66d2baed86966bb03a6d7c32dc7d59f7"];
+  Node56 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

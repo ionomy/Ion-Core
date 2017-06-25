@@ -1,0 +1,15 @@
+digraph "GUIUtil::setupAddressWidget"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node323 [label="GUIUtil::setupAddressWidget",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node323 -> Node324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node324 [label="EditAddressDialog::\lEditAddressDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#af9edc8753ff1c8ba8ec5dbedf97160ac"];
+  Node323 -> Node325 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node325 [label="MultisigAddressEntry\l::MultisigAddressEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d39/class_multisig_address_entry.html#a0e72b6fd53c15d4a40f3f4cd50c2de2b"];
+  Node323 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node326 [label="SendCoinsEntry::SendCoins\lEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbc/class_send_coins_entry.html#a1c385963cf2dd2eb618720908988d037"];
+  Node323 -> Node327 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node327 [label="SignVerifyMessageDialog\l::SignVerifyMessageDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a7f1018cc43f5c43b8d3131ac4922716b"];
+}

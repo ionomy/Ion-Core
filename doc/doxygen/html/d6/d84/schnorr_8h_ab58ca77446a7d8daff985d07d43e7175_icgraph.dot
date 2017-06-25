@@ -1,0 +1,27 @@
+digraph "secp256k1_schnorr_sig_sign"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="secp256k1_schnorr_sig_sign",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="secp256k1_schnorr_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dab/schnorr_2main__impl_8h.html#a0d7ae4600f16da7c9464c80fefc72072",tooltip="Create a signature using a custom EC-Schnorr-SHA256 construction. "];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="benchmark_schnorr_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/df4/bench__schnorr__verify_8c.html#a1017a4ccacfa7f4de5828701acce8184"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/df4/bench__schnorr__verify_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+  Node15 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="test_schnorr_end_to_end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#a0fadfae101d2df588a044f55eafcc0e6"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="run_schnorr_tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#a6b31cc8facecda629cf588196a4c936b"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node14 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="secp256k1_schnorr_partial_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dab/schnorr_2main__impl_8h.html#a6787237abf20a26c8c2fb195102ce810",tooltip="Produce a partial Schnorr signature, which can be combined using secp256k1_schnorr_partial_combine, to end up with a full signature that is verifiable using secp256k1_schnorr_verify. "];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="test_schnorr_threshold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#a7c79e0204a103b99844bdf1b2ac4cb57"];
+  Node22 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="test_schnorr_sign_verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#ac01f457db870f54e7034a59bcf51f5fb"];
+  Node23 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

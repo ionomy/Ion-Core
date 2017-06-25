@@ -1,0 +1,25 @@
+digraph "secp256k1_scalar_cond_negate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node214 [label="secp256k1_scalar_cond\l_negate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node214 -> Node215 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node215 [label="secp256k1_wnaf_const",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d3e/ecmult__const__impl_8h.html#ac252ac4f8c905ddc178ce056bd45b8ec",tooltip="Convert a number to WNAF notation. "];
+  Node215 -> Node216 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node216 [label="bench_wnaf_const",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html#a3326bba18d9522d84a82ea50974b3811"];
+  Node216 -> Node217 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node215 -> Node218 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node218 [label="secp256k1_ecmult_const",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d3e/ecmult__const__impl_8h.html#a89f4e02fa2a4630ae0c5e302457f7931"];
+  Node215 -> Node219 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node219 [label="test_constant_wnaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#ab1b83b06f2b16b37ec472a91775d1a94"];
+  Node219 -> Node220 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node220 [label="run_wnaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#af3c34e47a9088ad0f5f0df779303a85a"];
+  Node220 -> Node221 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node221 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node214 -> Node222 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node222 [label="test_constant_wnaf\l_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#ad9c7802400ac86e07d8b5eb46055afaf"];
+  Node222 -> Node220 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node214 -> Node220 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

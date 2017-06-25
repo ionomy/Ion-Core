@@ -1,0 +1,36 @@
+digraph "secp256k1_ecmult_gen_context_clear"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node174 [label="secp256k1_ecmult_gen\l_context_clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node174 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node175 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dde/gen__context_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node174 -> Node176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 [label="secp256k1_context_destroy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#ac80c186f8ff22d87441240267a2c8100",tooltip="Destroy a secp256k1 context object. "];
+  Node176 -> Node177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node177 [label="ECC_Stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/de5/key_8h.html#a8fb68c634cf5491218253147eb4e04c8",tooltip="Deinitialize the elliptic curve support. "];
+  Node177 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node178 [label="Shutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9"];
+  Node178 -> Node179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node179 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node179 -> Node180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node180 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node178 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node181 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node176 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node182 [label="ECCVerifyHandle::~ECCVerify\lHandle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/dbd/class_e_c_c_verify_handle.html#a17dea6c87a0f825f0f24a06a20e2baf9"];
+  Node176 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node183 [label="bench_context_verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html#a0267a6fcf26df5e2625c0f93eed876a9"];
+  Node183 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node184 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node176 -> Node185 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node185 [label="bench_context_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html#a0d6ae07fc12e8c74ebdcb49871cbfc0e"];
+  Node185 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 -> Node186 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node186 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d8e/bench__recover_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+  Node176 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node187 [label="run_context_tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a2f9713526b1e988694c6e2026a6fce69"];
+  Node187 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node188 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+}

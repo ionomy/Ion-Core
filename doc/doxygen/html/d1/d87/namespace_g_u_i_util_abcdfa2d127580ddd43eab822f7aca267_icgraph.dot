@@ -1,0 +1,20 @@
+digraph "GUIUtil::formatTimeOffset"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node130 [label="GUIUtil::formatTimeOffset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130 -> Node131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node131 [label="RPCConsole::updateNodeDetail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a0bd7e2be4a07bcf4f8b20eb1881dacbb",tooltip="show detailed information on ui about selected node "];
+  Node131 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="RPCConsole::peerSelected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a2487fa6a90cddcbb17ae4bb13ecc5359",tooltip="Handle selection of peer in peers list. "];
+  Node132 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 [label="RPCConsole::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a355349a33664a07628e9ca22a60f5fa7"];
+  Node133 -> Node134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node134 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node134 -> Node135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node135 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node131 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node136 [label="RPCConsole::peerLayoutChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#af952ebc6484c8f7d1262fa0bceed41bf",tooltip="Handle updated peer information. "];
+  Node136 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

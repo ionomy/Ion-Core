@@ -1,0 +1,9 @@
+digraph "StartSync"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1564 [label="StartSync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1564 -> Node1565 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1565 [label="NodeSyncScore",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d84/net_8cpp.html#ab029931e3a3cbb4cd4116a4737198a17"];
+}

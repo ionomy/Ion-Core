@@ -1,0 +1,26 @@
+digraph "IonGUI::createTrayIcon"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node328 [label="IonGUI::createTrayIcon",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node328 -> Node329 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node329 [label="IonGUI::trayIconActivated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a591edaff67e71a462c2ed06ce2e79a3b",tooltip="Handle tray icon clicked. "];
+  Node328 -> Node330 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node330 [label="MacDockIconHandler\l::instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dcd/class_mac_dock_icon_handler.html#afd3ef7126d0b6ef02eaf85e5455fe6f4"];
+  Node330 -> Node331 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node331 [label="MacDockIconHandler\l::MacDockIconHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dcd/class_mac_dock_icon_handler.html#ab44913b8dabec96186b74bc6f6896c46"];
+  Node331 -> Node332 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node332 [label="setupDockClickHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de5/macdockiconhandler_8mm.html#a9aec1ea4fb1121c1b089c5cb11445732"];
+  Node332 -> Node333 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node333 [label="dockClickHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de5/macdockiconhandler_8mm.html#ab33de6d790611e30eb1985cca6ef2679"];
+  Node333 -> Node334 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node334 [label="MacDockIconHandler\l::handleDockIconClickEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dcd/class_mac_dock_icon_handler.html#a38f422d9dde7df4ccfdda97b08467e0a"];
+  Node331 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node335 [label="MacDockIconHandler\l::setMainWindow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dcd/class_mac_dock_icon_handler.html#a4d2d18c7d56286ea745e349497941293"];
+  Node331 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node336 [label="qt_mac_set_dock_menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de5/macdockiconhandler_8mm.html#a97dcb4b8c1bda1b1e4a29fd1c36b6c47"];
+  Node328 -> Node335 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node328 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node337 [label="MacDockIconHandler\l::dockMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dcd/class_mac_dock_icon_handler.html#a8aff3dc6410687e432f8d9314eba0ab9"];
+}

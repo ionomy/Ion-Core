@@ -1,0 +1,16 @@
+digraph "src/qt/transactionrecord.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node28 [label="src/qt/transactionrecord.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="src/qt/transactiondesc.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d44/transactiondesc_8cpp.html"];
+  Node28 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="src/qt/transactionfilterproxy.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d95/transactionfilterproxy_8cpp.html"];
+  Node28 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="src/qt/transactionrecord.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/transactionrecord_8cpp.html"];
+  Node28 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="src/qt/transactiontablemodel.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d6a/transactiontablemodel_8cpp.html"];
+  Node28 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="src/qt/transactionview.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d2a/transactionview_8cpp.html"];
+}

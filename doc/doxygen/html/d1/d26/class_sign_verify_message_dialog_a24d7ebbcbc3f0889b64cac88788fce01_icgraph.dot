@@ -1,0 +1,16 @@
+digraph "SignVerifyMessageDialog::setAddress_VM"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node173 [label="SignVerifyMessageDialog\l::setAddress_VM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node173 -> Node174 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node174 [label="IonGUI::gotoVerifyMessageTab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ada5cec309ba8b5580edb40bcb3258080",tooltip="Show Sign/Verify Message dialog and switch to verify message tab. "];
+  Node174 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node175 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+  Node174 -> Node176 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 [label="IonGUI::createActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5a5e1c2fbc2fec3d925d654c61a8b252",tooltip="Create the main UI actions. "];
+  Node176 -> Node175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node173 -> Node177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node177 [label="SignVerifyMessageDialog\l::on_addressBookButton\l_VM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a90ceb00084c68da5e9c481ba0841d976"];
+}

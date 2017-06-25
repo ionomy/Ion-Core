@@ -1,0 +1,44 @@
+digraph "WalletModel::getEncryptionStatus"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node521 [label="WalletModel::getEncryption\lStatus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node521 -> Node522 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node522 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node522 -> Node523 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node523 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node521 -> Node524 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node524 [label="IonGUI::encryptWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aba2c7fde3006b9ac0e5e4247c7a74515",tooltip="Encrypt the wallet. "];
+  Node524 -> Node525 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node525 [label="IonGUI::createActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5a5e1c2fbc2fec3d925d654c61a8b252",tooltip="Create the main UI actions. "];
+  Node525 -> Node526 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node526 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+  Node521 -> Node527 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node527 [label="IonGUI::unlockWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a89d89883fff15f835ff2b7a550a10ac2",tooltip="Ask for passphrase to unlock wallet temporarily. "];
+  Node527 -> Node525 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node527 -> Node522 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node521 -> Node528 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node528 [label="OverviewPage::toggleStashedsend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#acb7a4378759f4f28ff69511839eece57"];
+  Node528 -> Node529 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node529 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node529 -> Node522 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node521 -> Node530 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node530 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+  Node521 -> Node531 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node531 [label="WalletModel::updateStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a89180a13e5b0c2ca7732164b9dec3806"];
+  Node521 -> Node532 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node532 [label="WalletModel::requestUnlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#ae98eaede9493625ce778a0a873b3d124"];
+  Node532 -> Node533 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node533 [label="AddressTableModel::\laddRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a08ab9ae401a18d193f0e39551de81280"];
+  Node533 -> Node534 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node534 [label="EditAddressDialog::\lsaveCurrentRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#a8494a551799cd1f4c253e557424c206c"];
+  Node534 -> Node535 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node535 [label="EditAddressDialog::\laccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#ac52b71129806bccf6533d0e9441393b6"];
+  Node532 -> Node536 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node536 [label="MultisigDialog::on\l_signTransactionButton\l_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#ad277ce76887dfbbec511486d3c1d2bc4"];
+  Node532 -> Node528 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node532 -> Node530 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node532 -> Node537 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node537 [label="SignVerifyMessageDialog\l::on_signMessageButton\l_SM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a2ef91b4ace68d63ab1c1d3cc6c13b5f9"];
+}

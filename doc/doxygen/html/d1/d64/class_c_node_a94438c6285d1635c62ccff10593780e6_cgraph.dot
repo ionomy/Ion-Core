@@ -1,0 +1,11 @@
+digraph "CNode::SetRecvVersion"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1066 [label="CNode::SetRecvVersion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1066 -> Node1067 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1067 [label="CNetMessage::SetVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d97/class_c_net_message.html#a63b9f2351d5e92126cacacd51d9e16b6"];
+  Node1067 -> Node1068 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1068 [label="CDataStream::SetVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a267d1315f3f9e9bcf9e7168beaa240c4"];
+}

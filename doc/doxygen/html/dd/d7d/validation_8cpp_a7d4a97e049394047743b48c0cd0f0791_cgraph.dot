@@ -1,0 +1,25 @@
+digraph "CheckDiskSpace"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1629 [label="CheckDiskSpace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1629 -> Node1630 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1630 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab83866a054745d4b30a3948a1b44beba"];
+  Node1630 -> Node1631 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1631 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node1630 -> Node1632 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1632 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node1630 -> Node1633 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1633 [label="GetDefaultDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab272995de020a3bcbf743be630e485c6"];
+  Node1630 -> Node1634 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1634 [label="CChainParams::DataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a959488b5d8e6fe62857940b831d73a78"];
+  Node1629 -> Node1635 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1635 [label="_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6d/ui__interface_8h.html#aad133bb6103b53cebf03fd01e2f11ba1",tooltip="Translation function: Call Translate signal on UI interface, which returns a boost::optional result..."];
+  Node1629 -> Node1636 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1636 [label="StartShutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc9/init_8cpp.html#ac7140c7327b1e6a8d46470b1cd0e8e1b"];
+  Node1629 -> Node1637 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1637 [label="AbortNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#a183c4f45aed59599d1875a80d0cf58ca",tooltip="Abort with a message. "];
+  Node1637 -> Node1635 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1637 -> Node1636 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

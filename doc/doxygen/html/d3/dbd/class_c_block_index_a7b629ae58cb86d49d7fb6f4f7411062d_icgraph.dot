@@ -1,0 +1,37 @@
+digraph "CBlockIndex::GeneratedStakeModifier"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="CBlockIndex::GeneratedStake\lModifier",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="blockToJSON",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d47/rpcblockchain_8cpp.html#a414df5de934bac4418f19c9293f63dad"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="CCoin::SerializationOp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d99/struct_c_coin.html#a2a0a2532bdacb03b087b3b0a400830ec"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="rest_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#a99e4aae76e1b90f996cf7c24b5281464"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="rest_block_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#af08858ee3c5d6236db44a62c423e0c0e"];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="rest_block_notxdetails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#acf422a3f71f1fd9963d6c65517bbb654"];
+  Node16 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="getblock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d47/rpcblockchain_8cpp.html#a63608cf1bb275120194c3b4e070af3d7"];
+  Node16 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="getblockbynumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d47/rpcblockchain_8cpp.html#a4039f7b3e313c63b81c98e3fc479a117"];
+  Node15 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="GetLastStakeModifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/df6/stake_8cpp.html#aabf3162e76735a40c2d7e4bf4e4e44e7"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="ComputeNextStakeModifier",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dd4/stake_8h.html#aa58b095aa0abb6f956cc68169124099a"];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="CBlock::AddToBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d51/class_c_block.html#afab527f890c5575db3b1a2b17f47bf5a"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="LoadBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a367f303d34b8a5501ac4d77bebab578c"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node27 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+}

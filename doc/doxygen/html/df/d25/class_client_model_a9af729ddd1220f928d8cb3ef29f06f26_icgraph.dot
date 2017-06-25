@@ -1,0 +1,20 @@
+digraph "ClientModel::getNumBlocks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node336 [label="ClientModel::getNumBlocks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node336 -> Node337 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node337 [label="ClientModel::getNumBlocks\lAtStartup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a6bc7b2b076e7d4f999f189b6db74d909"];
+  Node336 -> Node338 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node338 [label="ClientModel::updateTimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a82d434ebd032c00736e043ce2d36ac5e"];
+  Node338 -> Node339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node339 [label="ClientModel::ClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#aec1d32d5dc8c094eba66036a19a22854"];
+  Node336 -> Node340 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node340 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node340 -> Node341 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node341 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node336 -> Node342 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node342 [label="RPCConsole::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a355349a33664a07628e9ca22a60f5fa7"];
+  Node342 -> Node340 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

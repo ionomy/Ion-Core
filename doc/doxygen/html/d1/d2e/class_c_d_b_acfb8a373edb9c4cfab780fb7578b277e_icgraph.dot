@@ -1,0 +1,28 @@
+digraph "CDB::Rewrite"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node82 [label="CDB::Rewrite",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node82 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="CWallet::EncryptWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ab34fe5bf771619dcbe22a65f013e5469"];
+  Node83 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="WalletModel::setWalletEncrypted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a444340830badcd48e3a4dd6b03d9c4d7"];
+  Node84 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="AskPassphraseDialog\l::accept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d70/class_ask_passphrase_dialog.html#ac2f176af3693b73870d26ef0bfc6cbb9"];
+  Node83 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="encryptwallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a5fb49bac2748015a256c63e9f8ccc539"];
+  Node82 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="CWallet::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a5d7b244b8ed0cbe24233ee0b6ca3cae0"];
+  Node87 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node89 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node88 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node82 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="CWallet::ZapWalletTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a990b51be353f28ed9f0e3b8d192b874f"];
+  Node92 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

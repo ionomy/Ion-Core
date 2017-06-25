@@ -1,0 +1,21 @@
+digraph "GUIUtil::getEntryData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node138 [label="GUIUtil::getEntryData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node138 -> Node139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node139 [label="RPCConsole::disconnectSelectedNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a697e3fab280ee0c9033eeff2f64ec742",tooltip="Disconnect a selected node on the Peers tab. "];
+  Node139 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node140 [label="RPCConsole::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a355349a33664a07628e9ca22a60f5fa7"];
+  Node140 -> Node141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node141 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node141 -> Node142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node142 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node138 -> Node143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node143 [label="RPCConsole::banSelectedNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#aacaf485583b6342c5e1877e7582f95c5",tooltip="Ban a selected node on the Peers tab. "];
+  Node143 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node138 -> Node144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node144 [label="RPCConsole::unbanSelectedNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a9a974887c33bf1d4b25eb6aeea002941",tooltip="Unban a selected node on the Bans tab. "];
+  Node144 -> Node140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

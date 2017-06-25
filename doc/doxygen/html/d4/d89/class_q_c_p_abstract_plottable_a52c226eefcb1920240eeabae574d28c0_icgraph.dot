@@ -1,0 +1,23 @@
+digraph "QCPAbstractPlottable::name"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node241 [label="QCPAbstractPlottable\l::name",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node241 -> Node242 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node242 [label="QCPAbstractPlottable\l::setName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#ab79c7ba76bc7fa89a4b3580e12149f1f"];
+  Node242 -> Node243 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node243 [label="QCustomPlot::addGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a6fb2873d35a8a8089842d81a70a54167"];
+  Node241 -> Node244 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node244 [label="QCPPlottableLegendItem\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d24/class_q_c_p_plottable_legend_item.html#a68a781c3de4f9959fdf82075052d43aa"];
+  Node241 -> Node245 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node245 [label="QCPPlottableLegendItem\l::minimumSizeHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d24/class_q_c_p_plottable_legend_item.html#a3adf8154c7e61538656d80464e5695dd"];
+  Node241 -> Node246 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node246 [label="QCPGraph::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a659218cc62c2a7786213d9dd429c1c8d"];
+  Node241 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node247 [label="QCPCurve::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d30/class_q_c_p_curve.html#a2361302d2fc6ec669849bd3bca00c4b2"];
+  Node241 -> Node248 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node248 [label="QCPBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a42b894e34dac799f90ff3700706b31df"];
+  Node241 -> Node249 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node249 [label="QCPStatisticalBox::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d8d/class_q_c_p_statistical_box.html#a753b62761217dd6b92f8a29e286a1317"];
+}

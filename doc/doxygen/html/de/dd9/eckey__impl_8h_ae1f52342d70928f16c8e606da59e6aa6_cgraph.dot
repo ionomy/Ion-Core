@@ -1,0 +1,15 @@
+digraph "secp256k1_eckey_pubkey_serialize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node15 [label="secp256k1_eckey_pubkey\l_serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="secp256k1_ge_is_infinity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#ac83592db46af97faf7ba9b9a39a1f6ff",tooltip="Check whether a group element is the point at infinity. "];
+  Node15 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="secp256k1_fe_normalize_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a2d45c987537eadb2923c93aa3af9db71",tooltip="Normalize a field element, without constant-time guarantee. "];
+  Node15 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="secp256k1_fe_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#abb1017649be14b9ac1823be3c573e542",tooltip="Convert a field element to a 32-byte big endian value. "];
+  Node15 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="secp256k1_fe_is_odd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4657d3eea1cc59c7a20cc2d19663bf02",tooltip="Check the \"oddness\" of a field element. "];
+}

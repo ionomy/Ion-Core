@@ -1,0 +1,27 @@
+digraph "IonAmountField::IonAmountField"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="IonAmountField::IonAmount\lField",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="IonAmountField::unitChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d1e/class_ion_amount_field.html#ab132867db4e70f3aba5fb81a68958fc2"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="IonUnits::decimals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a5e9c7a5b666b858c171760273c51c9d7",tooltip="Number of decimals left. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="IonUnits::amountDigits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#add8e3d0162d939b64cb001cad7ab65d2",tooltip="Number of amount digits (to represent max number of coins) "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="IonAmountField::setValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d1e/class_ion_amount_field.html#aaf462b398d6ce3ad0b098faff7fe61f5"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="IonAmountField::setText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d1e/class_ion_amount_field.html#a987221e58050f73a2f29afc3ad721e49"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="IonUnits::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a7cf8cdbd0a24c418ae91b511fac5bee4",tooltip="Format as string. "];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="IonUnits::valid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a23c5b1306ed473dbb2375a6675a2ce13",tooltip="Is unit ID valid? "];
+  Node6 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="IonUnits::factor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a210814a200496caf63083ed4abd1bd24",tooltip="Number of Satoshis (1e-8) per unit. "];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="IonAmountField::setValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d1e/class_ion_amount_field.html#a738ac80e49d4c3adeea1d42b95aa3489",tooltip="Mark current value as invalid in UI. "];
+}

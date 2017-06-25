@@ -1,0 +1,9 @@
+digraph "secp256k1_gej_is_infinity"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node246 [label="secp256k1_gej_is_infinity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node246 -> Node247 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node247 [label="secp256k1_gej_double\l_nonzero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#accf4e481cd660b1df01b4b90f5d28bb4"];
+}

@@ -1,0 +1,14 @@
+digraph "QCPLayout::adoptElement"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node8 [label="QCPLayout::adoptElement",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayoutGrid::addElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#adff1a2ca691ed83d2d24a4cd1fe17012"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPLayoutInset::addElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d91/class_q_c_p_layout_inset.html#ad61529eb576af7f04dff94abb10c745a"];
+  Node11 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

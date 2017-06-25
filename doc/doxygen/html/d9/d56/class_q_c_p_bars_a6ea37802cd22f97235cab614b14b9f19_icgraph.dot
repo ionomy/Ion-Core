@@ -1,0 +1,13 @@
+digraph "QCPBars::connectBars"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node44 [label="QCPBars::connectBars",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="QCPBars::~QCPBars",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a4d880e28031ef120603f543379be2f22"];
+  Node44 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="QCPBars::moveBelow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a69fc371346980f19177c3d1ecdad78ee"];
+  Node44 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="QCPBars::moveAbove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#ac22e00a6a41509538c21b04f0a57318c"];
+}

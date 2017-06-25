@@ -1,0 +1,14 @@
+digraph "QCPItemText::brush"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node30 [label="QCPItemText::brush",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="QCPItemText::setBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#a1c7e131516df2ed8d941ef31240ded8e"];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="QCPItemText::QCPItemText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#a77ff96a2972a00872ff8f8c67143abbe"];
+  Node30 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="QCPItemText::setSelected\lBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#a6b8377eeb2af75eb9528422671ac16cb"];
+  Node33 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

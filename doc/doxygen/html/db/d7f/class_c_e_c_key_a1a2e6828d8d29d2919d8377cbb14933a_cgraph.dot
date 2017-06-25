@@ -1,0 +1,40 @@
+digraph "CECKey::GetECKey"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="CECKey::GetECKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CECKey::GetSecretBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a850942bfcc3572be6a6887a321c68679"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="CECKey::SetSecretBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a4f5a374f5aaa622749b7772392c2ef30"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CECKey::GetPrivKeySize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#ab2f0dea297ce8546ebb5bb0478c1e7a0"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="CECKey::GetPrivKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a3f6c872fae22de283c2cd7a15b0327ea"];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CECKey::SetPrivKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a9d81b04876307c2e13df32798fe264a3"];
+  Node4 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="CECKey::GetPubKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#ab3cb52ca6bf3bdd55be9152a76da9112"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="begin_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d9d/serialize_8h.html#a19966d167c527d2be493ac9aba27c249",tooltip="Get begin pointer of vector (non-const version). "];
+  Node4 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="CECKey::SetPubKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a07055de929aa6e4f4b692fb2bd272fdd"];
+  Node4 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="CECKey::Sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#abb845b49a9befd527a568b2b39271d37"];
+  Node4 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="CECKey::Verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#abbefe8d295d0bbed97d2709a3a534375"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="base_uint::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#a1f49b034e686269601ea89b0319b8004"];
+  Node4 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="CECKey::SignCompact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#ae7dae2b7062d1ba864c923e72fb5ede3"];
+  Node16 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="CECKey::Recover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a5d7ed3acdc6c2798af3242cacc7b755b"];
+  Node4 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="CECKey::TweakSecret",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a5964ca5e2e3f7204c59613d2aedca165"];
+  Node4 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="CECKey::TweakPublic",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a5f6013e6314a8ca9645a49106091ad89"];
+  Node4 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="CECKey::SanityCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d7f/class_c_e_c_key.html#a3d11821aa2328baf3bd684e5c1835314"];
+}

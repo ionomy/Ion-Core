@@ -1,0 +1,18 @@
+digraph "MultisigDialog::updateAmounts"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node705 [label="MultisigDialog::updateAmounts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node705 -> Node706 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node706 [label="MultisigDialog::Multisig\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#af8ff2a9f6dc05a9468d955cb428c6474"];
+  Node705 -> Node707 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node707 [label="MultisigDialog::addInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a52e84a493f932da1e9e40b4c90d4e35a"];
+  Node707 -> Node706 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node707 -> Node708 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node708 [label="MultisigDialog::on\l_transaction_textChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a2412fa91c5e7ef51c229aa36388c0960"];
+  Node705 -> Node709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node709 [label="MultisigDialog::addOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a2fcffef63f71dc0178f4abdc3de2f850"];
+  Node709 -> Node706 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node709 -> Node708 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

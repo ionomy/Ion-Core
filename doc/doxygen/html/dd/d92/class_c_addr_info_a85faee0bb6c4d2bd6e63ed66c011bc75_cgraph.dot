@@ -1,0 +1,17 @@
+digraph "CAddrInfo::GetNewBucket"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="CAddrInfo::GetNewBucket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="CNetAddr::GetGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc3/class_c_net_addr.html#a6f8211515f809f6972ce327433d41458"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="IsLocal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d84/net_8cpp.html#a16fa1bd4d34c4c29c90903fc3cdf7517",tooltip="check whether a given address is potentially local "];
+  Node16 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dfb/hash_8h.html#ab3f6c437460137530d86e09c2c102e99"];
+  Node16 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="CDataStream::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a2355d11752d8622badfbc03e9ed192fd"];
+  Node16 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="CDataStream::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a66409dbd4403682fe674e2e71173cab4"];
+}

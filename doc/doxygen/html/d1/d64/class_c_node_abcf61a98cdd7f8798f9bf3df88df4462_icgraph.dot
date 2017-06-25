@@ -1,0 +1,34 @@
+digraph "CNode::Ban"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node303 [label="CNode::Ban",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node303 -> Node304 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node304 [label="SendMessages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a711a5bdb30c9c9bbdc83011b1cbbe2f3"];
+  Node304 -> Node305 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node305 [label="RegisterNodeSignals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#ab02615ff65f91d69f8d786ec900baa8a",tooltip="Register with a network node to receive its signals. "];
+  Node305 -> Node306 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node306 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node306 -> Node307 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node307 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node307 -> Node308 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node308 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node306 -> Node309 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node309 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node304 -> Node310 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node310 [label="UnregisterNodeSignals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a3ef0cc6e9d9d6435ee2a5569244d6ebd",tooltip="Unregister a network node. "];
+  Node310 -> Node311 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node311 [label="Shutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9"];
+  Node311 -> Node307 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node311 -> Node309 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node303 -> Node312 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node312 [label="RPCConsole::banSelectedNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#aacaf485583b6342c5e1877e7582f95c5",tooltip="Ban a selected node on the Peers tab. "];
+  Node312 -> Node313 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node313 [label="RPCConsole::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a355349a33664a07628e9ca22a60f5fa7"];
+  Node313 -> Node314 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node314 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node314 -> Node309 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node303 -> Node315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node315 [label="setban",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dab/rpcnet_8cpp.html#a4691c5765507f04c86e42e8df1e5c047"];
+}

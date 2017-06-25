@@ -1,0 +1,42 @@
+digraph "CStashedsendPool::CompletedTransaction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node707 [label="CStashedsendPool::Completed\lTransaction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node707 -> Node708 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node708 [label="CStashedsendPool::Process\lMessageStashedsend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#a62b472a4e4b1e634bc2e8621be17888e",tooltip="Process a Stashedsend message using the Stashedsend protocol. "];
+  Node708 -> Node709 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node709 [label="ProcessMessage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#a8ba92b1a4bce3c835e887a9073d17d8e"];
+  Node709 -> Node710 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node710 [label="ProcessMessages",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a196f9318f02448b85b28d612698934fd"];
+  Node710 -> Node711 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node711 [label="RegisterNodeSignals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#ab02615ff65f91d69f8d786ec900baa8a",tooltip="Register with a network node to receive its signals. "];
+  Node711 -> Node712 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node712 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node712 -> Node713 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node713 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node713 -> Node714 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node714 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node712 -> Node715 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node715 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node710 -> Node716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node716 [label="UnregisterNodeSignals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a3ef0cc6e9d9d6435ee2a5569244d6ebd",tooltip="Unregister a network node. "];
+  Node716 -> Node717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node717 [label="Shutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9"];
+  Node717 -> Node713 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node717 -> Node715 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node709 -> Node718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node718 [label="CMasternodeMan::GetFullMasternode\lVector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d6b/class_c_masternode_man.html#ab39e213a7601e1bef2eba1d5d63206f5"];
+  Node718 -> Node719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node719 [label="MasternodeManager::\lupdateNodeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#a5485a8bd6ccf673027165cc1207dfae9"];
+  Node719 -> Node720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node720 [label="MasternodeManager::\lMasternodeManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#ad18cb99065e056e6b791e2356de826bf"];
+  Node718 -> Node721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node721 [label="MasternodeManager::\lon_UpdateButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#ae8d07b4d869e3eb09fe1be445eff0430"];
+  Node721 -> Node719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node718 -> Node722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node722 [label="masternodelist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a3a7ed7e37f21eb2912afc6e776f7236c"];
+  Node722 -> Node723 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node723 [label="masternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a30609e443aeb47c29ed0878d16b1b5e1"];
+}

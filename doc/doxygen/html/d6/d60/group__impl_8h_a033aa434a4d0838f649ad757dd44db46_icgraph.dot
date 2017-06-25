@@ -1,0 +1,15 @@
+digraph "secp256k1_gej_double_var"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node234 [label="secp256k1_gej_double_var",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node234 -> Node235 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node235 [label="secp256k1_gej_double\l_nonzero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#accf4e481cd660b1df01b4b90f5d28bb4"];
+  Node234 -> Node236 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node236 [label="secp256k1_gej_add_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#a8df21f3ef7412e6c4d39fb67dc0140c6"];
+  Node234 -> Node237 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node237 [label="secp256k1_gej_add_ge_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#a4d0338f50b08d082caa32f8e72707b55"];
+  Node234 -> Node238 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node238 [label="secp256k1_gej_add_zinv_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#a180d4e54e906f101ce0f1e74563ce5f6"];
+}

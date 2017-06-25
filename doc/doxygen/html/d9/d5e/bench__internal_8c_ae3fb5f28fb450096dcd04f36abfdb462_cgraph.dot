@@ -1,0 +1,9 @@
+digraph "bench_scalar_negate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node111 [label="bench_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node111 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node112 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+}

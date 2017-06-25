@@ -1,0 +1,11 @@
+digraph "QCPPlottableLegendItem::getIconBorderPen"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="QCPPlottableLegendItem\l::getIconBorderPen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="QCPLegend::selectedIconBorderPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/db1/class_q_c_p_legend.html#ad8eb320ca3a25928982a65163e8f883b"];
+  Node21 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="QCPLegend::iconBorderPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/db1/class_q_c_p_legend.html#a5b91d2ea68a4dd20238f660b80cd9945"];
+}

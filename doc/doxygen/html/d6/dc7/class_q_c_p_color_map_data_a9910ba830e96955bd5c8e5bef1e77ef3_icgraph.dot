@@ -1,0 +1,9 @@
+digraph "QCPColorMapData::clear"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node19 [label="QCPColorMapData::clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="QCPColorMap::clearData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dea/class_q_c_p_color_map.html#a0545dce5383766885912331705a8e099"];
+}

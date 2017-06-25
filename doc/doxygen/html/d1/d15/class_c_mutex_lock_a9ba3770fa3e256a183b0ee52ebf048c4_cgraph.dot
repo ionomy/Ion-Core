@@ -1,0 +1,11 @@
+digraph "CMutexLock::TryEnter"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="CMutexLock::TryEnter",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="EnterCritical",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d6b/sync_8h.html#afc02589835b058cee9b180e89ee234c9"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="LeaveCritical",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d6b/sync_8h.html#a222f17e7a4e1fb9bb5a36fe9aca460b8"];
+}

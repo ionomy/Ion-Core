@@ -1,0 +1,11 @@
+digraph "MasternodeManager::on_UpdateButton_clicked"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1236 [label="MasternodeManager::\lon_UpdateButton_clicked",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1236 -> Node1237 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1237 [label="MasternodeManager::\lupdateNodeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#a5485a8bd6ccf673027165cc1207dfae9"];
+  Node1237 -> Node1238 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1238 [label="MasternodeManager::\lMasternodeManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#ad18cb99065e056e6b791e2356de826bf"];
+}

@@ -1,0 +1,27 @@
+digraph "prevector::operator&lt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node434 [label="prevector::operator\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node434 -> Node435 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node435 [label="prevector::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a626f7d206dbc24e5610631809762758b"];
+  Node435 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node436 [label="prevector::is_direct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a933e204a7e29c6bbc85479d023c00ff8"];
+  Node434 -> Node437 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node437 [label="prevector::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#aa9210cbe708412a70868d6e0bca844c9"];
+  Node437 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node438 [label="prevector::iterator\l::iterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d4b/classprevector_1_1iterator.html#ae9dd2b5e8d96f866e4b05d6b7535f285"];
+  Node437 -> Node439 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node439 [label="prevector::item_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a59f1d7bcbc751cfa0faddd7ffa184846"];
+  Node439 -> Node436 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node439 -> Node440 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node440 [label="prevector::direct_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a20150a43dd87c33f0e855a55bd3418e8"];
+  Node439 -> Node441 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node441 [label="prevector::indirect_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ae3343cc65be9fd678b4a6f8305624de6"];
+  Node434 -> Node442 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node442 [label="prevector::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#aab7f6e13a3cac85cc340fc6b90c5365c"];
+  Node442 -> Node438 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node442 -> Node439 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node442 -> Node435 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

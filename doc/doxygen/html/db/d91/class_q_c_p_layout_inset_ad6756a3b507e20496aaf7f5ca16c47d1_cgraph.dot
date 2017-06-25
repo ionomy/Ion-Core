@@ -1,0 +1,22 @@
+digraph "QCPLayoutInset::takeAt"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node83 [label="QCPLayoutInset::takeAt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node83 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="QCPLayoutGrid::elementAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a97672ecc379cb3a09639926ba9980297"];
+  Node84 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="QCPLayoutGrid::elementCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a77f194843d037e0da6d5f3170acdf3a2"];
+  Node85 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="QCPLayoutGrid::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a19c66fd76cbce58a8e94f33797e0c0aa"];
+  Node85 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="QCPLayoutGrid::columnCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a1a2962cbf45011405b64b913afa8e7a2"];
+  Node84 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="QCPLayout::releaseElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d58/class_q_c_p_layout.html#a4afbb4bef0071f72f91afdac4433a18e"];
+  Node88 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="QCPLayerable::setParentLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#aa23c893671f1f6744ac235cf2204cf3a"];
+  Node89 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="QCPLayerable::parentLayerable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#aa78b7e644d2c519e1a9a6f2ac5fcd858"];
+}

@@ -1,0 +1,17 @@
+digraph "getcheckpoint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node123 [label="getcheckpoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node123 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node124 [label="Checkpoints::AutoSelectSync\lCheckpoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d46/namespace_checkpoints.html#aa1915d9b1ed1c988b8477c3cc7ed1416"];
+  Node123 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node125 [label="CBlockIndex::GetBlockHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dbd/class_c_block_index.html#a98490a2788c65cdd6ae9002b004dd74c"];
+  Node123 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node126 [label="base_uint::ToString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#acccba4d9d51a0c36261718ca0cbb293b"];
+  Node123 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 [label="DateTimeStrFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a749bc6776c8ec72d7c5e4dea56aee415"];
+  Node123 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node128 [label="CBlockIndex::GetBlockTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dbd/class_c_block_index.html#a9fe0d4463c07c466f66252e8eec25f5c"];
+}

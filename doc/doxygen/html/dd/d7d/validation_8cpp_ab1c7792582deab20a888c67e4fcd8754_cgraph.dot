@@ -1,0 +1,36 @@
+digraph "FindUndoPos"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2943 [label="FindUndoPos",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2943 -> Node2944 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2944 [label="CheckDiskSpace",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a7d4a97e049394047743b48c0cd0f0791",tooltip="Check whether enough disk space is available for an incoming block. "];
+  Node2944 -> Node2945 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2945 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab83866a054745d4b30a3948a1b44beba"];
+  Node2945 -> Node2946 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2946 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node2945 -> Node2947 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2947 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node2945 -> Node2948 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2948 [label="GetDefaultDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab272995de020a3bcbf743be630e485c6"];
+  Node2945 -> Node2949 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2949 [label="CChainParams::DataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a959488b5d8e6fe62857940b831d73a78"];
+  Node2944 -> Node2950 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2950 [label="_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6d/ui__interface_8h.html#aad133bb6103b53cebf03fd01e2f11ba1",tooltip="Translation function: Call Translate signal on UI interface, which returns a boost::optional result..."];
+  Node2944 -> Node2951 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2951 [label="StartShutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc9/init_8cpp.html#ac7140c7327b1e6a8d46470b1cd0e8e1b"];
+  Node2944 -> Node2952 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2952 [label="AbortNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#a183c4f45aed59599d1875a80d0cf58ca",tooltip="Abort with a message. "];
+  Node2952 -> Node2950 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2952 -> Node2951 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2943 -> Node2953 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2953 [label="OpenUndoFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a401788a8de274cbb17f2dc81ec0b9f6d",tooltip="Open an undo file (rev?????.dat) "];
+  Node2953 -> Node2954 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2954 [label="OpenDiskFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#ab2be209b59654115aac034cea8ca1b17"];
+  Node2954 -> Node2955 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2955 [label="GetBlockPosFilename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a14ff9fb82bd3b6a8d7887f68873cdc4d",tooltip="Translation to a filesystem path. "];
+  Node2955 -> Node2945 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2943 -> Node2956 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2956 [label="CValidationState::Error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df6/class_c_validation_state.html#abf67ad56f62df5679d47c289684c554c"];
+}

@@ -1,0 +1,22 @@
+digraph "QCPColorScale::setType"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node105 [label="QCPColorScale::setType",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node105 -> Node106 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node106 [label="QCPColorScale::type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d2b/class_q_c_p_color_scale.html#a85d7e286fbfc0c04c4b480aff3cb66fb"];
+  Node105 -> Node107 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node107 [label="QCPColorScale::setDataRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d2b/class_q_c_p_color_scale.html#abe88633003a26d1e756aa74984587fef"];
+  Node107 -> Node108 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node108 [label="QCPColorScale::dataRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d2b/class_q_c_p_color_scale.html#a51f5756f99867bd91e570eddefeb1ef4"];
+  Node105 -> Node109 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node109 [label="QCPColorScale::setDataScaleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d2b/class_q_c_p_color_scale.html#aeb6107d67dd7325145b2498abae67fc3"];
+  Node109 -> Node107 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node109 -> Node110 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node110 [label="QCPRange::sanitizedForLog\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#a3d66288d66e1d6df3636075eb42502ee"];
+  Node110 -> Node111 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node111 [label="QCPRange::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#af914a7740269b0604d0827c634a878a9"];
+  Node105 -> Node112 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node112 [label="QCPAxis::orientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e"];
+}

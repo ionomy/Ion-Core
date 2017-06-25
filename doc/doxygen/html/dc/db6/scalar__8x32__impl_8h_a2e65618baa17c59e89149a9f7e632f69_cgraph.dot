@@ -1,0 +1,15 @@
+digraph "secp256k1_scalar_sqr"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node79 [label="secp256k1_scalar_sqr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node79 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="secp256k1_scalar_sqr_512",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db6/scalar__8x32__impl_8h.html#af81533ccb8a9496acad74c1704c09ba1"];
+  Node79 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="secp256k1_scalar_reduce_512",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db6/scalar__8x32__impl_8h.html#a7f691512f6117e96c2a36ed09a2bc2fe"];
+  Node81 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="secp256k1_scalar_reduce",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db6/scalar__8x32__impl_8h.html#a91448bca431e08547d90613f0be3420f"];
+  Node81 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="secp256k1_scalar_check\l_overflow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db6/scalar__8x32__impl_8h.html#a13e982915006b138de5e2b3ab68238cb"];
+}

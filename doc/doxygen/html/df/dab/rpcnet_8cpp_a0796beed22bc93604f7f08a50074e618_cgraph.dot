@@ -1,0 +1,15 @@
+digraph "listbanned"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node130 [label="listbanned",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node130 -> Node131 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node131 [label="HelpExampleCli",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#ac01ac6eab5467567ed0da106814e04ec"];
+  Node130 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="HelpExampleRpc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#a06ea60e24e5a1053a14a11b1009bf9ef"];
+  Node130 -> Node133 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 [label="CNode::GetBanned",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d64/class_c_node.html#ac7dc25e8d4c24df89befe4dcc2060372"];
+  Node130 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node134 [label="CBanEntry::banReasonToString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d08/class_c_ban_entry.html#ada434bfaaa0ba57a7ad4c62cf5cbcda5"];
+}

@@ -1,0 +1,9 @@
+digraph "RPCConsole::updateTrafficStats"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node467 [label="RPCConsole::updateTraffic\lStats",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node467 -> Node468 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node468 [label="RPCConsole::FormatBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#afa45a6e142193405038015a31f9e132b"];
+}

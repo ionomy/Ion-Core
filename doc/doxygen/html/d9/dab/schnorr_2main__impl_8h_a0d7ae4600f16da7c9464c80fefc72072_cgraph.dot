@@ -1,0 +1,25 @@
+digraph "secp256k1_schnorr_sign"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node81 [label="secp256k1_schnorr_sign",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node81 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="secp256k1_ecmult_gen\l_context_is_built",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/ecmult__gen_8h.html#a9a40662d6ed2cbab43dbddc25f570f97"];
+  Node81 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node81 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="secp256k1_scalar_is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a3f0ac84fe49a1c1f51212582a2c149d4",tooltip="Check whether a scalar equals zero. "];
+  Node81 -> Node85 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node85 [label="secp256k1_schnorr_sig_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d84/schnorr_8h.html#ab58ca77446a7d8daff985d07d43e7175"];
+  Node81 -> Node86 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 [label="secp256k1_schnorr_msghash\l_sha256",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dab/schnorr_2main__impl_8h.html#aceb4e15773d1a0ef0bd3b13e7339a199"];
+  Node86 -> Node87 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="secp256k1_sha256_initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/secp256k1_2src_2hash_8h.html#abcb6a95ed605c2bfb19eda1ced4a8f7e"];
+  Node86 -> Node88 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node88 [label="secp256k1_sha256_write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/secp256k1_2src_2hash_8h.html#adfccd8d918a52e1cec42ea89a4c3f8ab"];
+  Node86 -> Node89 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="secp256k1_sha256_finalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/secp256k1_2src_2hash_8h.html#ab88a555e2b13d6d06e20a6a459abae08"];
+  Node81 -> Node90 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="secp256k1_scalar_clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#ad8fb9bc2a828903963bf37806d8edd11",tooltip="Clear a scalar to prevent the leak of sensitive data. "];
+}

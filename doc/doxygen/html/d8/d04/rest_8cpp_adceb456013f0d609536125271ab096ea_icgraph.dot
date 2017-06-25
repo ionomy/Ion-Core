@@ -1,0 +1,17 @@
+digraph "AvailableDataFormatsString"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="AvailableDataFormatsString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="rest_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#a99e4aae76e1b90f996cf7c24b5281464"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="rest_block_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#af08858ee3c5d6236db44a62c423e0c0e"];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="rest_block_notxdetails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#acf422a3f71f1fd9963d6c65517bbb654"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="rest_tx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#a6a40ed64db0199226195920c9e92ac33"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="rest_getutxos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#a1e87e488337475c6260de93cbf181b31"];
+}

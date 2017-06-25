@@ -1,0 +1,13 @@
+digraph "CMasternodePayments::CleanPaymentList"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node443 [label="CMasternodePayments\l::CleanPaymentList",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node443 -> Node444 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node444 [label="CMasternodeMan::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d6b/class_c_masternode_man.html#a794ebfab7b09b51619a14d07306d817e"];
+  Node444 -> Node445 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node445 [label="stop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#a7ed4eb27f00f40cee8c15108916e8d71"];
+  Node445 -> Node446 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node446 [label="StartShutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc9/init_8cpp.html#ac7140c7327b1e6a8d46470b1cd0e8e1b"];
+}

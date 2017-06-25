@@ -1,0 +1,14 @@
+digraph "IonGUI::message"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node816 [label="IonGUI::message",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node816 -> Node817 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node817 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node817 -> Node818 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node818 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node816 -> Node819 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node819 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node819 -> Node818 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,30 @@
+digraph "SoftSetBoolArg"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6718 [label="SoftSetBoolArg",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6718 -> Node6719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6719 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node6719 -> Node6720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6720 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node6720 -> Node6721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6721 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node6719 -> Node6722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6722 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node6718 -> Node6723 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6723 [label="OptionsModel::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a0e02c341067bff7be262fede017fbea0"];
+  Node6723 -> Node6724 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6724 [label="OptionsModel::OptionsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a17c6b3de70c415b0fdf5c27f5f871054"];
+  Node6718 -> Node6725 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6725 [label="IsSwitchChar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#ac0165e18ce3be89a2e0731e27d54b478"];
+  Node6725 -> Node6720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6725 -> Node6726 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6726 [label="CommandLineRPC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d59/rpcclient_8h.html#a4ee23259648a971c9c05aeff8b545a6d"];
+  Node6726 -> Node6720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6718 -> Node6727 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6727 [label="CWalletDB::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a14f26e53502d1a60dd2b034f830acf03"];
+  Node6727 -> Node6728 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6728 [label="CWallet::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a5d7b244b8ed0cbe24233ee0b6ca3cae0"];
+  Node6728 -> Node6719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

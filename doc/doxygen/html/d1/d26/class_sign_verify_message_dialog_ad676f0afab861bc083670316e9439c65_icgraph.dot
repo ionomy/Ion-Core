@@ -1,0 +1,18 @@
+digraph "SignVerifyMessageDialog::setAddress_SM"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node166 [label="SignVerifyMessageDialog\l::setAddress_SM",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node166 -> Node167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node167 [label="IonGUI::gotoSignMessageTab",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a975c7325fca098236e4bc3cccdc714f7",tooltip="Show Sign/Verify Message dialog and switch to sign message tab. "];
+  Node167 -> Node168 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node168 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+  Node167 -> Node169 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node169 [label="IonGUI::createActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5a5e1c2fbc2fec3d925d654c61a8b252",tooltip="Create the main UI actions. "];
+  Node169 -> Node168 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node166 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node170 [label="SignVerifyMessageDialog\l::on_addressBookButton\l_SM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a792a3bd647958c8ae74286c5ab3cf205"];
+  Node166 -> Node171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node171 [label="SignVerifyMessageDialog\l::on_pasteButton_SM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a4f09a92302537a095c34371a77de113e"];
+}

@@ -1,0 +1,18 @@
+digraph "QCPBars::getStackedBaseValue"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node157 [label="QCPBars::getStackedBaseValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node157 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="QCPBars::getBarPolygon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a3a4ca0069f003929284763caef1856a8"];
+  Node158 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="QCPBars::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a62d66cc8eedca6bedfc1f6513164d418"];
+  Node158 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="QCPBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a42b894e34dac799f90ff3700706b31df"];
+  Node158 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 [label="QCPBars::getVisibleDataBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#adce71831920cf0426722fdd47ba34261"];
+  Node161 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node162 [label="QCPBars::getValueRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#af71b8e6ee0b800f0b79f2b6e692afee2"];
+}

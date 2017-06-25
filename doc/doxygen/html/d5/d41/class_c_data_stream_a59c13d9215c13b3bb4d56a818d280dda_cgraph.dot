@@ -1,0 +1,13 @@
+digraph "CDataStream::operator+="
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node313 [label="CDataStream::operator+=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node313 -> Node314 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node314 [label="CDataStream::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a191a18802fbc0861ae118d79d33088dc"];
+  Node313 -> Node315 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node315 [label="CDataStream::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a2355d11752d8622badfbc03e9ed192fd"];
+  Node313 -> Node316 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node316 [label="CDataStream::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a66409dbd4403682fe674e2e71173cab4"];
+}

@@ -1,0 +1,19 @@
+digraph "StartTorControl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="StartTorControl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="TraceThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#ac481a378af0229bf71e3d9fee7b938ad"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="RenameThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a85fc1244e0bd3c91ee7a1c05ed10ebbb"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="PrintException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a379b2307f40ae5dba4dd56a0156fa36e"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="FormatException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a4758c4b8791b61f02cb4cdf67e3e95b6"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="TorControlThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da2/torcontrol_8cpp.html#a4faed3692d57a0d7bdbecf3b37f72de0"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="GetArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a24f685720bf40370e5bd2a192ad50cd8",tooltip="Return string argument or default value. "];
+}

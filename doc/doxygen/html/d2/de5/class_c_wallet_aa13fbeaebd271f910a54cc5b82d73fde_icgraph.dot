@@ -1,0 +1,47 @@
+digraph "CWallet::CommitTransaction"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node569 [label="CWallet::CommitTransaction",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node569 -> Node570 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node570 [label="WalletModel::sendCoins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a053fb3ff2b8b0347f83e6bb591126746"];
+  Node570 -> Node571 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node571 [label="SendCoinsDialog::send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#afd8d436a16ea7dba1276e8fdfdc8b2d3"];
+  Node571 -> Node572 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node572 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+  Node569 -> Node573 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node573 [label="SendMoney",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a49669702f73a24c1d1dc5a08d7c0785f"];
+  Node573 -> Node574 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node574 [label="stashedsend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a5a7cb1ad55aeaa8bcbb5172e9153a75a"];
+  Node573 -> Node575 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node575 [label="CWallet::SendMoneyToDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#aad5d55fc472f6b9ccbec5af0a7246d60"];
+  Node575 -> Node576 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node576 [label="sendtoaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a134064858f9cfa4775a6ae34cac2b133"];
+  Node575 -> Node577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node577 [label="sendfrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a845eaefd9ec7752b1145c183205524d0"];
+  Node573 -> Node578 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node578 [label="CWallet::LoadMinVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a88317da8dab80135b8db73e945e15b60"];
+  Node578 -> Node579 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node579 [label="CWalletDB::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a14f26e53502d1a60dd2b034f830acf03"];
+  Node579 -> Node580 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node580 [label="CWallet::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a5d7b244b8ed0cbe24233ee0b6ca3cae0"];
+  Node580 -> Node581 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node581 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node581 -> Node582 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node582 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node582 -> Node583 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node583 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node581 -> Node584 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node584 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node578 -> Node585 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node585 [label="CWalletDB::FindWalletTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#abaf9ab57bf283b3d929383b0b99940bd"];
+  Node569 -> Node586 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node586 [label="sendmany",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#adeb5f23f20fb4e589dab23cadf75c92d"];
+  Node569 -> Node587 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node587 [label="CStashedsendPool::SendRandom\lPaymentToSelf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#acd9417cd11b55cbec6a04a41fbbba939",tooltip="Used for liquidity providers. "];
+  Node569 -> Node588 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node588 [label="CStashedsendPool::MakeCollateral\lAmounts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#af475cbfebb9c64e9e7b831f2415d921c",tooltip="Split up large inputs or make fee sized inputs. "];
+  Node569 -> Node589 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node589 [label="CStashedsendPool::Create\lDenominated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#a02b3808e3653ed966b4c60874a137490"];
+}

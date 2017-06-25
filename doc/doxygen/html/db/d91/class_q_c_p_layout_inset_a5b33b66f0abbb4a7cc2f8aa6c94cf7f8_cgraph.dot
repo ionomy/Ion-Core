@@ -1,0 +1,16 @@
+digraph "QCPLayoutInset::insetAlignment"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node30 [label="QCPLayoutInset::insetAlignment",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="QCPLayoutGrid::elementAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a97672ecc379cb3a09639926ba9980297"];
+  Node31 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="QCPLayoutGrid::elementCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a77f194843d037e0da6d5f3170acdf3a2"];
+  Node32 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="QCPLayoutGrid::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a19c66fd76cbce58a8e94f33797e0c0aa"];
+  Node32 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="QCPLayoutGrid::columnCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a1a2962cbf45011405b64b913afa8e7a2"];
+  Node31 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

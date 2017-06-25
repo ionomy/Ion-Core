@@ -1,0 +1,9 @@
+digraph "CScriptNum::serialize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node394 [label="CScriptNum::serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node394 -> Node395 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node395 [label="CScript::push_int64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad802105f1515b4953ecbe6aeab2ee1ca"];
+}

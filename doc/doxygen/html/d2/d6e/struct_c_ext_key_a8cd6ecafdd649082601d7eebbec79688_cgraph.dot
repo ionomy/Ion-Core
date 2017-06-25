@@ -1,0 +1,35 @@
+digraph "CExtKey::SetMaster"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node20 [label="CExtKey::SetMaster",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node20 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="HMAC_SHA512_Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de5/hash_8cpp.html#a4b8c72838f26539d69f31e256fd6dc5c"];
+  Node21 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node22 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node22 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node20 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="HMAC_SHA512_Update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de5/hash_8cpp.html#a252e477655e0e6373143178d65e7a931"];
+  Node20 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="LockObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfb/allocators_8h.html#ab73cc3988a03bed966c0c2bb191a8d2a"];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="LockedPageManager::\lInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1c/class_locked_page_manager.html#ac9b1d42d240dba4714a35fff970b6dde"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="LockedPageManager::\lCreateInstance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1c/class_locked_page_manager.html#a3933ba60669b1c1b0ef03222637257e7"];
+  Node26 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="LockedPageManagerBase\l::LockRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d71/class_locked_page_manager_base.html#ae24ac08899505b892d451404133fa494"];
+  Node20 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="HMAC_SHA512_Final",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de5/hash_8cpp.html#a3e0fccfdb4599881e52d5fe8497f961f"];
+  Node20 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="UnlockObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dfb/allocators_8h.html#a49577b8da0ecffd2fbc222896283004c"];
+  Node31 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="memory_cleanse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d37/cleanse_8cpp.html#a5a4afb85dd16ecc1f6019c782db78663"];
+  Node31 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="LockedPageManagerBase\l::UnlockRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d71/class_locked_page_manager_base.html#a34bcf7b9120295ed178fe9545ed229af"];
+}

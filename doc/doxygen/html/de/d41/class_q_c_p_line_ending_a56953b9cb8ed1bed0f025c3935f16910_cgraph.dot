@@ -1,0 +1,9 @@
+digraph "QCPLineEnding::setStyle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node43 [label="QCPLineEnding::setStyle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node43 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="QCPLineEnding::style",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d41/class_q_c_p_line_ending.html#a07e75aaac6c61322bf51af237c5778e3"];
+}

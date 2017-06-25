@@ -1,0 +1,9 @@
+digraph "MultisigInputEntry::removeEntry"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node145 [label="MultisigInputEntry\l::removeEntry",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node145 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="MultisigInputEntry\l::on_deleteButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/class_multisig_input_entry.html#a05eef89a942a0ac15b41cc205ef0718b"];
+}

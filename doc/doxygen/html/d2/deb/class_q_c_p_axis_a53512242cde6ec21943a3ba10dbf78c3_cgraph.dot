@@ -1,0 +1,9 @@
+digraph "QCPAxis::deselectEvent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node212 [label="QCPAxis::deselectEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node212 -> Node213 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node213 [label="QCPAxis::setSelectedParts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#ab9d7a69277dcbed9119b3c1f25ca19c3"];
+}

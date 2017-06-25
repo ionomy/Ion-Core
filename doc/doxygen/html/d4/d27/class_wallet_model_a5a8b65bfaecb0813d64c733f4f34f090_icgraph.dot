@@ -1,0 +1,44 @@
+digraph "WalletModel::setWalletLocked"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1624 [label="WalletModel::setWalletLocked",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1624 -> Node1625 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1625 [label="AskPassphraseDialog\l::accept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d70/class_ask_passphrase_dialog.html#ac2f176af3693b73870d26ef0bfc6cbb9"];
+  Node1624 -> Node1626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1626 [label="IonGUI::lockWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#abfbef460c97022eea4d5e2dec1887ba0"];
+  Node1626 -> Node1627 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1627 [label="IonGUI::createActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5a5e1c2fbc2fec3d925d654c61a8b252",tooltip="Create the main UI actions. "];
+  Node1627 -> Node1628 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1628 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+  Node1626 -> Node1629 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1629 [label="IonGUI::updateWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a2689de984576a927ea382a800a81a3f0"];
+  Node1629 -> Node1630 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1630 [label="IonGUI::updateStakingIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5e9ba63b943650e5dec3ab6e13e9a20b"];
+  Node1630 -> Node1628 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1624 -> Node1631 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1631 [label="WalletModel::requestUnlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#ae98eaede9493625ce778a0a873b3d124"];
+  Node1631 -> Node1632 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1632 [label="AddressTableModel::\laddRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a08ab9ae401a18d193f0e39551de81280"];
+  Node1632 -> Node1633 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1633 [label="EditAddressDialog::\lsaveCurrentRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#a8494a551799cd1f4c253e557424c206c"];
+  Node1633 -> Node1634 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1634 [label="EditAddressDialog::\laccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#ac52b71129806bccf6533d0e9441393b6"];
+  Node1631 -> Node1635 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1635 [label="MultisigDialog::on\l_signTransactionButton\l_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#ad277ce76887dfbbec511486d3c1d2bc4"];
+  Node1631 -> Node1636 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1636 [label="OverviewPage::toggleStashedsend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#acb7a4378759f4f28ff69511839eece57"];
+  Node1636 -> Node1637 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1637 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node1637 -> Node1638 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1638 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node1638 -> Node1639 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1639 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1631 -> Node1640 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1640 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+  Node1631 -> Node1641 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1641 [label="SignVerifyMessageDialog\l::on_signMessageButton\l_SM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a2ef91b4ace68d63ab1c1d3cc6c13b5f9"];
+  Node1624 -> Node1642 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1642 [label="WalletModel::UnlockContext\l::~UnlockContext",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d31/class_wallet_model_1_1_unlock_context.html#aa8d5445b1bc2a13ad8bfc06080b164d4"];
+}

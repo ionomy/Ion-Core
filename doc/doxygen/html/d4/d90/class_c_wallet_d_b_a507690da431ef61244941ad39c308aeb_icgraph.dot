@@ -1,0 +1,15 @@
+digraph "CWalletDB::WriteMasterKey"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node916 [label="CWalletDB::WriteMasterKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node916 -> Node917 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node917 [label="CWallet::ChangeWalletPassphrase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a4abcec3066e7c462f4564c159fc15031"];
+  Node917 -> Node918 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node918 [label="WalletModel::changePassphrase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a67ebff3f267b5c9973c0465184c085a4"];
+  Node918 -> Node919 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node919 [label="AskPassphraseDialog\l::accept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d70/class_ask_passphrase_dialog.html#ac2f176af3693b73870d26ef0bfc6cbb9"];
+  Node917 -> Node920 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node920 [label="walletpassphrasechange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a84ad884957e24688433be32a9ca70933"];
+}

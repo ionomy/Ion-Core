@@ -1,0 +1,19 @@
+digraph "ClientModel::~ClientModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node140 [label="ClientModel::~ClientModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node140 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node141 [label="ClientModel::unsubscribe\lFromCoreSignals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#ad23e386af881b7091b7d7f00af1b2a18"];
+  Node141 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node142 [label="ShowProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/clientmodel_8cpp.html#a2a0f0b996679bcf94acb2c877ee2e497"];
+  Node141 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node143 [label="NotifyNumConnectionsChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/clientmodel_8cpp.html#ab423505e8b4ea206176a9a97521e2e6c"];
+  Node141 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node144 [label="NotifyAlertChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/clientmodel_8cpp.html#a56d7176c1c1b26f7108c096790d136d8"];
+  Node144 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="base_uint::GetHex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#ae5e7b7481de91ebead20eebd5d685441"];
+  Node141 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="BannedListChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/clientmodel_8cpp.html#aea8027a0ce17274cceb2f49cba1e7220"];
+}

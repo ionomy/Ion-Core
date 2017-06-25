@@ -1,0 +1,17 @@
+digraph "src/qt/peertablemodel.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node92 [label="src/qt/peertablemodel.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="src/qt/clientmodel.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/clientmodel_8cpp.html"];
+  Node92 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="src/qt/rpcconsole.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d78/rpcconsole_8h.html"];
+  Node94 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="src/qt/iongui.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d01/iongui_8cpp.html"];
+  Node94 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="src/qt/rpcconsole.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/df4/rpcconsole_8cpp.html"];
+  Node92 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="src/qt/peertablemodel.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d03/peertablemodel_8cpp.html"];
+  Node92 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

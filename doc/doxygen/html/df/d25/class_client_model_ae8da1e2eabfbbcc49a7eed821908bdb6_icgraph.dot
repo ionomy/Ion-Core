@@ -1,0 +1,23 @@
+digraph "ClientModel::getOptionsModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node352 [label="ClientModel::getOptionsModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node352 -> Node353 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node353 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node353 -> Node354 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node354 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node352 -> Node355 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node355 [label="IonGUI::optionsClicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a463be06dd466d69e20a3a8b073d110d2",tooltip="Show configuration dialog. "];
+  Node355 -> Node356 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node356 [label="IonGUI::createActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5a5e1c2fbc2fec3d925d654c61a8b252",tooltip="Create the main UI actions. "];
+  Node356 -> Node357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node357 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+  Node352 -> Node358 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node358 [label="IonGUI::changeEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a6005d97bcb7f0d66f3ccc6524f47c152"];
+  Node352 -> Node359 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node359 [label="IonGUI::closeEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad7ce96c380f48f75a015726217e0f0fe"];
+  Node352 -> Node360 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node360 [label="IonGUI::askFee",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a53aaa5c2286e3c045c55b554470c5dee",tooltip="Asks the user whether to pay the transaction fee or to cancel the transaction. "];
+}

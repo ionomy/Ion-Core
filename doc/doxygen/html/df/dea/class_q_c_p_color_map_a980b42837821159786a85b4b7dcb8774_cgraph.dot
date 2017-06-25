@@ -1,0 +1,16 @@
+digraph "QCPColorMap::setDataRange"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node124 [label="QCPColorMap::setDataRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node124 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node125 [label="QCPRange::validRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#ab38bd4841c77c7bb86c9eea0f142dcc0"];
+  Node124 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node126 [label="QCPRange::sanitizedForLog\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#a3d66288d66e1d6df3636075eb42502ee"];
+  Node126 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 [label="QCPRange::normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#af914a7740269b0604d0827c634a878a9"];
+  Node124 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node128 [label="QCPRange::sanitizedForLin\lScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#a808751fdd9b17ef52327ba011df2e5f1"];
+  Node128 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

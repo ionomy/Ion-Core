@@ -1,0 +1,11 @@
+digraph "QCPAxisPainterPrivate::getMaxTickLabelSize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="QCPAxisPainterPrivate\l::getMaxTickLabelSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="QCustomPlot::plottingHints",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ac724f4075822f74f7b676a790095b877"];
+  Node40 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="QCPAxisPainterPrivate\l::getTickLabelData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dba/class_q_c_p_axis_painter_private.html#a5331f78e398da5442767c261578da502"];
+}

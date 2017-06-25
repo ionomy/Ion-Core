@@ -1,0 +1,36 @@
+digraph "test_constant_wnaf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1438 [label="test_constant_wnaf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1438 -> Node1439 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1439 [label="secp256k1_scalar_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a41cb11650e4dea0fe7ac5b59b9fce9dc",tooltip="Set a scalar to an unsigned integer. "];
+  Node1438 -> Node1440 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1440 [label="secp256k1_scalar_shr_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#ae9fcdf1db22cb93c2a2f06b0a9c957d3",tooltip="Shift a scalar right by some amount strictly between 0 and 16, returning the low bits that were shift..."];
+  Node1438 -> Node1441 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1441 [label="secp256k1_wnaf_const",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d3e/ecmult__const__impl_8h.html#ac252ac4f8c905ddc178ce056bd45b8ec",tooltip="Convert a number to WNAF notation. "];
+  Node1441 -> Node1442 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1442 [label="secp256k1_scalar_is_high",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aab66620cbbe49bec3c7c02f4a1219c05",tooltip="Check whether a scalar is higher than the group order divided by 2. "];
+  Node1441 -> Node1443 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1443 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+  Node1441 -> Node1444 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1444 [label="secp256k1_scalar_is_one",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa1118b3273d3c9d15541f29373b93e97",tooltip="Check whether a scalar equals one. "];
+  Node1441 -> Node1445 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1445 [label="secp256k1_scalar_cadd_bit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#ad6596a0249548deb678f0b630204254f",tooltip="Conditionally add a power of two to a scalar. "];
+  Node1441 -> Node1446 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1446 [label="secp256k1_scalar_cond\l_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a520b78be2bca742daa8d5efa5c343291",tooltip="Conditionally negate a number, in constant time. "];
+  Node1441 -> Node1447 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1447 [label="secp256k1_scalar_is_even",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a3eb65cf9bfad7c430cbb3dc26d494a95",tooltip="Check whether a scalar, considered as an nonnegative integer, is even. "];
+  Node1441 -> Node1440 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1441 -> Node1448 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1448 [label="secp256k1_scalar_is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a3f0ac84fe49a1c1f51212582a2c149d4",tooltip="Check whether a scalar equals zero. "];
+  Node1438 -> Node1449 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1449 [label="secp256k1_scalar_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a89db15f705c8eafcd10c08181523acd0",tooltip="Multiply two scalars (modulo the group order). "];
+  Node1438 -> Node1443 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1438 -> Node1450 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1450 [label="secp256k1_scalar_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a83257652850276cd74c7cdd1f9444d9c",tooltip="Add two scalars together (modulo the group order). "];
+  Node1438 -> Node1445 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1438 -> Node1451 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1451 [label="secp256k1_scalar_eq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4ba37c67745038e5ff23ca66f051837d",tooltip="Compare two scalars. "];
+}

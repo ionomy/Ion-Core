@@ -1,0 +1,18 @@
+digraph "CWallet::GetImmatureBalance"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1623 [label="CWallet::GetImmatureBalance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1623 -> Node1624 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1624 [label="CWalletTx::GetImmatureCredit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#a19bb617269ab1ce42f5d18e1f1f8db09"];
+  Node1624 -> Node1625 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1625 [label="CWallet::GetCredit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#aa60b69c7d4ea6063ed83b13d7c6fe695"];
+  Node1625 -> Node1626 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1626 [label="MoneyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d2f/amount_8h.html#a12db56a9a1c931941f0943ecbb278aae"];
+  Node1625 -> Node1627 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1627 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node1627 -> Node1628 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1628 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node1627 -> Node1627 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

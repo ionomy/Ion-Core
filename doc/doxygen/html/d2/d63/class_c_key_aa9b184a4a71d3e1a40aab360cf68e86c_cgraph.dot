@@ -1,0 +1,43 @@
+digraph "CKey::Sign"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node625 [label="CKey::Sign",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node625 -> Node626 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node626 [label="WriteLE32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d54/common_8h.html#ab23d5d245f265908700af234252b751f"];
+  Node626 -> Node627 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node627 [label="htole32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d84/endian_8h.html#abab10181b2a9a38233ca246e1a653b5e"];
+  Node625 -> Node628 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node628 [label="secp256k1_ecdsa_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#a691c048f3a3b4e7f51417c57ec058be7",tooltip="Create an ECDSA signature. "];
+  Node628 -> Node629 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node629 [label="secp256k1_ecmult_gen\l_context_is_built",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/ecmult__gen_8h.html#a9a40662d6ed2cbab43dbddc25f570f97"];
+  Node628 -> Node630 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node630 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node628 -> Node631 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node631 [label="secp256k1_scalar_is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a3f0ac84fe49a1c1f51212582a2c149d4",tooltip="Check whether a scalar equals zero. "];
+  Node628 -> Node632 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node632 [label="secp256k1_ecdsa_sig_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5d/ecdsa_8h.html#a5bf6905e00ae8571465a52e3165c6e6e"];
+  Node628 -> Node633 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node633 [label="secp256k1_scalar_clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#ad8fb9bc2a828903963bf37806d8edd11",tooltip="Clear a scalar to prevent the leak of sensitive data. "];
+  Node628 -> Node634 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node634 [label="secp256k1_ecdsa_signature_save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#a94e522f94c4819bebf8e854952eb6a8f"];
+  Node634 -> Node635 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node635 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node635 -> Node636 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node636 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node635 -> Node637 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node637 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node634 -> Node638 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node638 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+  Node625 -> Node639 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node639 [label="base_uint::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#aaa32054bf4e8fbb31d54a75f6065174d"];
+  Node625 -> Node640 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node640 [label="secp256k1_ecdsa_signature\l_serialize_der",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#ac07809ca872ec967ab4d3b1a95eafe0b",tooltip="Serialize an ECDSA signature in DER format. "];
+  Node640 -> Node641 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node641 [label="secp256k1_ecdsa_signature_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#af2027241c9dfc85fa5b6a3bb5fe41d18"];
+  Node641 -> Node635 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node641 -> Node630 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node640 -> Node642 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node642 [label="secp256k1_ecdsa_sig\l_serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5d/ecdsa_8h.html#a313b6733f5b079162fa15332d4b2ef36"];
+}

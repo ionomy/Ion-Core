@@ -1,0 +1,32 @@
+digraph "MultisigInputEntry::setRemoveEnabled"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node157 [label="MultisigInputEntry\l::setRemoveEnabled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node157 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="MultisigDialog::updateRemove\lEnabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#aa55e13d412a57d647f301a0269b11c6c"];
+  Node158 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="MultisigDialog::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a3dcb9ec5716e12e4c018a67e789eb8c1"];
+  Node159 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="MultisigDialog::Multisig\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#af8ff2a9f6dc05a9468d955cb428c6474"];
+  Node158 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 [label="MultisigDialog::addPubKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#ae4d7f4bf85dd1dfc110f52c75522b288"];
+  Node161 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node162 [label="MultisigDialog::removeEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a6b2655facc9622e9d51508f355f165a2"];
+  Node162 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node162 -> Node163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node163 [label="MultisigDialog::addInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a52e84a493f932da1e9e40b4c90d4e35a"];
+  Node163 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node163 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node164 [label="MultisigDialog::on\l_transaction_textChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a2412fa91c5e7ef51c229aa36388c0960"];
+  Node162 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node165 [label="MultisigDialog::addOutput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a2fcffef63f71dc0178f4abdc3de2f850"];
+  Node165 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node165 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 -> Node163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,13 @@
+digraph "secp256k1_ecmult_wnaf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node81 [label="secp256k1_ecmult_wnaf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node81 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="secp256k1_scalar_get_bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a70d7af05e9c9a579ed5cb20d9f22eeba",tooltip="Access bits from a scalar. "];
+  Node81 -> Node83 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+  Node81 -> Node84 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node84 [label="secp256k1_scalar_get\l_bits_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#abede7dbe3b5a38a51b388d46f4c5b52d",tooltip="Access bits from a scalar. "];
+}

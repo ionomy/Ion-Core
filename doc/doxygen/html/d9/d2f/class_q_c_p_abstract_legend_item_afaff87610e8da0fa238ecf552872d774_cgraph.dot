@@ -1,0 +1,25 @@
+digraph "QCPAbstractLegendItem::QCPAbstractLegendItem"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QCPAbstractLegendItem\l::QCPAbstractLegendItem",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayerable::moveToLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#af94484cfb7cbbddb7de522e9be71d9a4"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayer::parentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a5520019787482e13857ebe631c27c3fa"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLayer::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a37806f662b50b588fb1029a14fc5ef50"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLayer::removeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#ac2f64ac7761650582d968d86670ef362"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLayerable::layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#a5ff4862e8c784c9f5986dbc1533ba2a4"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLayer::addChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a57ce5e49364aa9122276d5df3b4a0ddc"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPLayoutElement::setMargins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a8f450b1f3f992ad576fce2c63d8b79cf"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayoutElement::margins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#af4ac9450aa2d60863bf3a8ea0c940c9d"];
+}

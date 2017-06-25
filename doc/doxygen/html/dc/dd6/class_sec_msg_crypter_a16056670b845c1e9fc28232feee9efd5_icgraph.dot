@@ -1,0 +1,21 @@
+digraph "SecMsgCrypter::SetKey"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node26 [label="SecMsgCrypter::SetKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="WalletModel::sendCoins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a053fb3ff2b8b0347f83e6bb591126746"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="SendCoinsDialog::send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#afd8d436a16ea7dba1276e8fdfdc8b2d3"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+  Node26 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="CWallet::SendStealthMoney\lToDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#afce932bf3aa678046ab75eccff004858"];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="sendtostealthaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#ad901105908c7eea072067a49643a906e"];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="sendtoaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a134064858f9cfa4775a6ae34cac2b133"];
+  Node26 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="CWallet::FindStealthTransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a5d0e2025dc7a87a0406be272b80509ee"];
+}

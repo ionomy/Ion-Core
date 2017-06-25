@@ -1,0 +1,13 @@
+digraph "QCPPlotTitle::selectionChanged"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node73 [label="QCPPlotTitle::selectionChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node73 -> Node74 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="QCPPlotTitle::setSelected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de4/class_q_c_p_plot_title.html#a8d441a889d371307df86f1ab7687a333"];
+  Node74 -> Node75 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="QCPPlotTitle::selectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de4/class_q_c_p_plot_title.html#a22672ef2abe442b1e73b7ee04cff9bdd"];
+  Node74 -> Node76 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="QCPPlotTitle::deselectEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de4/class_q_c_p_plot_title.html#ac6dfce05bebdb9bd0bfacd5ff02f3325"];
+}

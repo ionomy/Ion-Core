@@ -1,0 +1,11 @@
+digraph "QCPAxis::calculateAutoSubTickCount"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node121 [label="QCPAxis::calculateAutoSub\lTickCount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node121 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node122 [label="QCPAxis::generateAutoTicks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a626eef437c874148df1a5ac78506d463"];
+  Node122 -> Node123 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node123 [label="QCPAxis::setupTickVectors",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a57d9e961bae7d62f5b4e1f143e660c78"];
+}

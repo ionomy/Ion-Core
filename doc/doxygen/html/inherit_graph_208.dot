@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="secp256k1_ecdsa_signature",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/df3/structsecp256k1__ecdsa__signature.html",tooltip="Opaque data structured that holds a parsed ECDSA signature. "];
+}

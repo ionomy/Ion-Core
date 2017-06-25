@@ -1,0 +1,9 @@
+digraph "QCPItemLine::setTail"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="QCPItemLine::setTail",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="QCPItemLine::tail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8c/class_q_c_p_item_line.html#ac085d3939ec11d7a4d592dc2ed578360"];
+}

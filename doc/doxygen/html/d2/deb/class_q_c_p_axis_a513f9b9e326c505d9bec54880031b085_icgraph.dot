@@ -1,0 +1,11 @@
+digraph "QCPAxis::setSelectableParts"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node737 [label="QCPAxis::setSelectableParts",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node737 -> Node738 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node738 [label="QCPColorScaleAxisRectPrivate\l::axisSelectableChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#a66d2baed86966bb03a6d7c32dc7d59f7"];
+  Node738 -> Node739 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node739 [label="QCPColorScaleAxisRectPrivate\l::QCPColorScaleAxisRectPrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#ad3b242f75dd2b33581364a4e668a80db"];
+}

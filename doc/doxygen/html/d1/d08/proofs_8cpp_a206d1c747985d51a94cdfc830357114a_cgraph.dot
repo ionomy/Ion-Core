@@ -1,0 +1,30 @@
+digraph "GetNextTargetRequiredV1"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node547 [label="GetNextTargetRequiredV1",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node547 -> Node548 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node548 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node547 -> Node549 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node549 [label="CChainParams::ProofOfStake\lLimit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a0d272ca248d729b840fb331a26a95dff"];
+  Node547 -> Node550 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node550 [label="CChainParams::ProofOfWork\lLimit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#af171e47287f097c8753b9581fd3c3c58"];
+  Node547 -> Node551 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node551 [label="uint256::GetCompact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d86/classuint256.html#a62d6d46078edb8cdb742e2430a3b1998"];
+  Node551 -> Node552 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node552 [label="base_uint\< 256 \>::bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#afe1eacc0b592cf184ac8ee0446997fbe",tooltip="Returns the position of the highest bit set plus one, or zero if the value is zero. "];
+  Node551 -> Node553 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node553 [label="base_uint\< 256 \>::GetLow64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#ad8dbf3216dd15a64f1598344ad7a71ea"];
+  Node551 -> Node553 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node547 -> Node554 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node554 [label="GetLastBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#a67a2382a391340c12c45961f3b8c66e8"];
+  Node554 -> Node555 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node555 [label="CBlockIndex::IsProofOfStake",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dbd/class_c_block_index.html#a2438a891e9d43821c0d99e1bdac56fde"];
+  Node547 -> Node556 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node556 [label="CBlockIndex::GetBlockTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dbd/class_c_block_index.html#a9fe0d4463c07c466f66252e8eec25f5c"];
+  Node547 -> Node557 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node557 [label="CChainParams::TargetSpacing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a15f2665cd555d316b2f93d842f1975ee"];
+  Node547 -> Node558 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node558 [label="uint256::SetCompact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d86/classuint256.html#a54bc91c8535c43f881bba1fdb11ca7fa",tooltip="The \"compact\" format is a representation of a whole number N using an unsigned 32bit number similar t..."];
+}

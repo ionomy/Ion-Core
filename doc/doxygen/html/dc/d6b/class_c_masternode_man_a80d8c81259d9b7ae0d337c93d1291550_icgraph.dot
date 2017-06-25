@@ -1,0 +1,28 @@
+digraph "CMasternodeMan::CheckAndRemove"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node187 [label="CMasternodeMan::CheckAnd\lRemove",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node187 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node188 [label="CMasternodeDB::Read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_c_masternode_d_b.html#ad54bf2d5914fc53b10f1e5afbcea70f2"];
+  Node188 -> Node189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node189 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node189 -> Node190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node190 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node190 -> Node191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node191 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node189 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node192 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node188 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node193 [label="DumpMasternodes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d32/masternodeman_8h.html#af82c3cd6928301020e80458410608fa1"];
+  Node193 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node194 [label="Shutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9"];
+  Node194 -> Node190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node194 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node187 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 [label="ThreadCheckStashedSendPool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dbc/stashedsend_8h.html#ab583ddc86effded8432ea5387f77d883"];
+  Node195 -> Node189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node196 [label="CStashedsendPool::IsSession\lReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#acb903e97bacd0ecf2f1c3c0d82e6641c",tooltip="Do we have enough users to take entries? "];
+}

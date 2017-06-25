@@ -1,0 +1,9 @@
+digraph "MRichTextEdit::increaseIndentation"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node54 [label="MRichTextEdit::increaseIndentation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node54 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="MRichTextEdit::indent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/daa/class_m_rich_text_edit.html#ad1185def8aff6d92df93df7d09175602"];
+}

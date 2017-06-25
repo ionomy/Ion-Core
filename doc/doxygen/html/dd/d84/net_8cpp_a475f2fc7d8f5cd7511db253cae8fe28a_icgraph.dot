@@ -1,0 +1,23 @@
+digraph "GetNodeSignals"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node769 [label="GetNodeSignals",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node769 -> Node770 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node770 [label="Shutdown",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9"];
+  Node770 -> Node771 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node771 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node771 -> Node772 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node772 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node770 -> Node773 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node773 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node769 -> Node774 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node774 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node774 -> Node771 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node774 -> Node773 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node769 -> Node775 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node775 [label="CNode::CNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d64/class_c_node.html#a51556705550511146245b9fb2fec09c1"];
+  Node769 -> Node776 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node776 [label="CNode::~CNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d64/class_c_node.html#ac9b30cb93e91a48dacc58821abfc44f0"];
+}

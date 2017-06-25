@@ -1,0 +1,27 @@
+digraph "CMasternodeConfig::CMasternodeEntry::getTxHash"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39 [label="CMasternodeConfig::\lCMasternodeEntry::getTxHash",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node40 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node40 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node39 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="MasternodeManager::\lon_startButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#a83f5cf149fdaf6d7fce1a3378611c3f9"];
+  Node39 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="MasternodeManager::\lon_startAllButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#aad77095fab625d3a02afa52696f64e2f"];
+  Node39 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="MasternodeManager::\lon_UpdateButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#ae8d07b4d869e3eb09fe1be445eff0430"];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="MasternodeManager::\lupdateNodeList",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#a5485a8bd6ccf673027165cc1207dfae9"];
+  Node47 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="MasternodeManager::\lMasternodeManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#ad18cb99065e056e6b791e2356de826bf"];
+  Node39 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="masternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a30609e443aeb47c29ed0878d16b1b5e1"];
+}

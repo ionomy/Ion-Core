@@ -1,0 +1,31 @@
+digraph "CNode::GetTotalBytesSent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node565 [label="CNode::GetTotalBytesSent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node565 -> Node566 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node566 [label="ClientModel::getTotalBytesSent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a53cd536b119e49b0fab9c95d13a247ed"];
+  Node566 -> Node567 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node567 [label="ClientModel::updateTimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a82d434ebd032c00736e043ce2d36ac5e"];
+  Node567 -> Node568 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node568 [label="ClientModel::ClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#aec1d32d5dc8c094eba66036a19a22854"];
+  Node566 -> Node569 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node569 [label="RPCConsole::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a355349a33664a07628e9ca22a60f5fa7"];
+  Node569 -> Node570 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node570 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node570 -> Node571 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node571 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node566 -> Node572 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node572 [label="TrafficGraphWidget\l::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc6/class_traffic_graph_widget.html#a8f627aaf6171695d94a0e83b239fe1ac"];
+  Node566 -> Node573 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node573 [label="TrafficGraphWidget\l::updateRates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc6/class_traffic_graph_widget.html#a5a1ae0d0a8cc43c67386de4aa1111340"];
+  Node573 -> Node574 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node574 [label="TrafficGraphWidget\l::TrafficGraphWidget",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc6/class_traffic_graph_widget.html#a99f4f3f14bab99bef8918cb4f5f69aa6"];
+  Node566 -> Node575 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node575 [label="TrafficGraphWidget\l::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc6/class_traffic_graph_widget.html#a71c23db2649ab8781fa9a294e540b7ee"];
+  Node575 -> Node576 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node576 [label="TrafficGraphWidget\l::setGraphRangeMins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc6/class_traffic_graph_widget.html#aa08cb5ae735e58a79bdff42b933ec4c4"];
+  Node565 -> Node577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node577 [label="getnettotals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dab/rpcnet_8cpp.html#a77252ab3b44e1f219613da333c79f55f"];
+}

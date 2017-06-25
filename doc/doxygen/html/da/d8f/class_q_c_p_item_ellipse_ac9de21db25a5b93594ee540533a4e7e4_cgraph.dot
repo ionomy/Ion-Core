@@ -1,0 +1,15 @@
+digraph "QCPItemEllipse::anchorPixelPoint"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="QCPItemEllipse::anchorPixel\lPoint",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPItemPosition::pixelPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#a6cad070c22801295231f5bd6045afe70"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPItemAnchor::pixelPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d7c/class_q_c_p_item_anchor.html#ae1a21d9471d1d788624cad297e1b8d6f"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QCPAbstractItem::anchorPixel\lPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d6a/class_q_c_p_abstract_item.html#a5681c190803e899bac9a240753fdba00"];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="QCustomPlot::viewport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670"];
+}

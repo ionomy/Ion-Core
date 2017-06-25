@@ -1,0 +1,13 @@
+digraph "CTxDB::ScanBatch"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node664 [label="CTxDB::ScanBatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node664 -> Node665 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node665 [label="CTxDB::Read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8d/class_c_tx_d_b.html#a9e223a10434f8a73002e84cc75c682de"];
+  Node665 -> Node666 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node666 [label="CTxDB::ReadVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8d/class_c_tx_d_b.html#a24938c7578577c08b2a3eae7617dfa1e"];
+  Node664 -> Node667 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node667 [label="CTxDB::Exists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8d/class_c_tx_d_b.html#a36002f063f6fef483226362a1350e22d"];
+}

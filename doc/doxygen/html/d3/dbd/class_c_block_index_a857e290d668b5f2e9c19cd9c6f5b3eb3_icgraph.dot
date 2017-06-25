@@ -1,0 +1,11 @@
+digraph "CBlockIndex::IsProofOfWork"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node683 [label="CBlockIndex::IsProofOfWork",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node683 -> Node684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node684 [label="GetPoWMHashPS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/da2/rpcserver_8h.html#a3da60ebd3884dc09e7a20b0798b6cf36"];
+  Node684 -> Node685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node685 [label="getmininginfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#a89c187faff7322c7d15134d13570ca1e"];
+}

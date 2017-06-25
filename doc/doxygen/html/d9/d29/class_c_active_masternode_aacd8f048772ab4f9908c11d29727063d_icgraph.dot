@@ -1,0 +1,32 @@
+digraph "CActiveMasternode::Register"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node745 [label="CActiveMasternode::\lRegister",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node745 -> Node746 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node746 [label="CActiveMasternode::\lManageStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#a8004b3b2100da7dcfedbd1e959633e51"];
+  Node746 -> Node747 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node747 [label="CActiveMasternode::\lCActiveMasternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#a7ffb946d1b2aad0054d3b3efce8c0543"];
+  Node746 -> Node748 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node748 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node748 -> Node749 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node749 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node749 -> Node750 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node750 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node748 -> Node751 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node751 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node746 -> Node752 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node752 [label="masternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a30609e443aeb47c29ed0878d16b1b5e1"];
+  Node746 -> Node753 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node753 [label="ThreadCheckStashedSendPool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dbc/stashedsend_8h.html#ab583ddc86effded8432ea5387f77d883"];
+  Node753 -> Node748 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node753 -> Node754 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node754 [label="CStashedsendPool::IsSession\lReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#acb903e97bacd0ecf2f1c3c0d82e6641c",tooltip="Do we have enough users to take entries? "];
+  Node745 -> Node747 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node745 -> Node755 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node755 [label="MasternodeManager::\lon_startButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#a83f5cf149fdaf6d7fce1a3378611c3f9"];
+  Node745 -> Node756 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node756 [label="MasternodeManager::\lon_startAllButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#aad77095fab625d3a02afa52696f64e2f"];
+  Node745 -> Node752 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

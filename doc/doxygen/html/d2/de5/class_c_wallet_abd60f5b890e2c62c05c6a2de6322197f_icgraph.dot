@@ -1,0 +1,19 @@
+digraph "CWallet::UnlockCoin"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3747 [label="CWallet::UnlockCoin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3747 -> Node3748 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3748 [label="CActiveMasternode::\lStopMasterNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#a32a25010441010c267ace316e8bc8f8e"];
+  Node3747 -> Node3749 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3749 [label="CStashedsendPool::Unlock\lCoins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#a5d4ac746830c08bbb249d34c165d1019"];
+  Node3749 -> Node3750 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3750 [label="OverviewPage::toggleStashedsend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#acb7a4378759f4f28ff69511839eece57"];
+  Node3750 -> Node3751 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3751 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node3751 -> Node3752 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3752 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node3752 -> Node3753 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3753 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+}

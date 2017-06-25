@@ -1,0 +1,34 @@
+digraph "QCPAxis::QCPAxis"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QCPAxis::QCPAxis",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="QCPLayerable::setVisible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#a3bed99ddc396b48ce3ebfdc0418744f8"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPLayerable::setAntialiased",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#a4fd43e89be4a553ead41652565ff0581"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPLayerable::moveToLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#af94484cfb7cbbddb7de522e9be71d9a4"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPLayer::parentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a5520019787482e13857ebe631c27c3fa"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPLayer::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a37806f662b50b588fb1029a14fc5ef50"];
+  Node4 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPLayer::removeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#ac2f64ac7761650582d968d86670ef362"];
+  Node4 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPLayerable::layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#a5ff4862e8c784c9f5986dbc1533ba2a4"];
+  Node4 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPLayer::addChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a57ce5e49364aa9122276d5df3b4a0ddc"];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCustomPlot::currentLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a0421d647f420b0b4c57aec1708857af5"];
+  Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPAxis::setTickLabelPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#af302c479af9dbc2e9f0e44e07c0012ee"];
+  Node11 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPAxis::padding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a07df379d5c017b8f3a4702532eb037b2"];
+  Node0 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPAxis::setLabelPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a4391192a766e5d20cfe5cbc17607a7a2"];
+  Node13 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

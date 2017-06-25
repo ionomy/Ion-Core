@@ -1,0 +1,13 @@
+digraph "QCPColorMapData::setSize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node100 [label="QCPColorMapData::setSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node100 -> Node101 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node101 [label="QCPColorMapData::keySize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#abbda4d28de97aedce1e6e6f008a0a1f7"];
+  Node100 -> Node102 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 [label="QCPColorMapData::valueSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a8510cafea24645bbb62b5e0bfc43209f"];
+  Node100 -> Node103 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node103 [label="QCPColorMapData::fill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a350f783260eb9b5de5c7b5e0d5d3e3c2"];
+}

@@ -1,0 +1,13 @@
+digraph "QCPAxis::getPartAt"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node273 [label="QCPAxis::getPartAt",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node273 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node274 [label="QCPAxisPainterPrivate\l::axisSelectionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dba/class_q_c_p_axis_painter_private.html#ab29635564acb5d0012fa9e297477db05"];
+  Node273 -> Node275 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node275 [label="QCPAxisPainterPrivate\l::tickLabelsSelectionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dba/class_q_c_p_axis_painter_private.html#acf8a4fef47cec70b596fe20941aa5b16"];
+  Node273 -> Node276 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node276 [label="QCPAxisPainterPrivate\l::labelSelectionBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dba/class_q_c_p_axis_painter_private.html#ae7800667d15867040ada5f4bf027f070"];
+}

@@ -1,0 +1,41 @@
+digraph "test_ecdsa_der_parse"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1492 [label="test_ecdsa_der_parse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1492 -> Node1493 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1493 [label="secp256k1_ecdsa_signature\l_parse_der",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#a57d390dd5baa54855b0cb20628034b90",tooltip="Parse a DER ECDSA signature. "];
+  Node1493 -> Node1494 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1494 [label="secp256k1_ecdsa_sig\l_parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5d/ecdsa_8h.html#aae25c4b1cdf2ccaddc49b42d43cc82a1"];
+  Node1493 -> Node1495 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1495 [label="secp256k1_ecdsa_signature_save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#a94e522f94c4819bebf8e854952eb6a8f"];
+  Node1495 -> Node1496 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1496 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node1496 -> Node1497 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1497 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node1496 -> Node1498 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1498 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node1495 -> Node1499 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1499 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+  Node1492 -> Node1500 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1500 [label="secp256k1_ecdsa_signature\l_serialize_compact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#af8571ca8dcfb7f892519b337504dc700",tooltip="Serialize an ECDSA signature in compact (64 byte) format. "];
+  Node1500 -> Node1501 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1501 [label="secp256k1_ecdsa_signature_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#af2027241c9dfc85fa5b6a3bb5fe41d18"];
+  Node1501 -> Node1496 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1501 -> Node1502 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1502 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node1500 -> Node1499 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1492 -> Node1503 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1503 [label="secp256k1_ecdsa_signature\l_serialize_der",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#ac07809ca872ec967ab4d3b1a95eafe0b",tooltip="Serialize an ECDSA signature in DER format. "];
+  Node1503 -> Node1501 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1503 -> Node1504 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1504 [label="secp256k1_ecdsa_sig\l_serialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5d/ecdsa_8h.html#a313b6733f5b079162fa15332d4b2ef36"];
+  Node1492 -> Node1505 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1505 [label="ecdsa_signature_parse\l_der_lax",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d8e/pubkey_8cpp.html#acd68762de13ffb2c909fcf12acfea0fd",tooltip="This function is taken from the libsecp256k1 distribution and implements DER parsing for ECDSA signat..."];
+  Node1505 -> Node1506 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1506 [label="secp256k1_ecdsa_signature\l_parse_compact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#a2aff2802eca3d15ec54298e879579897",tooltip="Parse an ECDSA signature in compact (64 bytes) format. "];
+  Node1506 -> Node1502 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1506 -> Node1495 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1505 -> Node1496 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

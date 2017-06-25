@@ -1,0 +1,13 @@
+digraph "CMasternodeMan::GetMasternodeByRank"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1599 [label="CMasternodeMan::GetMasternode\lByRank",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1599 -> Node1600 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1600 [label="CMasternodeScanning\l::DoMasternodePOSChecks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/class_c_masternode_scanning.html#a6bc18fb7508f702e2a2d1c3731342f8f"];
+  Node1599 -> Node1601 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1601 [label="CStashedSendRelay::\lRelayThroughNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d25/class_c_stashed_send_relay.html#a3e759315bdccb63c1810582eeffa080e"];
+  Node1601 -> Node1602 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1602 [label="CStashedSendRelay::\lRelay",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d25/class_c_stashed_send_relay.html#a1466672b4c8f26d5cef789ea42388718"];
+}

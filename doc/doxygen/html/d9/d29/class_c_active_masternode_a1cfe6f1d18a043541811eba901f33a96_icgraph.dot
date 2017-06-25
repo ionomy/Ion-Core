@@ -1,0 +1,13 @@
+digraph "CActiveMasternode::StopMasterNode"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node950 [label="CActiveMasternode::\lStopMasterNode",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node950 -> Node951 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node951 [label="CActiveMasternode::\lStopMasterNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#aa8221b9331dba267e222a84dd5d5b00d"];
+  Node950 -> Node952 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node952 [label="CActiveMasternode::\lCActiveMasternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#a7ffb946d1b2aad0054d3b3efce8c0543"];
+  Node950 -> Node953 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node953 [label="masternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a30609e443aeb47c29ed0878d16b1b5e1"];
+}

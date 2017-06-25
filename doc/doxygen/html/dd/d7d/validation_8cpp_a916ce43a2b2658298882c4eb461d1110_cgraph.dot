@@ -1,0 +1,11 @@
+digraph "UpdateUncommittedBlockStructures"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6179 [label="UpdateUncommittedBlockStructures",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6179 -> Node6180 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6180 [label="GetWitnessCommitmentIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#aefbbe9094bd65ee8f223534a7dfe9987"];
+  Node6179 -> Node6181 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6181 [label="IsWitnessEnabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#acb0226867d001d0edd267f2e4842bace",tooltip="Check whether witness commitments are required for block. "];
+}

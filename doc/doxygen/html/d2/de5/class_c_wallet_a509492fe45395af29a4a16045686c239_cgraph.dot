@@ -1,0 +1,11 @@
+digraph "CWallet::SendStealthMoney"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3561 [label="CWallet::SendStealthMoney",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3561 -> Node3562 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3562 [label="_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6d/ui__interface_8h.html#aad133bb6103b53cebf03fd01e2f11ba1",tooltip="Translation function: Call Translate signal on UI interface, which returns a boost::optional result..."];
+  Node3561 -> Node3563 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3563 [label="FormatMoney",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a3293aaba439017a99a494cbf39fb5681"];
+}

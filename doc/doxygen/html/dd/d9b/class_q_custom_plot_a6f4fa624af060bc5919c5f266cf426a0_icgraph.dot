@@ -1,0 +1,19 @@
+digraph "QCustomPlot::afterReplot"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node116 [label="QCustomPlot::afterReplot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node116 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node117 [label="QCustomPlot::replot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a606fd384b2a637ce2c24899bcbde77d6"];
+  Node117 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node118 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8"];
+  Node117 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node119 [label="QCustomPlot::resizeEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a13e05523a40c3f08875df5cde85cf0d9"];
+  Node117 -> Node120 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node120 [label="QCustomPlot::mouseRelease\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a724e97d2e8c03e68adac5f4b6164a1b3"];
+  Node117 -> Node121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node121 [label="QCPAxisRect::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a4baf3d5dd69166788f6ceda0ea182c6e"];
+  Node117 -> Node122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node122 [label="QCPAxisRect::wheelEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a5acf41fc30aa68ea263246ecfad85c31"];
+}

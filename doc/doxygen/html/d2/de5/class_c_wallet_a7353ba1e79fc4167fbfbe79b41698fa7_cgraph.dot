@@ -1,0 +1,17 @@
+digraph "CWallet::NewKeyPool"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2866 [label="CWallet::NewKeyPool",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2866 -> Node2867 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2867 [label="CWalletDB::ErasePool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#ac78d839fbda5164c4134ab67911139ca"];
+  Node2866 -> Node2868 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2868 [label="GetBoolArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a64d956f1dda7f9a80ab5d594532b906d",tooltip="Return boolean argument or default value. "];
+  Node2868 -> Node2869 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2869 [label="atoi",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#aa5ce96ec36f4413f820cec9c1831c070"];
+  Node2866 -> Node2870 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2870 [label="GetArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a24f685720bf40370e5bd2a192ad50cd8",tooltip="Return string argument or default value. "];
+  Node2866 -> Node2871 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2871 [label="CWalletDB::WritePool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#ad43630ad28a68c3e8b1a633f09aa0964"];
+}

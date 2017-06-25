@@ -1,0 +1,9 @@
+digraph "CMasternodeMan::Remove"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2174 [label="CMasternodeMan::Remove",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2174 -> Node2175 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2175 [label="CActiveMasternode::\lDseep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#aa14a1a9611f6b73cc3e860cda75de88c"];
+}

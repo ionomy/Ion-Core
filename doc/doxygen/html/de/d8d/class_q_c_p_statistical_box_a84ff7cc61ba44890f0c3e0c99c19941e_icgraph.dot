@@ -1,0 +1,11 @@
+digraph "QCPStatisticalBox::setMinimum"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node237 [label="QCPStatisticalBox::\lsetMinimum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node237 -> Node238 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node238 [label="QCPStatisticalBox::\lsetData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d8d/class_q_c_p_statistical_box.html#adf50c57b635edb12470c0e4a986aff37"];
+  Node237 -> Node239 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node239 [label="QCPStatisticalBox::\lclearData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d8d/class_q_c_p_statistical_box.html#a19112994449df0c20287858436cc68e3"];
+}

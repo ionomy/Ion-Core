@@ -1,0 +1,9 @@
+digraph "QCPGraph::setAdaptiveSampling"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node706 [label="QCPGraph::setAdaptiveSampling",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node706 -> Node707 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node707 [label="QCPGraph::QCPGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a0393a38cf7183cbf46348eb6cf9a5a6c"];
+}

@@ -1,0 +1,48 @@
+digraph "UpdateTip"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6123 [label="UpdateTip",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6123 -> Node6124 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6124 [label="CTxMemPool::AddTransactions\lUpdated",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d98/class_c_tx_mem_pool.html#a3039b67e5eebaa3ff830261c192816f2"];
+  Node6123 -> Node6125 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6125 [label="IsInitialBlockDownload",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a5edcd96316574fd4a7f3ae0922a5cfd6",tooltip="Check whether we are doing an initial block download (synchronizing from disk or network) ..."];
+  Node6125 -> Node6126 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6126 [label="Checkpoints::GetTotalBlocks\lEstimate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d46/namespace_checkpoints.html#ac4dc0a0ba00009be52fee3eef694c2c0"];
+  Node6126 -> Node6127 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6127 [label="TestNet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/ddb/chainparams_8h.html#abc8c1af875107f5eac0f327bd3b8363d"];
+  Node6127 -> Node6128 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6128 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/ddb/chainparams_8h.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node6127 -> Node6129 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6129 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node6125 -> Node6130 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6130 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node6125 -> Node6131 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6131 [label="CBlockIndex::GetBlockTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dbd/class_c_block_index.html#a9fe0d4463c07c466f66252e8eec25f5c"];
+  Node6125 -> Node6132 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6132 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node6125 -> Node6133 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6133 [label="fImporting",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a30436c6f8e34f6f70217dafd009f1815"];
+  Node6123 -> Node6134 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6134 [label="_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6d/ui__interface_8h.html#aad133bb6103b53cebf03fd01e2f11ba1",tooltip="Translation function: Call Translate signal on UI interface, which returns a boost::optional result..."];
+  Node6123 -> Node6135 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6135 [label="DoWarning",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a14d334be78fc6c46effb8f0320e64f1f"];
+  Node6135 -> Node6136 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6136 [label="AlertNotify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a2d6ce6d55bb4a2aceef2131aef536548"];
+  Node6136 -> Node6137 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6137 [label="GetArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a24f685720bf40370e5bd2a192ad50cd8",tooltip="Return string argument or default value. "];
+  Node6136 -> Node6138 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6138 [label="SanitizeString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ae204f01eeaadc5a85015a51f369a8356"];
+  Node6138 -> Node6139 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6139 [label="safeChars",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a6d092bd7c79da717e183a52d90e0e61f"];
+  Node6136 -> Node6140 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6140 [label="runCommand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#adf94c00a5ac719c92a2f1bb2f8b2167f"];
+  Node6123 -> Node6141 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6141 [label="ComputeBlockVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a0657e7220e2c33df7a210032ca61b7fe",tooltip="Determine what nVersion a new block should use. "];
+  Node6123 -> Node6142 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6142 [label="DateTimeStrFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a749bc6776c8ec72d7c5e4dea56aee415"];
+  Node6123 -> Node6143 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6143 [label="GuessVerificationProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#ae466f595b8c57bd7a80777c8d34dfdc2",tooltip="Guess how far we are in the verification process at the given block index. "];
+  Node6143 -> Node6131 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

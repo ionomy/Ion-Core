@@ -1,0 +1,13 @@
+digraph "QCPLineEnding::inverted"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node26 [label="QCPLineEnding::inverted",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="QCPLineEnding::setInverted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d41/class_q_c_p_line_ending.html#a580e4e2360b35ebb8d68f3494aa2335d"];
+  Node26 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="QCPAxisPainterPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dba/class_q_c_p_axis_painter_private.html#a0207a99bdf9c4f70af20928898ddc2fc"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="QCPAxis::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a258b1e783eda5cd14ec5552c696a424e"];
+}

@@ -1,0 +1,19 @@
+digraph "MultisigInputEntry::setModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node149 [label="MultisigInputEntry\l::setModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node149 -> Node150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node150 [label="MultisigDialog::setModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#ae2709a2ffd629acafa4c90811402c64a"];
+  Node150 -> Node151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node151 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node152 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node149 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="MultisigDialog::addInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a52e84a493f932da1e9e40b4c90d4e35a"];
+  Node153 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="MultisigDialog::Multisig\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#af8ff2a9f6dc05a9468d955cb428c6474"];
+  Node153 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="MultisigDialog::on\l_transaction_textChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a2412fa91c5e7ef51c229aa36388c0960"];
+}

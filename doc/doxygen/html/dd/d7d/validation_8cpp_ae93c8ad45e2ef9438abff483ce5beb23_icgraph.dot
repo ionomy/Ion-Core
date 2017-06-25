@@ -1,0 +1,17 @@
+digraph "CheckForkWarningConditionsOnNewFork"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1743 [label="CheckForkWarningConditions\lOnNewFork",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1743 -> Node1744 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1744 [label="ActivateBestChainStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a4e2b817360d39dc766271f51fc146c96",tooltip="Try to make some progress towards making pindexMostWork the active block. "];
+  Node1744 -> Node1745 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1745 [label="ActivateBestChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a81d9ced51eb72d4df66abddb00318b64",tooltip="Find the best known block, and make it the tip of the block chain. "];
+  Node1745 -> Node1746 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1746 [label="PreciousBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a04e493dc156338a1b2f457f7a7feaaa9",tooltip="Mark a block as precious and reorganize. "];
+  Node1745 -> Node1747 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1747 [label="ProcessNewBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a290fce59049c0951b8eb73f0129bf6f0",tooltip="Process an incoming block. "];
+  Node1745 -> Node1748 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1748 [label="LoadExternalBlockFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a2233339a13d09038cf2e46f4d0144be4",tooltip="Import blocks from an external file. "];
+}

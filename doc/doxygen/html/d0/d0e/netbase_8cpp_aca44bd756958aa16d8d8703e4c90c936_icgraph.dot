@@ -1,0 +1,28 @@
+digraph "LookupNumeric"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node573 [label="LookupNumeric",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node573 -> Node574 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node574 [label="OptionsDialog::eventFilter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d61/class_options_dialog.html#abf2b8046ca9bce3f2c1f04e329468983"];
+  Node573 -> Node575 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node575 [label="TorController::add\l_onion_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#a78b762c14a006b2f509261a95963ff67",tooltip="Callback for ADD_ONION result. "];
+  Node575 -> Node576 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node576 [label="TorController::auth_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#ae36bc33cb3088384517c68f71e9944ce",tooltip="Callback for AUTHENTICATE result. "];
+  Node576 -> Node577 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node577 [label="TorController::authchallenge_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#a86f1396b9f242183ffe777e0951eb997",tooltip="Callback for AUTHCHALLENGE result. "];
+  Node577 -> Node578 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node578 [label="TorController::protocolinfo_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#aee36fcd1cd60d7f4eb007d909894b1c3",tooltip="Callback for PROTOCOLINFO result. "];
+  Node578 -> Node579 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node579 [label="TorController::connected_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#a59d56a1525a08235b07dd9eadbae0d1f",tooltip="Callback after successful connection. "];
+  Node579 -> Node580 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node580 [label="TorController::TorController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#ab38d90df15a9e3f2c6e1f4f24073a64e"];
+  Node579 -> Node581 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node581 [label="TorController::Reconnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#ae5d4304836fce79574ec540c5ada8269",tooltip="Reconnect, after getting disconnected. "];
+  Node581 -> Node582 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node582 [label="TorController::reconnect_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#a2fa9614b4fa0e24c57f443b3c56f835c",tooltip="Callback for reconnect timer. "];
+  Node582 -> Node580 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node576 -> Node578 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node573 -> Node576 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

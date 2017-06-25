@@ -1,0 +1,25 @@
+digraph "CWalletTx::GetAnonymizableCredit"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node241 [label="CWalletTx::GetAnonymizable\lCredit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node241 -> Node242 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node242 [label="CWallet::IsSpent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a6adcf1c224ed3c3fe4b0b19f6fca75d8"];
+  Node241 -> Node243 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node243 [label="CWallet::IsLockedCoin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a58abc6e61537f10bfb9429587ed29074"];
+  Node241 -> Node244 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node244 [label="GetMNCollateral",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a7ecfeb5987564d84c46a6715d4c3a2df"];
+  Node241 -> Node245 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node245 [label="CWallet::GetInputStashedsend\lRounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a9a6ea9a3fe28ec7ef0ed0871647b59db"];
+  Node241 -> Node246 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node246 [label="CWallet::GetCredit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#aa60b69c7d4ea6063ed83b13d7c6fe695"];
+  Node246 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node247 [label="MoneyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d2f/amount_8h.html#a12db56a9a1c931941f0943ecbb278aae"];
+  Node246 -> Node248 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node248 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node248 -> Node249 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node249 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node248 -> Node248 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node241 -> Node247 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

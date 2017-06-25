@@ -1,0 +1,17 @@
+digraph "IonGUI::message"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node810 [label="IonGUI::message",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node810 -> Node811 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node811 [label="Notificator::notify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d97/class_notificator.html#ae08e1e7e85ddc4690f307649021f7fdc",tooltip="Show notification message. "];
+  Node811 -> Node812 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node812 [label="Notificator::notifySystray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d97/class_notificator.html#ac48ec94cd02fc4ea80db6c50e24086c1"];
+  Node812 -> Node813 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node813 [label="MacNotificationHandler\l::instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de9/class_mac_notification_handler.html#a8ba83adcb63db47e3f7a76a0afc02b9d"];
+  Node812 -> Node814 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node814 [label="MacNotificationHandler\l::showNotification",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de9/class_mac_notification_handler.html#abeb9b3a7c81397499fbb7e1d24610cd9",tooltip="shows a 10.8+ UserNotification in the UserNotificationCenter "];
+  Node814 -> Node815 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node815 [label="MacNotificationHandler\l::hasUserNotificationCenterSupport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de9/class_mac_notification_handler.html#a132cba3b7df82afd3b07ca08599b94a5",tooltip="check if OS can handle UserNotifications "];
+}

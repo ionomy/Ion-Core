@@ -1,0 +1,38 @@
+digraph "QCPGraph::QCPGraph"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QCPGraph::QCPGraph",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="QCPAbstractPlottable\l::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#ab74b09ae4c0e7e13142fe4b5bf46cac7"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPAbstractPlottable::pen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#ad5972efc31344e5a7a78ab4f8864b2d3"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPGraph::setErrorPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#abd4c7f81939e10776ea64603a704f22a"];
+  Node3 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPAbstractPlottable\l::setBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#a7a4b92144dca6453a1f0f210e27edc74"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPAbstractPlottable\l::brush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#a893b4896dfd92b68b05b2600b80f5826"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPAbstractPlottable\l::setSelectedPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#a6911603cad23ab0469b108224517516f"];
+  Node6 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPAbstractPlottable\l::setSelectedBrush",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#ae8c816874089f7a44001e8618e81a9dc"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPGraph::setLineStyle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a513fecccff5b2a50ce53f665338c60ff"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPGraph::setErrorType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#ac3614d799c3894f2bc646e99c7f73d38"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPGraph::errorType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a1efa62c4b826f34716b505b15d2b2583"];
+  Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="QCPGraph::setErrorBarSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a10f50c5495ce45ef559ec2066194a335"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="QCPGraph::setErrorBarSkip\lSymbol",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#ab1c1ee03d8dd94676a564e5e5f11aac2"];
+  Node0 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="QCPGraph::setChannelFill\lGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a2d03156df1b64037a2e36cfa50351ca3"];
+  Node0 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QCPGraph::setAdaptiveSampling",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#ab468cd600160f327836aa0644291e64c"];
+}

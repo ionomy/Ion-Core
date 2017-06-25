@@ -1,0 +1,15 @@
+digraph "CScript::SetMultisig"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1812 [label="CScript::SetMultisig",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1812 -> Node1813 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1813 [label="MultisigDialog::on\l_createAddressButton\l_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/df4/class_multisig_dialog.html#a99a1605980d9bf0a4c2426ead61aa15a"];
+  Node1812 -> Node1814 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1814 [label="_createmultisig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#aca53a9372c92e81fc665cbdeb8fcdbc5"];
+  Node1814 -> Node1815 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1815 [label="createmultisig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a10f145bcadd06025abb3b065e2fa7a84"];
+  Node1812 -> Node1816 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1816 [label="addmultisigaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a01e8a83cbd4209f10c71719383d7ca2d"];
+}

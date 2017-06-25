@@ -1,0 +1,18 @@
+digraph "prevector::end"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node258 [label="prevector::end",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node258 -> Node259 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node259 [label="prevector::item_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a59f1d7bcbc751cfa0faddd7ffa184846"];
+  Node259 -> Node260 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node260 [label="prevector::is_direct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a933e204a7e29c6bbc85479d023c00ff8"];
+  Node259 -> Node261 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node261 [label="prevector::direct_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a20150a43dd87c33f0e855a55bd3418e8"];
+  Node259 -> Node262 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node262 [label="prevector::indirect_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ae3343cc65be9fd678b4a6f8305624de6"];
+  Node258 -> Node263 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node263 [label="prevector::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a626f7d206dbc24e5610631809762758b"];
+  Node263 -> Node260 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

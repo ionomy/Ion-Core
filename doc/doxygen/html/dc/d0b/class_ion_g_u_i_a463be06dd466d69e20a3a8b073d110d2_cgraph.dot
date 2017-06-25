@@ -1,0 +1,29 @@
+digraph "IonGUI::optionsClicked"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node820 [label="IonGUI::optionsClicked",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node820 -> Node821 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node821 [label="ClientModel::getOptionsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#ae8da1e2eabfbbcc49a7eed821908bdb6"];
+  Node820 -> Node822 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node822 [label="OptionsDialog::setModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d61/class_options_dialog.html#a11e902a52cb7472497d14e70cd9399d9"];
+  Node822 -> Node823 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node823 [label="OptionsDialog::updateDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d61/class_options_dialog.html#ae18a7ab3042a669403504e86ab2f8a77"];
+  Node823 -> Node824 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node824 [label="OptionsModel::getDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a3b6e4d4ef42be3aaba315b8cd14f468e"];
+  Node824 -> Node825 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node825 [label="OptionsModel::getProxySettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a0fa582a801df3753c2c50840c40bb350"];
+  Node825 -> Node826 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node826 [label="GetProxy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0e/netbase_8cpp.html#a4e67b39fc1769663260d791d2f4d049d"];
+  Node822 -> Node827 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node827 [label="OptionsDialog::setMapper",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d61/class_options_dialog.html#a2088ec5bbb90ec27675f441e750e55b8"];
+  Node827 -> Node828 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node828 [label="MonitoredDataMapper\l::addMapping",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/db0/class_monitored_data_mapper.html#a5ddfc6ef4e955211948c7b24994dfd7e"];
+  Node828 -> Node829 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node829 [label="MonitoredDataMapper\l::addChangeMonitor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/db0/class_monitored_data_mapper.html#a1ed42b9f6daf2711ac7fe49e5e2c79ed"];
+  Node822 -> Node830 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node830 [label="OptionsDialog::showRestart\lWarning_Lang",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d61/class_options_dialog.html#a774587407dfaf9afda3740fd4a8bd7e6"];
+  Node822 -> Node831 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node831 [label="OptionsDialog::disableApply\lButton",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d61/class_options_dialog.html#ae3aaedbe95a325e88d64422b92b58d2e"];
+}

@@ -1,0 +1,44 @@
+digraph "QCP::setMarginValue"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node33 [label="QCP::setMarginValue",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="QCPLayoutElement::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a929c2ec62e0e0e1d8418eaa802e2af9b"];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="QCPLayout::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d58/class_q_c_p_layout.html#a34ab477e820537ded7bade4399c482fd"];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="QCustomPlot::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ad7a7d878bf050f101a43008e7d8fdb52"];
+  Node36 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="QCustomPlot::replot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a606fd384b2a637ce2c24899bcbde77d6"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8"];
+  Node37 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="QCustomPlot::resizeEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a13e05523a40c3f08875df5cde85cf0d9"];
+  Node37 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="QCustomPlot::mouseRelease\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a724e97d2e8c03e68adac5f4b6164a1b3"];
+  Node37 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="QCPAxisRect::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a4baf3d5dd69166788f6ceda0ea182c6e"];
+  Node37 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="QCPAxisRect::wheelEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a5acf41fc30aa68ea263246ecfad85c31"];
+  Node36 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="QCustomPlot::savePdf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#aaf05c57a72daaeebc9685b670ec57b6d"];
+  Node36 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="QCustomPlot::toPixmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#aabb974d71ce96c137dc04eb6eab844fe"];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="QCustomPlot::saveRastered",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ab528b84cf92baabe29b1d0ef2f77c93e"];
+  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="QCustomPlot::savePng",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a7636261aff1f6d25c9da749ece3fc8b8"];
+  Node45 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="QCustomPlot::saveJpg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a490c722092d1771e8ce4a7a73dfd84ab"];
+  Node45 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="QCustomPlot::saveBmp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a6629d9e8e6da4bf18055ee0257fdce9a"];
+  Node36 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="QCustomPlot::toPainter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a1be68d5c0f1e086d6374d1340a193fb9"];
+  Node35 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="QCPAxisRect::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a255080a017df9083a60a321ef2ba9ed8"];
+  Node34 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="QCPColorScale::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d2b/class_q_c_p_color_scale.html#ab8f6991ac88243fc582b44b183670334"];
+}

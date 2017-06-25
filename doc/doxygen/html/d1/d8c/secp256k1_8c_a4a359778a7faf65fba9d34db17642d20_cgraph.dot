@@ -1,0 +1,27 @@
+digraph "secp256k1_ec_pubkey_parse"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node291 [label="secp256k1_ec_pubkey\l_parse",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node291 -> Node292 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node292 [label="secp256k1_eckey_pubkey\l_parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dff/eckey_8h.html#ae0cdb1eef2dc770d70aac0ad50a35e9a"];
+  Node291 -> Node293 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node293 [label="secp256k1_pubkey_save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#aa061c9c5c861017bef990e5c4653e0f4"];
+  Node293 -> Node294 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node294 [label="secp256k1_ge_to_storage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#ad6499ae629f998e50d8614869ee3c67f",tooltip="Convert a group element to the storage type. "];
+  Node293 -> Node295 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node295 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node295 -> Node296 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node296 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node295 -> Node297 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node297 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node293 -> Node298 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node298 [label="secp256k1_ge_is_infinity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#ac83592db46af97faf7ba9b9a39a1f6ff",tooltip="Check whether a group element is the point at infinity. "];
+  Node293 -> Node299 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node299 [label="secp256k1_fe_normalize_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a2d45c987537eadb2923c93aa3af9db71",tooltip="Normalize a field element, without constant-time guarantee. "];
+  Node293 -> Node300 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node300 [label="secp256k1_fe_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#abb1017649be14b9ac1823be3c573e542",tooltip="Convert a field element to a 32-byte big endian value. "];
+  Node291 -> Node301 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node301 [label="secp256k1_ge_clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a34793cf48794f089bb28597d1a9f23b2",tooltip="Clear a secp256k1_ge to prevent leaking sensitive information. "];
+}

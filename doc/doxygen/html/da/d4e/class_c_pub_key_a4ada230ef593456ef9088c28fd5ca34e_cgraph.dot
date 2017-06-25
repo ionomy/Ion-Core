@@ -1,0 +1,35 @@
+digraph "CPubKey::CheckLowS"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node123 [label="CPubKey::CheckLowS",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node123 -> Node124 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node124 [label="ecdsa_signature_parse\l_der_lax",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d8e/pubkey_8cpp.html#acd68762de13ffb2c909fcf12acfea0fd",tooltip="This function is taken from the libsecp256k1 distribution and implements DER parsing for ECDSA signat..."];
+  Node124 -> Node125 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node125 [label="secp256k1_ecdsa_signature\l_parse_compact",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#a2aff2802eca3d15ec54298e879579897",tooltip="Parse an ECDSA signature in compact (64 bytes) format. "];
+  Node125 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node126 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node125 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node127 [label="secp256k1_ecdsa_signature_save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#a94e522f94c4819bebf8e854952eb6a8f"];
+  Node127 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node128 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node128 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node129 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node128 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node130 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node127 -> Node131 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node131 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+  Node124 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node123 -> Node132 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="secp256k1_ecdsa_signature\l_normalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#a93ec36a19229f08acc5ff1ca613ab3a1",tooltip="Convert a signature to a normalized lower-S form. "];
+  Node132 -> Node133 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 [label="secp256k1_ecdsa_signature_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#af2027241c9dfc85fa5b6a3bb5fe41d18"];
+  Node133 -> Node128 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 -> Node126 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 -> Node134 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node134 [label="secp256k1_scalar_is_high",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aab66620cbbe49bec3c7c02f4a1219c05",tooltip="Check whether a scalar is higher than the group order divided by 2. "];
+  Node132 -> Node135 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node135 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+  Node132 -> Node127 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

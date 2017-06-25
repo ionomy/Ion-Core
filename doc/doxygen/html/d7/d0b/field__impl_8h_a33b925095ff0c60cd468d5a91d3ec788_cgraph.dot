@@ -1,0 +1,13 @@
+digraph "secp256k1_fe_equal_var"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="secp256k1_fe_equal_var",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="secp256k1_fe_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4543ff08a66fc870acd56c921f2b30f7",tooltip="Set a field element equal to the additive inverse of another. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="secp256k1_fe_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a7512f80b60598e4af89c004890880fc7",tooltip="Adds a field element to another. "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="secp256k1_fe_normalizes\l_to_zero_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a67adb176b8e6efd2d2475a9d0a199e18",tooltip="Verify whether a field element represents zero i.e. "];
+}

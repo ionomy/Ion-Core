@@ -1,0 +1,15 @@
+digraph "secp256k1_ec_privkey_tweak_add"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node72 [label="secp256k1_ec_privkey\l_tweak_add",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node72 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node72 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="secp256k1_eckey_privkey\l_tweak_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dff/eckey_8h.html#a1e0abdeb32c835f0ed6f73b8eed56019"];
+  Node72 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+  Node72 -> Node76 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node76 [label="secp256k1_scalar_clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#ad8fb9bc2a828903963bf37806d8edd11",tooltip="Clear a scalar to prevent the leak of sensitive data. "];
+}

@@ -1,0 +1,39 @@
+digraph "TransactionRecord::statusUpdateNeeded"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node269 [label="TransactionRecord::\lstatusUpdateNeeded",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node269 -> Node270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node270 [label="TransactionTablePriv\l::index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/ddb/class_transaction_table_priv.html#ac692aa6aa7820e80accc971c70e0fae5"];
+  Node270 -> Node271 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node271 [label="TransactionTableModel\l::index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#af3a9a49314f80268a77a704f7f028905"];
+  Node271 -> Node272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node272 [label="IonGUI::incomingTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#acdb78c5d98fb4528bd0e9f5b9c5ad048",tooltip="Show incoming transaction notification for new transactions. "];
+  Node272 -> Node273 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node273 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node273 -> Node274 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node274 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node271 -> Node275 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node275 [label="TransactionTableModel\l::updateConfirmations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a5899d9eda6465bfb16d2846b6459567e"];
+  Node275 -> Node276 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node276 [label="WalletModel::pollBalance\lChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a51469b2d95cfd4bc0a14ee456fca7b95"];
+  Node276 -> Node277 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node277 [label="WalletModel::WalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#af50d9654d2f20e4e4f0789dcb64ad6b1"];
+  Node271 -> Node278 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node278 [label="TransactionTableModel\l::updateDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a8b73ff7d72ec2dd69790bc61bbe8575e"];
+  Node278 -> Node279 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node279 [label="TransactionTableModel\l::TransactionTableModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a6c10b7cab9804eee6df9e049a978dc62"];
+  Node270 -> Node280 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node280 [label="TransactionView::contextualMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#abe5793b86a4ea6f80a6d822ee878e646"];
+  Node280 -> Node281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node281 [label="TransactionView::TransactionView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#a0c5e8b90206b4e8b8bf68dd7e319798f"];
+  Node270 -> Node282 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node282 [label="TransactionView::computeSum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#abb2ea48a61bb12a0dda9d63952adc50e",tooltip="Compute sum of all selected transactions. "];
+  Node282 -> Node281 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node282 -> Node283 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node283 [label="TransactionView::setModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#a4920c2cd57d72eb50248948fa160c83c"];
+  Node283 -> Node273 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node282 -> Node284 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node284 [label="TransactionView::focusTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#ab6d126806467ae9dc273cbe19a7477cc"];
+}

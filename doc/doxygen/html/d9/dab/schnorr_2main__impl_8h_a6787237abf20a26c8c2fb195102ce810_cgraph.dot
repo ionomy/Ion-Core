@@ -1,0 +1,39 @@
+digraph "secp256k1_schnorr_partial_sign"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41 [label="secp256k1_schnorr_partial_sign",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="secp256k1_ecmult_gen\l_context_is_built",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/ecmult__gen_8h.html#a9a40662d6ed2cbab43dbddc25f570f97"];
+  Node41 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node41 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="secp256k1_scalar_is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a3f0ac84fe49a1c1f51212582a2c149d4",tooltip="Check whether a scalar equals zero. "];
+  Node41 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="secp256k1_pubkey_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#a9966ec041e71010d1593ae2211ffb843"];
+  Node45 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node46 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node46 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node45 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="secp256k1_ge_from_storage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a8c1e7f328284d9ba56404bb8d99bf765",tooltip="Convert a group element back from the storage type. "];
+  Node45 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="secp256k1_fe_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a5c86a65052e3b135919c00fe2233a43d",tooltip="Set a field element equal to 32-byte big endian value. "];
+  Node45 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="secp256k1_ge_set_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a34ab3d1a9a0a7ff0ed1cedff9db5f73c",tooltip="Set a group element equal to the point with given X and Y coordinates. "];
+  Node45 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="secp256k1_fe_is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a619ec4805df6cc54d70e6682ceebd098",tooltip="Verify whether a field element is zero. "];
+  Node41 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="secp256k1_schnorr_sig_sign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d84/schnorr_8h.html#ab58ca77446a7d8daff985d07d43e7175"];
+  Node41 -> Node54 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="secp256k1_schnorr_msghash\l_sha256",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dab/schnorr_2main__impl_8h.html#aceb4e15773d1a0ef0bd3b13e7339a199"];
+  Node54 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="secp256k1_sha256_initialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/secp256k1_2src_2hash_8h.html#abcb6a95ed605c2bfb19eda1ced4a8f7e"];
+  Node54 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="secp256k1_sha256_write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/secp256k1_2src_2hash_8h.html#adfccd8d918a52e1cec42ea89a4c3f8ab"];
+  Node54 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="secp256k1_sha256_finalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/secp256k1_2src_2hash_8h.html#ab88a555e2b13d6d06e20a6a459abae08"];
+}

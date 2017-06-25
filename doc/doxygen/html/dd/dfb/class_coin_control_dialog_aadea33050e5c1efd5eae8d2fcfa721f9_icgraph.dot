@@ -1,0 +1,20 @@
+digraph "CoinControlDialog::updateView"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node622 [label="CoinControlDialog::\lupdateView",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node622 -> Node623 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node623 [label="CoinControlDialog::\lsetModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a4c34a48574814089c54f763a22f5317a"];
+  Node623 -> Node624 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node624 [label="SendCoinsDialog::coinControl\lButtonClicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a59d757d9e4bea5b380eb480fd79cfb49"];
+  Node624 -> Node625 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node625 [label="SendCoinsDialog::SendCoins\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a0df5bc29d1df68eda44826651afc595f"];
+  Node622 -> Node626 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node626 [label="CoinControlDialog::\lradioTreeMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a1990d478f3ffba666c358a4f1bd395ec"];
+  Node626 -> Node627 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node627 [label="CoinControlDialog::\lCoinControlDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a0945e59c25f956fdab199dbaf252eff5"];
+  Node622 -> Node628 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node628 [label="CoinControlDialog::\lradioListMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a775c6d290cb63667a434b09072094533"];
+  Node628 -> Node627 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

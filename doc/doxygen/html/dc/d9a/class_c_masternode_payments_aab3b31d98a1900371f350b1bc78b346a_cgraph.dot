@@ -1,0 +1,11 @@
+digraph "CMasternodePayments::CalculateScore"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node335 [label="CMasternodePayments\l::CalculateScore",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node335 -> Node336 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node336 [label="Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dfb/hash_8h.html#ab3f6c437460137530d86e09c2c102e99"];
+  Node335 -> Node337 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node337 [label="base_uint::Get64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#aae5336be1799bd2debf74efb1d2cc542"];
+}

@@ -1,0 +1,38 @@
+digraph "SendCoinsDialog::updateTabsAndLabels"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1841 [label="SendCoinsDialog::updateTabs\lAndLabels",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1841 -> Node1842 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1842 [label="SendCoinsDialog::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a127bddff45f49ff5e6e263efe218ae26"];
+  Node1842 -> Node1843 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1843 [label="SendCoinsDialog::SendCoins\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a0df5bc29d1df68eda44826651afc595f"];
+  Node1842 -> Node1844 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1844 [label="SendCoinsDialog::reject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a4879553d77d29f522ac92ac04580f4ad"];
+  Node1842 -> Node1845 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1845 [label="SendCoinsDialog::accept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#af2185c3d29e43d37c30669f0def46060"];
+  Node1845 -> Node1846 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1846 [label="SendCoinsDialog::send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#afd8d436a16ea7dba1276e8fdfdc8b2d3"];
+  Node1846 -> Node1847 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1847 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+  Node1841 -> Node1848 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1848 [label="SendCoinsDialog::addEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a3d680a76b967641115c6ff2fa83fb62a"];
+  Node1848 -> Node1843 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1848 -> Node1842 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1848 -> Node1849 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1849 [label="SendCoinsDialog::removeEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#aabd82a79bd2358493f36425f1d62136b"];
+  Node1849 -> Node1848 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1848 -> Node1850 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1850 [label="SendCoinsDialog::setAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a920b2dbf121ca3cfac2adc56e96295f8"];
+  Node1848 -> Node1851 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1851 [label="SendCoinsDialog::pasteEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a4440d15ced5d217baaad33a17d56b409"];
+  Node1851 -> Node1852 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1852 [label="SendCoinsDialog::handleURI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a0b55c56582d3352734eb01e8a6f404c1"];
+  Node1852 -> Node1853 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1853 [label="IonGUI::dropEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a42edcabd719877fa223bfc4ce1004950"];
+  Node1852 -> Node1854 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1854 [label="IonGUI::handleURI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a96c92e010ff8af010b4053c09128a273"];
+  Node1841 -> Node1849 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1841 -> Node1851 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

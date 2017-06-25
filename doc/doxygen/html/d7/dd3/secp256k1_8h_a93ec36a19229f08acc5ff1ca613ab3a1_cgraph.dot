@@ -1,0 +1,26 @@
+digraph "secp256k1_ecdsa_signature_normalize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node855 [label="secp256k1_ecdsa_signature\l_normalize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node855 -> Node856 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node856 [label="secp256k1_ecdsa_signature_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#af2027241c9dfc85fa5b6a3bb5fe41d18"];
+  Node856 -> Node857 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node857 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node857 -> Node858 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node858 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node857 -> Node859 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node859 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node856 -> Node860 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node860 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node855 -> Node861 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node861 [label="secp256k1_scalar_is_high",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aab66620cbbe49bec3c7c02f4a1219c05",tooltip="Check whether a scalar is higher than the group order divided by 2. "];
+  Node855 -> Node862 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node862 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+  Node855 -> Node863 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node863 [label="secp256k1_ecdsa_signature_save",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#a94e522f94c4819bebf8e854952eb6a8f"];
+  Node863 -> Node857 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node863 -> Node864 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node864 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+}

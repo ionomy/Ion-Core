@@ -1,0 +1,9 @@
+digraph "ConnectTrace::ConnectTrace"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ConnectTrace::ConnectTrace",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ConnectTrace::NotifyEntry\lRemoved",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d05/class_connect_trace.html#a1c032cc7f55eb3185f43c8e29d33b88d"];
+}

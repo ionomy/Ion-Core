@@ -1,0 +1,38 @@
+digraph "CStashedsendPool::NewBlock"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1925 [label="CStashedsendPool::NewBlock",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1925 -> Node1926 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1926 [label="LogPrint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#aab1f837a2366f424bdc996fdf6352171"];
+  Node1926 -> Node1927 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1927 [label="LogAcceptCategory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a343d2a13efe00125f78d25dafb0a8d98"];
+  Node1926 -> Node1928 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1928 [label="LogPrintStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#afd4c3002b2797c0560adddb6af3ca1da"];
+  Node1928 -> Node1929 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1929 [label="DebugPrintInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a751ff5f21d880737811136b5e0bcea12"];
+  Node1929 -> Node1930 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1930 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab83866a054745d4b30a3948a1b44beba"];
+  Node1930 -> Node1931 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1931 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node1930 -> Node1932 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1932 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node1930 -> Node1933 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1933 [label="GetDefaultDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab272995de020a3bcbf743be630e485c6"];
+  Node1930 -> Node1934 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1934 [label="CChainParams::DataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a959488b5d8e6fe62857940b831d73a78"];
+  Node1928 -> Node1930 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1928 -> Node1935 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1935 [label="DateTimeStrFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a749bc6776c8ec72d7c5e4dea56aee415"];
+  Node1928 -> Node1936 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1936 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node1925 -> Node1936 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1925 -> Node1937 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1937 [label="CStashedsendPool::CheckTimeout",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#a7dce210797c3c963dc7223b360818b64"];
+  Node1937 -> Node1926 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1937 -> Node1938 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1938 [label="GetTimeMillis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a139d0fe6387b9e230a9b8bb12d9b43b9"];
+  Node1937 -> Node1939 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1939 [label="_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6d/ui__interface_8h.html#aad133bb6103b53cebf03fd01e2f11ba1",tooltip="Translation function: Call Translate signal on UI interface, which returns a boost::optional result..."];
+}

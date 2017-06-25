@@ -1,0 +1,26 @@
+digraph "CBlock::ToString"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2137 [label="CBlock::ToString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2137 -> Node2138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2138 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node2138 -> Node2139 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2139 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node2139 -> Node2140 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2140 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node2138 -> Node2141 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2141 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node2137 -> Node2142 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2142 [label="CheckWork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d13/miner_8h.html#aadd8a05aa6d8fae1c0f4daa5e971a12a",tooltip="Check mined proof-of-work block. "];
+  Node2142 -> Node2143 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2143 [label="getworkex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#aa40f86dc468a3f2ef4a3bba99e20a069"];
+  Node2142 -> Node2144 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2144 [label="getwork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#a356be62c93d38267a7da9e1cb644d547"];
+  Node2137 -> Node2145 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2145 [label="CheckStake",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d13/miner_8h.html#a68be4bcfa03b86095641eac5ca996fed",tooltip="Check mined proof-of-stake block. "];
+  Node2145 -> Node2146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2146 [label="ThreadStakeMiner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de3/miner_8cpp.html#a31faece5ef0e403969b3d3debd79b352"];
+  Node2146 -> Node2138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

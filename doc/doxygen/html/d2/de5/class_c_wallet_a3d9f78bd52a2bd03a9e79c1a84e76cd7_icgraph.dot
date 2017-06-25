@@ -1,0 +1,47 @@
+digraph "CWallet::GetDenominatedBalance"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1604 [label="CWallet::GetDenominatedBalance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1604 -> Node1605 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1605 [label="OverviewPage::updateStashedsend\lProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#acf4dda06d83173e5c701f4953c6a09aa"];
+  Node1605 -> Node1606 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1606 [label="OverviewPage::setBalance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a070a269ea7c7aacf129e6325fcd8343a"];
+  Node1606 -> Node1607 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1607 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node1607 -> Node1608 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1608 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node1608 -> Node1609 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1609 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1606 -> Node1610 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1610 [label="OverviewPage::updateDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a03f19b9afd9af4b72d9bba7b0c7cf900"];
+  Node1610 -> Node1607 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1605 -> Node1611 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1611 [label="OverviewPage::stashedSend\lStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#ac6d1b3475132a87b31c1510014e4d0e7"];
+  Node1611 -> Node1612 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1612 [label="OverviewPage::OverviewPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a18c1a29cab6b745b25e701b20f234932"];
+  Node1611 -> Node1613 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1613 [label="OverviewPage::~OverviewPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a7fd68a7bebc327e3bbef2226b41298aa"];
+  Node1611 -> Node1614 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1614 [label="OverviewPage::stashedsend\lReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a6b87c065c31ccd136f541edd3bb73134"];
+  Node1614 -> Node1607 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1604 -> Node1615 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1615 [label="CStashedsendPool::DoAutomatic\lDenominating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#a21f19df4854af34c8f89187c768a524f",tooltip="Passively run Stashedsend in the background according to the configuration in settings (only for QT) ..."];
+  Node1615 -> Node1616 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1616 [label="OverviewPage::stashedsendAuto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#abf60d7de5f283687a914b487dc44ca76"];
+  Node1616 -> Node1607 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1615 -> Node1617 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1617 [label="stashedsend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a5a7cb1ad55aeaa8bcbb5172e9153a75a"];
+  Node1615 -> Node1618 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1618 [label="ThreadCheckStashedSendPool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dbc/stashedsend_8h.html#ab583ddc86effded8432ea5387f77d883"];
+  Node1618 -> Node1619 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1619 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node1619 -> Node1620 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1620 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node1620 -> Node1621 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1621 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1619 -> Node1609 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1618 -> Node1622 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1622 [label="CStashedsendPool::IsSession\lReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#acb903e97bacd0ecf2f1c3c0d82e6641c",tooltip="Do we have enough users to take entries? "];
+}

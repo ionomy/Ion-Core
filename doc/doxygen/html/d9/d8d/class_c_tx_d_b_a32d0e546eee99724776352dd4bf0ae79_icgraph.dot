@@ -1,0 +1,11 @@
+digraph "CTxDB::ReadDiskTx"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node497 [label="CTxDB::ReadDiskTx",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node497 -> Node498 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node498 [label="CTxDB::WriteVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8d/class_c_tx_d_b.html#aa30dbf235b1c229896097e1eb1ea9520"];
+  Node497 -> Node499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node499 [label="CWalletTx::AddSupporting\lTransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#a3594f3eabada273c1eb9ab25da38d204"];
+}

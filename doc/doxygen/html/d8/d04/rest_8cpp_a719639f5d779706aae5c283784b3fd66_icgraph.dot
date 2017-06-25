@@ -1,0 +1,11 @@
+digraph "TxToJSON"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node382 [label="TxToJSON",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node382 -> Node383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node383 [label="CCoin::SerializationOp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d99/struct_c_coin.html#a2a0a2532bdacb03b087b3b0a400830ec"];
+  Node382 -> Node384 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node384 [label="rest_tx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#a6a40ed64db0199226195920c9e92ac33"];
+}

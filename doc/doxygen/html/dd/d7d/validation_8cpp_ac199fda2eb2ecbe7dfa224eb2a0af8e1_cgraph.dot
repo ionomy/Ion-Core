@@ -1,0 +1,37 @@
+digraph "LoadBlockIndex"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3978 [label="LoadBlockIndex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3978 -> Node3979 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3979 [label="LoadBlockIndexDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#adc87847be035fb67de8bf116d24ab957"];
+  Node3979 -> Node3980 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3980 [label="InsertBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#af3adfd64a90ee443bfa5fe16321aa2d7",tooltip="Create a new block index entry for a given block hash. "];
+  Node3980 -> Node3981 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3981 [label="base_uint::IsNull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#a5b67cea01e9219160fe251053adc7cc7"];
+  Node3979 -> Node3982 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3982 [label="OpenBlockFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a0d81388930a4ccb6a69b9abdd1ef5097",tooltip="Open a block file (blk?????.dat) "];
+  Node3982 -> Node3983 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3983 [label="OpenDiskFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#ab2be209b59654115aac034cea8ca1b17"];
+  Node3983 -> Node3984 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3984 [label="GetBlockPosFilename",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a14ff9fb82bd3b6a8d7887f68873cdc4d",tooltip="Translation to a filesystem path. "];
+  Node3984 -> Node3985 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3985 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab83866a054745d4b30a3948a1b44beba"];
+  Node3985 -> Node3986 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3986 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node3985 -> Node3987 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3987 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node3985 -> Node3988 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3988 [label="GetDefaultDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab272995de020a3bcbf743be630e485c6"];
+  Node3985 -> Node3989 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3989 [label="CChainParams::DataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a959488b5d8e6fe62857940b831d73a78"];
+  Node3979 -> Node3990 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3990 [label="PruneBlockIndexCandidates",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a0d96b40fd4fda216d00ecb9dcab29094",tooltip="Delete all entries in setBlockIndexCandidates that are worse than the current tip. "];
+  Node3979 -> Node3991 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3991 [label="DateTimeStrFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a749bc6776c8ec72d7c5e4dea56aee415"];
+  Node3979 -> Node3992 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3992 [label="GuessVerificationProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#ae466f595b8c57bd7a80777c8d34dfdc2",tooltip="Guess how far we are in the verification process at the given block index. "];
+  Node3992 -> Node3993 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3993 [label="CBlockIndex::GetBlockTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dbd/class_c_block_index.html#a9fe0d4463c07c466f66252e8eec25f5c"];
+}

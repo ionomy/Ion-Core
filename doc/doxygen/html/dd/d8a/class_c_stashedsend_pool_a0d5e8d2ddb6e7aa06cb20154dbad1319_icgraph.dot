@@ -1,0 +1,11 @@
+digraph "CStashedsendPool::GetDenominations"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1120 [label="CStashedsendPool::GetDenominations",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1120 -> Node1121 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1121 [label="CWallet::PrepareStashedsend\lDenominate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ae7ce44a23e6cb716ea05783c04de197e"];
+  Node1121 -> Node1122 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1122 [label="CStashedsendPool::Prepare\lStashedsendDenominate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#a125ef6c48d0e9f662b5f225266afa2bc"];
+}

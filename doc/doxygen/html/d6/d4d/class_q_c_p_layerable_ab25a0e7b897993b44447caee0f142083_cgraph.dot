@@ -1,0 +1,25 @@
+digraph "QCPLayerable::setLayer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node253 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node253 -> Node254 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node254 [label="QCPLayerable::layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#a5ff4862e8c784c9f5986dbc1533ba2a4"];
+  Node253 -> Node255 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node255 [label="QCustomPlot::layer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a0a96244e7773b242ef23c32b7bdfb159"];
+  Node255 -> Node256 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node256 [label="QCPLayer::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a37806f662b50b588fb1029a14fc5ef50"];
+  Node253 -> Node257 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node257 [label="QCPLayerable::setLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#ab0d0da6d2de45a118886d2c8e16d5a54"];
+  Node257 -> Node258 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node258 [label="QCPLayerable::moveToLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#af94484cfb7cbbddb7de522e9be71d9a4"];
+  Node258 -> Node259 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node259 [label="QCPLayer::parentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a5520019787482e13857ebe631c27c3fa"];
+  Node258 -> Node256 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node258 -> Node260 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node260 [label="QCPLayer::removeChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#ac2f64ac7761650582d968d86670ef362"];
+  Node258 -> Node254 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node258 -> Node261 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node261 [label="QCPLayer::addChild",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dfe/class_q_c_p_layer.html#a57ce5e49364aa9122276d5df3b4a0ddc"];
+}

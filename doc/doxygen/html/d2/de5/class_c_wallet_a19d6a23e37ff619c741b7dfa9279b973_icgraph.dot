@@ -1,0 +1,17 @@
+digraph "CWallet::AddStealthAddress"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node100 [label="CWallet::AddStealthAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node100 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node101 [label="AddressTableModel::\laddRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a08ab9ae401a18d193f0e39551de81280"];
+  Node101 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 [label="EditAddressDialog::\lsaveCurrentRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#a8494a551799cd1f4c253e557424c206c"];
+  Node102 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node103 [label="EditAddressDialog::\laccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#ac52b71129806bccf6533d0e9441393b6"];
+  Node100 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node104 [label="getnewstealthaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a59139de50de79af3d3960ddbb5ee5340"];
+  Node100 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node105 [label="importstealthaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a4bde25c1b4a97ec6068d2808594c9820"];
+}

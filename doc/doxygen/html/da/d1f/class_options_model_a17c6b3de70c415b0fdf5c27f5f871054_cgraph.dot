@@ -1,0 +1,18 @@
+digraph "OptionsModel::OptionsModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="OptionsModel::OptionsModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="OptionsModel::Init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a0e02c341067bff7be262fede017fbea0"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="OptionsModel::setRestart\lRequired",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#af25171526a18c4746132ff199e0b1d71"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoftSetArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a9d94ca9f7c1496626992d1873e3f69df",tooltip="Set an argument if it doesn&#39;t already have a value. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="OptionsModel::addOverridden\lOption",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#ae4232e29bd4b828a96d7692deb12b343",tooltip="Add option to list of GUI options overridden through command line/config file. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoftSetBoolArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#acb3060cad083d342898b6055e43692ae",tooltip="Set a boolean argument if it doesn&#39;t already have a value. "];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

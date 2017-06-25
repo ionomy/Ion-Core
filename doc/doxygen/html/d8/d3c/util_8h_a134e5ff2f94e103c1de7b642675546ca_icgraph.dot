@@ -1,0 +1,12 @@
+digraph "WildcardMatch"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6763 [label="WildcardMatch",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6763 -> Node6764 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6764 [label="ClientAllowed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#a9ec282be04e51f5fde86d5ba98467019"];
+  Node6764 -> Node6765 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6765 [label="RPCAcceptHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#a1e6c8e04570f3b8f8a9fc49c2550f18c",tooltip="Accept and handle incoming connection. "];
+  Node6763 -> Node6763 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

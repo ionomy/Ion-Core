@@ -1,0 +1,44 @@
+digraph "secp256k1_rfc6979_hmac_sha256_generate"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node30 [label="secp256k1_rfc6979_hmac\l_sha256_generate",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="bench_rfc6979_hmac\l_sha256",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html#a6dca5af2be4140aa38f95f36baab0014"];
+  Node31 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node30 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="secp256k1_ecmult_gen\l_blind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d00/ecmult__gen__impl_8h.html#a7e41f045cb4901a4eba781966fa35abd"];
+  Node33 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="secp256k1_ecmult_gen\l_context_build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d00/ecmult__gen__impl_8h.html#afaf90b2a6554053187cdc89df0dafd21"];
+  Node30 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="nonce_function_rfc6979",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#aaeed37b3a1d669fc6031755d37a5b2c4"];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="nonce_function_test_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a2631070201e67210b08603a358e0a622"];
+  Node36 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="test_ecdsa_edge_cases",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#abbcb27d1eb13654db9b2e281ffce021e"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="run_ecdsa_edge_cases",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#ad6c8109b62ea1d0ed1b382678a2a08b1"];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node35 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="nonce_function_test\l_retry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a2643b34ae08799d0c3442f610ffe9c53"];
+  Node40 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="secp256k1_rand32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d04/testrand__impl_8h.html#afcae276b983a14e4d69501fce31c96af"];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="secp256k1_rand_bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d04/testrand__impl_8h.html#a70a3e97a30b94a77f4a59807ba01e6ba"];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="secp256k1_rand_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d04/testrand__impl_8h.html#a2e2064cdf87588f68f4ba3131f5d9353"];
+  Node42 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="secp256k1_rand_bytes_test",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d04/testrand__impl_8h.html#adf2bb4432b8c3b238d83297c067b41aa"];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="secp256k1_rand256_test",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d04/testrand__impl_8h.html#ac7dd7cc19d5d0ae9b50791656b57af7b"];
+  Node30 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="secp256k1_rand256",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d04/testrand__impl_8h.html#ac6eab6443f98bba198f7df69e658173c"];
+  Node30 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="run_rfc6979_hmac_sha256\l_tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#add06855ef2be3d3b6a4506590a7b468e"];
+  Node47 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

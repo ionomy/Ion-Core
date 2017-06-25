@@ -1,0 +1,13 @@
+digraph "SHA256Transform"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node971 [label="SHA256Transform",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node971 -> Node972 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node972 [label="FormatHashBuffers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d13/miner_8h.html#a391a5a462c3f60bbb7dbf6a09fe2e78f",tooltip="Do mining precalculation. "];
+  Node972 -> Node973 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node973 [label="getworkex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#aa40f86dc468a3f2ef4a3bba99e20a069"];
+  Node972 -> Node974 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node974 [label="getwork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#a356be62c93d38267a7da9e1cb644d547"];
+}

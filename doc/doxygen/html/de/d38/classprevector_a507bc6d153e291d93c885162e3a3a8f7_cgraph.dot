@@ -1,0 +1,46 @@
+digraph "prevector::~prevector"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node57 [label="prevector::~prevector",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node57 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="prevector::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a412f07b8bf5485dabe2fe9d6d5dfe763"];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="prevector::resize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ad2d97a45e0d2872260e868a540d31860"];
+  Node59 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="prevector::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a626f7d206dbc24e5610631809762758b"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="prevector::is_direct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a933e204a7e29c6bbc85479d023c00ff8"];
+  Node59 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="prevector::erase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a780af143deebcaaecb164fa1a2d98156"];
+  Node59 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="prevector::item_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a59f1d7bcbc751cfa0faddd7ffa184846"];
+  Node63 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="prevector::direct_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a20150a43dd87c33f0e855a55bd3418e8"];
+  Node63 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="prevector::indirect_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ae3343cc65be9fd678b4a6f8305624de6"];
+  Node59 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="prevector::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#aab7f6e13a3cac85cc340fc6b90c5365c"];
+  Node66 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="prevector::iterator\l::iterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d4b/classprevector_1_1iterator.html#ae9dd2b5e8d96f866e4b05d6b7535f285"];
+  Node66 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="prevector::capacity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a833f4c9e5c4804fb8ac57b708657af24"];
+  Node68 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="prevector::change_capacity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a0e673654d3b7d8d6f79534e17f68741a"];
+  Node69 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node70 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node70 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node69 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,11 @@
+digraph "QCPColorGradient::color"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="QCPColorGradient::color",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="QCPColorScaleAxisRectPrivate\l::updateGradientImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#a73754cab312aeaddea1bfcc67cc079ac"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="QCPColorScaleAxisRectPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#adb67bfe9057a9dd9a85f548c274e6d98"];
+}

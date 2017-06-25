@@ -1,0 +1,28 @@
+digraph "AddTimeData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="AddTimeData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="CMedianFilter::input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_c_median_filter.html#ae10cde98866b034ec73c530be4c60874"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="CMedianFilter::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_c_median_filter.html#a618073c8aa8504670182d40d7084501c"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="CMedianFilter::median",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_c_median_filter.html#ade078740cdd0555adc2e52468d090c42"];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="CMedianFilter::sorted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_c_median_filter.html#a2ec3e6107c12dc2564f0323d39ecca1e"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SetThreadPriority",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a8d620b8c9865456b925cd0eea4b2ffc1"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RenameThread",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a85fc1244e0bd3c91ee7a1c05ed10ebbb"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="abs64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a351cbd451bee96e6badbaa284ba3c614"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="HexDigit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#aa59e8a8c5a39cb5041f93bb95dd02119"];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="_",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d6d/ui__interface_8h.html#aad133bb6103b53cebf03fd01e2f11ba1",tooltip="Translation function: Call Translate signal on UI interface, which returns a boost::optional result..."];
+}

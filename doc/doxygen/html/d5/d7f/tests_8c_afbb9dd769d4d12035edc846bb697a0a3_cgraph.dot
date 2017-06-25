@@ -1,0 +1,11 @@
+digraph "test_rand_bits"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1806 [label="test_rand_bits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1806 -> Node1807 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1807 [label="secp256k1_rand32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0b/testrand_8h.html#a253bfecd8b27ee9e51ec9ae676c352be",tooltip="Generate a pseudorandom number in the range [0..2**32-1]. "];
+  Node1806 -> Node1808 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1808 [label="secp256k1_rand_bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0b/testrand_8h.html#a70a3e97a30b94a77f4a59807ba01e6ba",tooltip="Generate a pseudorandom number in the range [0..2**bits-1]. "];
+}

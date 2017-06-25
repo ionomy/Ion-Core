@@ -1,0 +1,30 @@
+digraph "CDataStream::insert"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node289 [label="CDataStream::insert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node289 -> Node290 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node290 [label="CDataStream::operator+=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a59c13d9215c13b3bb4d56a818d280dda"];
+  Node289 -> Node291 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node291 [label="CDataStream::write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#abcab3fa1be7676ffdb34908ec7c84b78"];
+  Node291 -> Node292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node292 [label="CDB::ReadAtCursor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d2e/class_c_d_b.html#aa3f7c529fd233c106dca32845b593232"];
+  Node291 -> Node293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node293 [label="CTxDB::LoadBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8d/class_c_tx_d_b.html#abcb9df0821d996f811f6604b452a26a0"];
+  Node293 -> Node294 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node294 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node294 -> Node295 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node295 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node295 -> Node296 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node296 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node294 -> Node297 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node297 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node293 -> Node298 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node298 [label="LoadBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a367f303d34b8a5501ac4d77bebab578c"];
+  Node298 -> Node294 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node293 -> Node299 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node299 [label="CTxDB::WriteVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8d/class_c_tx_d_b.html#aa30dbf235b1c229896097e1eb1ea9520"];
+  Node289 -> Node300 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node300 [label="CAccountingEntry::SetNull",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dde/class_c_accounting_entry.html#a439b044226a1e465032ce4c4580d3389"];
+}

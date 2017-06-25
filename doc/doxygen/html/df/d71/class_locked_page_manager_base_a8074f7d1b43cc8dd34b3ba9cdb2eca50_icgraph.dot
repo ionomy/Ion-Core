@@ -1,0 +1,9 @@
+digraph "LockedPageManagerBase::GetLockedPageCount"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5 [label="LockedPageManagerBase\l::GetLockedPageCount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LockedPageManagerBase\l\< MemoryPageLocker \>\l::~LockedPageManagerBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d71/class_locked_page_manager_base.html#af57e9c9ea40884e105b25415148ee1d6"];
+}

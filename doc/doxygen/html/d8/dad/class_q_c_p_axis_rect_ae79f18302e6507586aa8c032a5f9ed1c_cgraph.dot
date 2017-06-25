@@ -1,0 +1,11 @@
+digraph "QCPAxisRect::calculateAutoMargin"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node128 [label="QCPAxisRect::calculateAuto\lMargin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node128 -> Node129 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node129 [label="QCPAxisRect::updateAxesOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a6024ccdc74f5dc0e8a0fe482e5b28a20"];
+  Node128 -> Node130 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node130 [label="QCPAxis::marginSideToAxisType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#ac0a6b77bd52bec6c81cd62d167cfeba6"];
+}

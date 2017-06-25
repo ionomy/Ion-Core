@@ -1,0 +1,41 @@
+digraph "secp256k1_ecdsa_sig_recover"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node417 [label="secp256k1_ecdsa_sig\l_recover",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node417 -> Node418 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node418 [label="secp256k1_scalar_is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a3f0ac84fe49a1c1f51212582a2c149d4",tooltip="Check whether a scalar equals zero. "];
+  Node417 -> Node419 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node419 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+  Node417 -> Node420 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node420 [label="secp256k1_fe_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a5c86a65052e3b135919c00fe2233a43d",tooltip="Set a field element equal to 32-byte big endian value. "];
+  Node417 -> Node421 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node421 [label="secp256k1_fe_cmp_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#af372f2088796ef5338bb43dbb6dd5277",tooltip="Compare two field elements. "];
+  Node417 -> Node422 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node422 [label="secp256k1_fe_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a7512f80b60598e4af89c004890880fc7",tooltip="Adds a field element to another. "];
+  Node417 -> Node423 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node423 [label="secp256k1_ge_set_xo_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a3c3d9154b093bb4ed48ba55e4c28a0b5",tooltip="Set a group element (affine) equal to the point with the given X coordinate, and given oddness for Y..."];
+  Node417 -> Node424 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node424 [label="secp256k1_gej_set_ge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#ad5f813e26afb239f03e83f0e61e05498",tooltip="Set a group element (jacobian) equal to another which is given in affine coordinates. "];
+  Node417 -> Node425 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node425 [label="secp256k1_scalar_inverse_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a58e84d0cabe81139df5c71759f833855",tooltip="Compute the inverse of a scalar (modulo the group order), without constant-time guarantee. "];
+  Node417 -> Node426 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node426 [label="secp256k1_scalar_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a89db15f705c8eafcd10c08181523acd0",tooltip="Multiply two scalars (modulo the group order). "];
+  Node417 -> Node427 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node427 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+  Node417 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node428 [label="secp256k1_ecmult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d94/ecmult_8h.html#aacf8b6ba48671daf24d549adb176366c",tooltip="Double multiply: R = na*A + ng*G. "];
+  Node417 -> Node429 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node429 [label="secp256k1_ge_set_gej_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#aea803cf52c0f33c2cb3bfb82d5790d71"];
+  Node429 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node430 [label="secp256k1_fe_inv_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a0090ecfb39b34a8965cc16ae1feca5aa",tooltip="Potentially faster version of secp256k1_fe_inv, without constant-time guarantee. "];
+  Node429 -> Node431 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node431 [label="secp256k1_fe_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a6cbe550ca5eb35e683b1c8d68d8de26b",tooltip="Sets a field element to be the square of another. "];
+  Node429 -> Node432 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node432 [label="secp256k1_fe_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a542b97d2574d9687c563d002587cf9a2",tooltip="Sets a field element to be the product of two others. "];
+  Node429 -> Node433 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node433 [label="secp256k1_fe_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4bfba9980b6d6960ad623f1ddbbc547e",tooltip="Set a field element equal to a small integer. "];
+  Node417 -> Node434 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node434 [label="secp256k1_gej_is_infinity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a33786d5853579c92d46fac51f6a40093",tooltip="Check whether a group element is the point at infinity. "];
+}

@@ -1,0 +1,19 @@
+digraph "blockToJSON"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="blockToJSON",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="CCoin::SerializationOp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d99/struct_c_coin.html#a2a0a2532bdacb03b087b3b0a400830ec"];
+  Node24 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="rest_block",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#a99e4aae76e1b90f996cf7c24b5281464"];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="rest_block_extended",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#af08858ee3c5d6236db44a62c423e0c0e"];
+  Node26 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="rest_block_notxdetails",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d04/rest_8cpp.html#acf422a3f71f1fd9963d6c65517bbb654"];
+  Node24 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="getblock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d47/rpcblockchain_8cpp.html#a63608cf1bb275120194c3b4e070af3d7"];
+  Node24 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="getblockbynumber",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d47/rpcblockchain_8cpp.html#a4039f7b3e313c63b81c98e3fc479a117"];
+}

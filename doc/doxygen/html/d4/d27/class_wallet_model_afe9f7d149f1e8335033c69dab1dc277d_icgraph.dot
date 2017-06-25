@@ -1,0 +1,20 @@
+digraph "WalletModel::getTransactionTableModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node715 [label="WalletModel::getTransaction\lTableModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node715 -> Node716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node716 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node716 -> Node717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node717 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node715 -> Node718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node718 [label="IonGUI::incomingTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#acdb78c5d98fb4528bd0e9f5b9c5ad048",tooltip="Show incoming transaction notification for new transactions. "];
+  Node718 -> Node716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node715 -> Node719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node719 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node719 -> Node716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node715 -> Node720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node720 [label="TransactionView::setModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#a4920c2cd57d72eb50248948fa160c83c"];
+  Node720 -> Node716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

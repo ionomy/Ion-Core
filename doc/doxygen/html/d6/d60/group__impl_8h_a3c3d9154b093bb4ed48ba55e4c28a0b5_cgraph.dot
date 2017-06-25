@@ -1,0 +1,25 @@
+digraph "secp256k1_ge_set_xo_var"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node139 [label="secp256k1_ge_set_xo_var",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node139 -> Node140 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node140 [label="secp256k1_ge_set_xquad_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#a767d4255b822bcd84f84d9b440b3af86"];
+  Node140 -> Node141 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node141 [label="secp256k1_fe_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a6cbe550ca5eb35e683b1c8d68d8de26b",tooltip="Sets a field element to be the square of another. "];
+  Node140 -> Node142 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node142 [label="secp256k1_fe_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a542b97d2574d9687c563d002587cf9a2",tooltip="Sets a field element to be the product of two others. "];
+  Node140 -> Node143 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node143 [label="secp256k1_fe_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4bfba9980b6d6960ad623f1ddbbc547e",tooltip="Set a field element equal to a small integer. "];
+  Node140 -> Node144 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node144 [label="secp256k1_fe_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a7512f80b60598e4af89c004890880fc7",tooltip="Adds a field element to another. "];
+  Node140 -> Node145 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node145 [label="secp256k1_fe_sqrt_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#adeed9551ce946187f98c5e3d789e9575",tooltip="If a has a square root, it is computed in r and 1 is returned. "];
+  Node139 -> Node146 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="secp256k1_fe_normalize_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a2d45c987537eadb2923c93aa3af9db71",tooltip="Normalize a field element, without constant-time guarantee. "];
+  Node139 -> Node147 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="secp256k1_fe_is_odd",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4657d3eea1cc59c7a20cc2d19663bf02",tooltip="Check the \"oddness\" of a field element. "];
+  Node139 -> Node148 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="secp256k1_fe_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4543ff08a66fc870acd56c921f2b30f7",tooltip="Set a field element equal to the additive inverse of another. "];
+}

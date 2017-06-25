@@ -1,0 +1,25 @@
+digraph "secp256k1_gej_double_nonzero"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node215 [label="secp256k1_gej_double\l_nonzero",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node215 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node216 [label="secp256k1_gej_is_infinity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#a33786d5853579c92d46fac51f6a40093"];
+  Node215 -> Node217 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 [label="secp256k1_gej_double_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#a033aa434a4d0838f649ad757dd44db46"];
+  Node217 -> Node218 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node218 [label="secp256k1_fe_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4bfba9980b6d6960ad623f1ddbbc547e",tooltip="Set a field element equal to a small integer. "];
+  Node217 -> Node219 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node219 [label="secp256k1_fe_normalize_weak",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a0aaec7df2f708a451a8e1f41a943d8b1",tooltip="Weakly normalize a field element: reduce it magnitude to 1, but don&#39;t fully normalize. "];
+  Node217 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node220 [label="secp256k1_fe_mul_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a3f7b55267ed0d5135530283da6314416",tooltip="Multiplies the passed field element with a small integer constant. "];
+  Node217 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node221 [label="secp256k1_fe_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a542b97d2574d9687c563d002587cf9a2",tooltip="Sets a field element to be the product of two others. "];
+  Node217 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node222 [label="secp256k1_fe_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a6cbe550ca5eb35e683b1c8d68d8de26b",tooltip="Sets a field element to be the square of another. "];
+  Node217 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node223 [label="secp256k1_fe_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a4543ff08a66fc870acd56c921f2b30f7",tooltip="Set a field element equal to the additive inverse of another. "];
+  Node217 -> Node224 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node224 [label="secp256k1_fe_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a7512f80b60598e4af89c004890880fc7",tooltip="Adds a field element to another. "];
+}

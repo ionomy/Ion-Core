@@ -1,0 +1,11 @@
+digraph "QCPItemText::text"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node154 [label="QCPItemText::text",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node154 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="QCPItemText::setText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#a3dacdda0ac88f99a05b333b977c48747"];
+  Node155 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 [label="QCPItemText::QCPItemText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#a77ff96a2972a00872ff8f8c67143abbe"];
+}

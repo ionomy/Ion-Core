@@ -1,0 +1,33 @@
+digraph "QCPLayoutElement::elements"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node37 [label="QCPLayoutElement::elements",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="QCPLayoutElement::parent\lPlotInitialized",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a1478899e80e8244b411e96ec3b2e5ce2"];
+  Node37 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="QCustomPlot::axisRects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a12af771429e2d7e313c8c5d5fca068fe"];
+  Node39 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="QCPAbstractItem::QCPAbstractItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d6a/class_q_c_p_abstract_item.html#a9922507d8b4503a1fe1ed0b1030e23b6"];
+  Node39 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="QCustomPlot::axisRectCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a8f85940aaac50efb466287d9d2d04ec6"];
+  Node39 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="QCustomPlot::axisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ae5eefcb5f6ca26689b1fd4f6e25b42f9"];
+  Node42 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="QCPAbstractItem::createPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d6a/class_q_c_p_abstract_item.html#a75036d39c4d4e2e1a7dd145fff915d32"];
+  Node39 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="QCustomPlot::selectedAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a7e6b07792b1cb2c31681596582d14dbe"];
+  Node39 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="QCustomPlot::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ad86528f2cee6c7e446dea4a6e8839935"];
+  Node37 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="QCustomPlot::layoutElementAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#afaa1d304e0287d140fd238e90889ef3c"];
+  Node46 -> Node47 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="QCustomPlot::mouseDouble\lClickEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a77591913a5b543bdc465dd5e08325a49"];
+  Node46 -> Node48 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="QCustomPlot::mousePressEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#abce84fa2c71e47b9295d67e8fce84bb4"];
+  Node46 -> Node49 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="QCustomPlot::wheelEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a7b8bd7e8d3a1d23a8595e9c6a6b76ef1"];
+  Node37 -> Node50 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="QCustomPlot::selectedLegends",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ac87624ddff1cbf4064781a8e8ae321c4"];
+}

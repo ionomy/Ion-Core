@@ -1,0 +1,43 @@
+digraph "WalletModel::getUnconfirmedBalance"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node721 [label="WalletModel::getUnconfirmed\lBalance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node721 -> Node722 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node722 [label="CWallet::GetUnconfirmedBalance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a6e6e1497535d499242c2f2a76d1cbe63"];
+  Node722 -> Node723 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node723 [label="IsFinalTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#adc332cd7ac94e639bb4239618341be19"];
+  Node723 -> Node724 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node724 [label="GetAdjustedTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a09f81b9c7650f898cf3cf305b87547e6"];
+  Node724 -> Node725 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node725 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node724 -> Node726 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node726 [label="GetTimeOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a50ca5344c75631267633f15cfe5e983e"];
+  Node722 -> Node727 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node727 [label="CWalletTx::IsTrusted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#a71efb0d5b5def8ae00a1d74b8741bfcb"];
+  Node727 -> Node723 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node727 -> Node728 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node728 [label="CWallet::GetWalletTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ac496716bb889a5934fa27398aeb2330a"];
+  Node727 -> Node729 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node729 [label="CWallet::IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a4eada57edc1c443564b8cc9b853d955c"];
+  Node729 -> Node730 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node730 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node730 -> Node731 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node731 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node730 -> Node730 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node722 -> Node732 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 [label="CMerkleTx::GetDepthInMain\lChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dff/class_c_merkle_tx.html#a887a9f1a0b7fc64b43e42cec76b38ef9"];
+  Node732 -> Node733 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node733 [label="CTxMemPool::exists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d98/class_c_tx_mem_pool.html#a8b7a13b5289ab839d4460f41a7da9789"];
+  Node733 -> Node734 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node734 [label="CTxMemPool::lookup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d98/class_c_tx_mem_pool.html#ad6d9966cdeb4b6586f7186e709b4e77e"];
+  Node722 -> Node735 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node735 [label="CWalletTx::GetAvailableCredit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#af3c82ba365c720dd3d929b86bf432ef6"];
+  Node735 -> Node736 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node736 [label="CWallet::GetCredit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#aa60b69c7d4ea6063ed83b13d7c6fe695"];
+  Node736 -> Node737 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node737 [label="MoneyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d2f/amount_8h.html#a12db56a9a1c931941f0943ecbb278aae"];
+  Node736 -> Node730 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node735 -> Node737 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

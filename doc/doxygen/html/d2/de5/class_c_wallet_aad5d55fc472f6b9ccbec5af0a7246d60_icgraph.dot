@@ -1,0 +1,11 @@
+digraph "CWallet::SendMoneyToDestination"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3558 [label="CWallet::SendMoneyToDestination",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3558 -> Node3559 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3559 [label="sendtoaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a134064858f9cfa4775a6ae34cac2b133"];
+  Node3558 -> Node3560 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3560 [label="sendfrom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a845eaefd9ec7752b1145c183205524d0"];
+}

@@ -1,0 +1,22 @@
+digraph "secp256k1_ecmult_odd_multiples_table_globalz_windowa"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node57 [label="secp256k1_ecmult_odd\l_multiples_table_globalz\l_windowa",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node57 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="secp256k1_ecmult_odd\l_multiples_table",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d17/ecmult__impl_8h.html#a5008191228d03c7325ea86aa8baaf4dc",tooltip="Fill a table &#39;prej&#39; with precomputed odd multiples of a. "];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="secp256k1_gej_double_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a033aa434a4d0838f649ad757dd44db46",tooltip="Set r equal to the double of a. "];
+  Node58 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="secp256k1_ge_set_gej_zinv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d60/group__impl_8h.html#a6492f6aad16e545239c0ec52780d2e1f"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="secp256k1_fe_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a6cbe550ca5eb35e683b1c8d68d8de26b",tooltip="Sets a field element to be the square of another. "];
+  Node60 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="secp256k1_fe_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a542b97d2574d9687c563d002587cf9a2",tooltip="Sets a field element to be the product of two others. "];
+  Node58 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="secp256k1_gej_add_ge_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a4d0338f50b08d082caa32f8e72707b55",tooltip="Set r equal to the sum of a and b (with b given in affine coordinates). "];
+  Node58 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="secp256k1_ge_globalz\l_set_table_gej",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a5391d63ab98be9202d5f14611133fe35",tooltip="Bring a batch inputs given in jacobian coordinates (with known z-ratios) to the same global z \"denomi..."];
+}

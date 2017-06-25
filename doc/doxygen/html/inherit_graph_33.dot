@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="CBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d51/class_c_block.html",tooltip="Nodes collect new transactions into a block, hash them into a hash tree, and scan through nonce value..."];
+}

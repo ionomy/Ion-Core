@@ -1,0 +1,11 @@
+digraph "CNode::Ban"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node316 [label="CNode::Ban",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node316 -> Node317 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node317 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node316 -> Node318 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node318 [label="GetArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a24f685720bf40370e5bd2a192ad50cd8",tooltip="Return string argument or default value. "];
+}

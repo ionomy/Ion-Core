@@ -1,0 +1,17 @@
+digraph "QCustomPlot::replot"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node661 [label="QCustomPlot::replot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node661 -> Node662 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node662 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8"];
+  Node661 -> Node663 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node663 [label="QCustomPlot::resizeEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a13e05523a40c3f08875df5cde85cf0d9"];
+  Node661 -> Node664 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node664 [label="QCustomPlot::mouseRelease\lEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a724e97d2e8c03e68adac5f4b6164a1b3"];
+  Node661 -> Node665 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node665 [label="QCPAxisRect::mouseMoveEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a4baf3d5dd69166788f6ceda0ea182c6e"];
+  Node661 -> Node666 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node666 [label="QCPAxisRect::wheelEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a5acf41fc30aa68ea263246ecfad85c31"];
+}

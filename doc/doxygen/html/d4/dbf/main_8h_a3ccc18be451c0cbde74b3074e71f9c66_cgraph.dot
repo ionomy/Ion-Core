@@ -1,0 +1,23 @@
+digraph "FutureDrift"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node713 [label="FutureDrift",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node713 -> Node714 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node714 [label="IsProtocolV1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a550f7654063538773e60d3a02920f811"];
+  Node714 -> Node715 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node715 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node714 -> Node716 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node716 [label="CChainParams::Fork1Height",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#ab7ed2f3037e01263a94580bb69b92eff"];
+  Node713 -> Node717 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node717 [label="FutureDriftV1",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#afa870d277e659681850c076130320f04"];
+  Node717 -> Node718 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node718 [label="IsDriftReduced",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a1cef13aaf6041e80dc001abdaa59d7b5"];
+  Node718 -> Node715 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node718 -> Node719 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node719 [label="CChainParams::Fork1Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a58ca2975b0b48604cd7c30d8a8e3660a"];
+  Node717 -> Node720 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node720 [label="FutureDriftV2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a8ee438ddf693ec1d68339a306a0b4d30"];
+  Node713 -> Node720 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,21 @@
+digraph "TransactionTableModel::updateAmountColumnTitle"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1284 [label="TransactionTableModel\l::updateAmountColumnTitle",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1284 -> Node1285 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1285 [label="IonUnits::getAmountColumn\lTitle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#ab76cc8dbce0ff2330495904857452d8f",tooltip="Gets title for amount column including current display unit if optionsModel reference available */..."];
+  Node1285 -> Node1286 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1286 [label="IonUnits::valid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a23c5b1306ed473dbb2375a6675a2ce13",tooltip="Is unit ID valid? "];
+  Node1285 -> Node1287 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1287 [label="IonUnits::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a5bb4881389b09aeeb0bc235e87e0a42f",tooltip="Short name. "];
+  Node1284 -> Node1288 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1288 [label="WalletModel::getOptionsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a96d53e56b3f8f07537ea2523f7a7d300"];
+  Node1284 -> Node1289 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1289 [label="OptionsModel::getDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a3b6e4d4ef42be3aaba315b8cd14f468e"];
+  Node1289 -> Node1290 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1290 [label="OptionsModel::getProxySettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a0fa582a801df3753c2c50840c40bb350"];
+  Node1290 -> Node1291 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1291 [label="GetProxy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0e/netbase_8cpp.html#a4e67b39fc1769663260d791d2f4d049d"];
+}

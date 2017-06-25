@@ -1,0 +1,9 @@
+digraph "QCPItemText::padding"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node78 [label="QCPItemText::padding",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node78 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node79 [label="QCPItemText::setPadding",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#aeea8a3e01f135f9dd0bb08f51db66310"];
+}

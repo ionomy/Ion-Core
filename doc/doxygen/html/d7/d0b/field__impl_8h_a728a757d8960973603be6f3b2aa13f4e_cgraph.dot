@@ -1,0 +1,33 @@
+digraph "secp256k1_fe_inv_all_var"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node12 [label="secp256k1_fe_inv_all_var",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="secp256k1_fe_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a542b97d2574d9687c563d002587cf9a2",tooltip="Sets a field element to be the product of two others. "];
+  Node12 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="secp256k1_fe_inv_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d0b/field__impl_8h.html#a0090ecfb39b34a8965cc16ae1feca5aa"];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="secp256k1_fe_inv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d0b/field__impl_8h.html#a3a071aa04ce0d88003b059c0a8ee0c0e"];
+  Node15 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="secp256k1_fe_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a6cbe550ca5eb35e683b1c8d68d8de26b",tooltip="Sets a field element to be the square of another. "];
+  Node15 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="secp256k1_fe_normalize_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a2d45c987537eadb2923c93aa3af9db71",tooltip="Normalize a field element, without constant-time guarantee. "];
+  Node14 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="secp256k1_fe_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#abb1017649be14b9ac1823be3c573e542",tooltip="Convert a field element to a 32-byte big endian value. "];
+  Node14 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="secp256k1_num_set_bin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#a4a7f500a93d330df44bbe3adda388868",tooltip="Set a number to the value of a binary big-endian string. "];
+  Node14 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="secp256k1_num_mod_inverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#a96a66a341ddf203e7dbf85d1cca1c178",tooltip="Compute a modular inverse. "];
+  Node14 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="secp256k1_num_get_bin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#aada7ead84b86388284323f31b9d05bca",tooltip="Convert a number&#39;s absolute value to a binary big-endian string. "];
+  Node14 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="secp256k1_fe_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a5c86a65052e3b135919c00fe2233a43d",tooltip="Set a field element equal to 32-byte big endian value. "];
+  Node14 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="secp256k1_fe_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a7512f80b60598e4af89c004890880fc7",tooltip="Adds a field element to another. "];
+  Node14 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="secp256k1_fe_normalizes\l_to_zero_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a67adb176b8e6efd2d2475a9d0a199e18",tooltip="Verify whether a field element represents zero i.e. "];
+}

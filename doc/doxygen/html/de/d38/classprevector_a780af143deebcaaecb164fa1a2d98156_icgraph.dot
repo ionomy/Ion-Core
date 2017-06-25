@@ -1,0 +1,21 @@
+digraph "prevector::erase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node266 [label="prevector::erase",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node266 -> Node267 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node267 [label="prevector::resize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ad2d97a45e0d2872260e868a540d31860"];
+  Node267 -> Node268 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node268 [label="prevector::prevector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a0c428e879c43daac251d6fbbc2ab7b54"];
+  Node267 -> Node269 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node269 [label="prevector::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a325af27672f21e7f2a01d8cdae7abba8"];
+  Node267 -> Node270 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node270 [label="prevector::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a412f07b8bf5485dabe2fe9d6d5dfe763"];
+  Node270 -> Node271 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node271 [label="prevector::assign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#aecbf4de43de23c1b01a2e39bf974f14e"];
+  Node270 -> Node272 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node272 [label="prevector::~prevector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a507bc6d153e291d93c885162e3a3a8f7"];
+  Node266 -> Node273 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node273 [label="prevector::pop_back",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a14e92ae67d4f110c66fe8c430f44a027"];
+}

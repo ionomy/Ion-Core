@@ -1,0 +1,21 @@
+digraph "InitError"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node966 [label="InitError",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node966 -> Node967 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node967 [label="Bind",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc9/init_8cpp.html#a9a9b0573392f737da5951ceef838bb49"];
+  Node967 -> Node968 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node968 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node968 -> Node969 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node969 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node969 -> Node970 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node970 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node968 -> Node971 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node971 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node966 -> Node972 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node972 [label="InitSanityCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc9/init_8cpp.html#a878797b40fb8eb0d7f330a41d7742d11",tooltip="Sanity checks Ensure that Ion is running in a usable environment with all necessary library support..."];
+  Node972 -> Node968 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node966 -> Node968 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

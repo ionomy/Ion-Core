@@ -1,0 +1,28 @@
+digraph "QCPBarsGroup::bars"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node18 [label="QCPBarsGroup::bars",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="QCPBarsGroup::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d76/class_q_c_p_bars_group.html#a3ddf23928c6cd89530bd34ab7ba7b177"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="QCPBarsGroup::~QCPBarsGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d76/class_q_c_p_bars_group.html#adb9475bcb6a5f18c8918e17d939d8dbd"];
+  Node18 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="QCPBarsGroup::append",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d76/class_q_c_p_bars_group.html#a809ed63cc4ff7cd5b0b8c96b470163d3"];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="QCPBarsGroup::remove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d76/class_q_c_p_bars_group.html#a215e28a5944f1159013a0e19169220e7"];
+  Node18 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="QCPBarsGroup::keyPixelOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d76/class_q_c_p_bars_group.html#a8e2ca6002e7bab49670144d048a2bcc9"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="QCPBars::getBarPolygon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a3a4ca0069f003929284763caef1856a8"];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="QCPBars::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a62d66cc8eedca6bedfc1f6513164d418"];
+  Node24 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="QCPBars::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a42b894e34dac799f90ff3700706b31df"];
+  Node24 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="QCPBars::getVisibleDataBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#adce71831920cf0426722fdd47ba34261"];
+  Node27 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="QCPBars::getKeyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d56/class_q_c_p_bars.html#a0161ff6af64e025543c66130bcaa7ffd"];
+}

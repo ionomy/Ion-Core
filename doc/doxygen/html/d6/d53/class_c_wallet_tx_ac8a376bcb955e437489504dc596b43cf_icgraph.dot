@@ -1,0 +1,45 @@
+digraph "CWalletTx::MarkDirty"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node716 [label="CWalletTx::MarkDirty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node716 -> Node717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node717 [label="CWallet::MarkDirty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a26fd9a9f48230daf346500d2afb6115e"];
+  Node717 -> Node718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node718 [label="importprivkey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dbf/rpcdump_8cpp.html#a3a6fdb974fce01220a895393d444e981"];
+  Node717 -> Node719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node719 [label="importaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dbf/rpcdump_8cpp.html#a457bc572859c8265c72a0afd1a6db56c"];
+  Node717 -> Node720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node720 [label="importwallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dbf/rpcdump_8cpp.html#a2566d5c9dd1938b74e70398cdb3ac5c1"];
+  Node717 -> Node721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node721 [label="scanforalltxns",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a798669ad37caa71ddd18f73bc5aa5841"];
+  Node716 -> Node722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node722 [label="CWallet::AddToWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#adf34c789fd6eab1eeed22ef16837f558"];
+  Node722 -> Node723 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node723 [label="ReadKeyValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d75/walletdb_8cpp.html#ad1f171cf096f5479805a06fc20480343"];
+  Node723 -> Node724 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node724 [label="CWalletDB::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a14f26e53502d1a60dd2b034f830acf03"];
+  Node724 -> Node725 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node725 [label="CWallet::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a5d7b244b8ed0cbe24233ee0b6ca3cae0"];
+  Node725 -> Node726 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node726 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node726 -> Node727 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node727 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node727 -> Node728 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node728 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node726 -> Node729 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node729 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node723 -> Node730 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node730 [label="CWalletDB::Recover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a3ebeb12f37d9c66512e2bc2903a6854a"];
+  Node730 -> Node726 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node730 -> Node731 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node731 [label="CWalletDB::Recover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a44388f1c3ee63191dcb78b1001e9390c"];
+  Node716 -> Node732 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 [label="CWallet::ReacceptWalletTransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a796c23450c8482e10e0c75ae5c1fa8ed"];
+  Node732 -> Node726 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 -> Node718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 -> Node719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 -> Node720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node732 -> Node721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

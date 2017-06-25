@@ -1,0 +1,19 @@
+digraph "CBasicKeyStore::GetKey"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node69 [label="CBasicKeyStore::GetKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node69 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="CKeyStore::AddCScript",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc3/class_c_key_store.html#a2fb2e02e8cdc364607efd5ebb14b8064"];
+  Node69 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="CKeyStore::HaveCScript",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc3/class_c_key_store.html#a51c9fc86b2c3fece10d86146231fa58d"];
+  Node69 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="CKeyStore::GetCScript",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc3/class_c_key_store.html#ae6bf4dbeb0705e199250e48aa5d34264"];
+  Node69 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="CKeyStore::AddWatchOnly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc3/class_c_key_store.html#a12cd4eaa01bd4f4231c0bf68425a44af",tooltip="Support for Watch-only addresses. "];
+  Node69 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node74 [label="CKeyStore::RemoveWatchOnly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc3/class_c_key_store.html#ad510747f28d129123a5200e4df8f7f61"];
+  Node69 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node75 [label="CKeyStore::HaveWatchOnly",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc3/class_c_key_store.html#a9169351f4acf62d299afb824174cbfa8"];
+}

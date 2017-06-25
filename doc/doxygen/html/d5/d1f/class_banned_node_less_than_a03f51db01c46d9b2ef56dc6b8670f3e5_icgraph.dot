@@ -1,0 +1,28 @@
+digraph "BannedNodeLessThan::BannedNodeLessThan"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="BannedNodeLessThan\l::BannedNodeLessThan",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="BanTablePriv::refreshBanlist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d05/class_ban_table_priv.html#a36dc74cf3d2a45de4c0e55aa79e64c98",tooltip="Pull a full list of banned nodes from CNode into our cache. "];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="BanTableModel::refresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d4f/class_ban_table_model.html#a15107160d33bbf2635b9460cb07f9661"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="BanTableModel::BanTableModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d4f/class_ban_table_model.html#a71bce2e55cc2b80f0eb7b50c99d5fc98"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="BanTableModel::sort",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d4f/class_ban_table_model.html#a93f90c58936fe32fe1c14788e024d0b6"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ClientModel::updateBanlist",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a0950c13c4be7800fb0b7821586ccbd13"];
+  Node3 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="RPCConsole::banSelectedNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#aacaf485583b6342c5e1877e7582f95c5",tooltip="Ban a selected node on the Peers tab. "];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="RPCConsole::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a355349a33664a07628e9ca22a60f5fa7"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node3 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="RPCConsole::unbanSelectedNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de8/class_r_p_c_console.html#a9a974887c33bf1d4b25eb6aeea002941",tooltip="Unban a selected node on the Bans tab. "];
+  Node11 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

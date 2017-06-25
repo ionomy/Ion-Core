@@ -1,0 +1,19 @@
+digraph "run_ecmult_chain"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node989 [label="run_ecmult_chain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node989 -> Node990 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node990 [label="secp256k1_ecmult",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d94/ecmult_8h.html#aacf8b6ba48671daf24d549adb176366c",tooltip="Double multiply: R = na*A + ng*G. "];
+  Node989 -> Node991 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node991 [label="secp256k1_scalar_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a89db15f705c8eafcd10c08181523acd0",tooltip="Multiply two scalars (modulo the group order). "];
+  Node989 -> Node992 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node992 [label="secp256k1_scalar_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a83257652850276cd74c7cdd1f9444d9c",tooltip="Add two scalars together (modulo the group order). "];
+  Node989 -> Node993 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node993 [label="secp256k1_gej_neg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#af9194949a7aaf18aceab1dee73fe4027",tooltip="Set r equal to the inverse of a (i.e., mirrored around the X axis) "];
+  Node989 -> Node994 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node994 [label="secp256k1_gej_add_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a8df21f3ef7412e6c4d39fb67dc0140c6",tooltip="Set r equal to the sum of a and b. "];
+  Node989 -> Node995 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node995 [label="secp256k1_gej_is_infinity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a33786d5853579c92d46fac51f6a40093",tooltip="Check whether a group element is the point at infinity. "];
+}

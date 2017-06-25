@@ -1,0 +1,15 @@
+digraph "CWallet::TopUpKeyPool"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3677 [label="CWallet::TopUpKeyPool",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3677 -> Node3678 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3678 [label="getnewpubkey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a3f3bb4d519074126a20dd609a6886a72"];
+  Node3677 -> Node3679 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3679 [label="getnewaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#aead824d845d670fbd8f187ebd4f9a535"];
+  Node3677 -> Node3680 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3680 [label="keypoolrefill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#afe8615fcf2c8e5319166c2fa8c638e08"];
+  Node3677 -> Node3681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3681 [label="walletpassphrase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a733f7c70e7c18783935e6de9643c0086"];
+}

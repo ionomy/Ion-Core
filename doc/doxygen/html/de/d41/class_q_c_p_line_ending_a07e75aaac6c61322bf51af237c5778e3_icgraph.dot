@@ -1,0 +1,17 @@
+digraph "QCPLineEnding::style"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node50 [label="QCPLineEnding::style",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node50 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="QCPLineEnding::setStyle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d41/class_q_c_p_line_ending.html#a56953b9cb8ed1bed0f025c3935f16910"];
+  Node50 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="QCPAxisPainterPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/dba/class_q_c_p_axis_painter_private.html#a0207a99bdf9c4f70af20928898ddc2fc"];
+  Node52 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="QCPAxis::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a258b1e783eda5cd14ec5552c696a424e"];
+  Node50 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="QCPItemLine::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8c/class_q_c_p_item_line.html#a1fc045dd33919f8006df0692aeb0e84a"];
+  Node50 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="QCPItemCurve::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d63/class_q_c_p_item_curve.html#a56cb5b72cd02db2eda598274a39839a9"];
+}

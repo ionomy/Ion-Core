@@ -1,0 +1,36 @@
+digraph "GetWarnings"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1788 [label="GetWarnings",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1788 -> Node1789 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1789 [label="ClientModel::getStatusBar\lWarnings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a16718fa6c90ac5bce0ce1dcbfb3ec95c",tooltip="Return warnings to be displayed in status bar. "];
+  Node1789 -> Node1790 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1790 [label="ClientModel::updateAlert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a16758b18ded91ceba202d6023cad4b51"];
+  Node1789 -> Node1791 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1791 [label="OverviewPage::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a5d2610ab2b9c58e3b5f67c05f984e097"];
+  Node1791 -> Node1792 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1792 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node1792 -> Node1793 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1793 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1788 -> Node1794 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1794 [label="getmininginfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#a89c187faff7322c7d15134d13570ca1e"];
+  Node1788 -> Node1795 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1795 [label="getstakinginfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#aedf628177ea04e0077d9d530963d40d6"];
+  Node1788 -> Node1796 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1796 [label="getinfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d48/rpcmisc_8cpp.html#a70335b93783d51e48d276a1e08bd721a"];
+  Node1788 -> Node1797 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1797 [label="CRPCTable::execute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d6c/class_c_r_p_c_table.html#a18a39759205e739d86a35a1c92243760",tooltip="Execute a method. "];
+  Node1797 -> Node1798 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1798 [label="RPCExecutor::request",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd5/class_r_p_c_executor.html#a26e314b5c74eef7a5d310578e1cdb1eb"];
+  Node1797 -> Node1799 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1799 [label="JSONRPCExecOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#aa84f3199884bd0fa01edad0aa99602ef"];
+  Node1799 -> Node1800 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1800 [label="JSONRPCExecBatch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#ad7931d42076c069db94baae77ec7f2fc"];
+  Node1800 -> Node1801 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1801 [label="ServiceConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#adda5af922ba2f27c9f6219394d3c4f4c"];
+  Node1801 -> Node1802 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1802 [label="RPCAcceptHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#a1e6c8e04570f3b8f8a9fc49c2550f18c",tooltip="Accept and handle incoming connection. "];
+  Node1797 -> Node1801 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,34 @@
+digraph "src/txdb-leveldb.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node92 [label="src/txdb-leveldb.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node92 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="src/txdb.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d6a/txdb_8h.html"];
+  Node93 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="src/checkpoints.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d1f/checkpoints_8cpp.html"];
+  Node93 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="src/init.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc9/init_8cpp.html"];
+  Node93 -> Node96 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node96 [label="src/instantx.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d72/instantx_8cpp.html"];
+  Node93 -> Node97 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node97 [label="src/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html"];
+  Node93 -> Node98 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node98 [label="src/miner.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de3/miner_8cpp.html"];
+  Node93 -> Node99 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node99 [label="src/qt/transactiondesc.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d44/transactiondesc_8cpp.html"];
+  Node93 -> Node100 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node100 [label="src/rpcmining.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html"];
+  Node93 -> Node101 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node101 [label="src/rpcrawtransaction.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/da8/rpcrawtransaction_8cpp.html"];
+  Node93 -> Node102 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node102 [label="src/stake.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/df6/stake_8cpp.html"];
+  Node93 -> Node103 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node103 [label="src/txdb-leveldb.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d9c/txdb-leveldb_8cpp.html"];
+  Node93 -> Node104 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node104 [label="src/validation.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html"];
+  Node93 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node105 [label="src/wallet.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/de1/wallet_8cpp.html"];
+  Node92 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node106 [label="src/qt/multisigdialog.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/da6/multisigdialog_8cpp.html"];
+}

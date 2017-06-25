@@ -1,0 +1,9 @@
+digraph "base_uint::getdouble"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node369 [label="base_uint::getdouble",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node369 -> Node370 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node370 [label="base_uint\< 512 \>::bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#afe1eacc0b592cf184ac8ee0446997fbe",tooltip="Returns the position of the highest bit set plus one, or zero if the value is zero. "];
+}

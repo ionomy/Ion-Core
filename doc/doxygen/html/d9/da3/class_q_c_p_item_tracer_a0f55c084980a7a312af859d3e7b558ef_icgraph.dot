@@ -1,0 +1,9 @@
+digraph "QCPItemTracer::setSelectedBrush"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node114 [label="QCPItemTracer::setSelected\lBrush",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node114 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node115 [label="QCPItemTracer::QCPItemTracer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/da3/class_q_c_p_item_tracer.html#adc5ca846eeac323db4aa1fc4081e36be"];
+}

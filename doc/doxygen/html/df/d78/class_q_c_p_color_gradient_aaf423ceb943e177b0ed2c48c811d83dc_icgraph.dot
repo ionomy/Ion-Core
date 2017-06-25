@@ -1,0 +1,17 @@
+digraph "QCPColorGradient::colorize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node22 [label="QCPColorGradient::colorize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="QCPColorScaleAxisRectPrivate\l::updateGradientImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#a73754cab312aeaddea1bfcc67cc079ac"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="QCPColorScaleAxisRectPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#adb67bfe9057a9dd9a85f548c274e6d98"];
+  Node22 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="QCPColorMap::updateMapImage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dea/class_q_c_p_color_map.html#a5efcea591bb5486d968af520a4d43c3a"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="QCPColorMap::updateLegendIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dea/class_q_c_p_color_map.html#a5d8158b62d55fcfeaabcb68ce0083e87"];
+  Node25 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="QCPColorMap::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dea/class_q_c_p_color_map.html#a3b0f45a3177be9522d5e9b8cd8ae122d"];
+}

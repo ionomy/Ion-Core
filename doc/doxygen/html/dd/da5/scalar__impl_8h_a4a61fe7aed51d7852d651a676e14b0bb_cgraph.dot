@@ -1,0 +1,33 @@
+digraph "secp256k1_scalar_inverse_var"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="secp256k1_scalar_inverse_var",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="secp256k1_scalar_inverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/da5/scalar__impl_8h.html#a6e0ddc9f18b11d179a94d5fac2d455fd"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="secp256k1_scalar_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a2e65618baa17c59e89149a9f7e632f69",tooltip="Compute the square of a scalar (modulo the group order). "];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="secp256k1_scalar_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a89db15f705c8eafcd10c08181523acd0",tooltip="Multiply two scalars (modulo the group order). "];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+  Node9 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="secp256k1_num_set_bin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#a4a7f500a93d330df44bbe3adda388868",tooltip="Set a number to the value of a binary big-endian string. "];
+  Node9 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="secp256k1_scalar_order\l_get_num",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/da5/scalar__impl_8h.html#a54e25150a9e06c01bcc4518b68aa288c",tooltip="secp256k1 curve order, see secp256k1_ecdsa_const_order_as_fe in ecdsa_impl.h "];
+  Node15 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="secp256k1_num_mod_inverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#a96a66a341ddf203e7dbf85d1cca1c178",tooltip="Compute a modular inverse. "];
+  Node9 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="secp256k1_num_get_bin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#aada7ead84b86388284323f31b9d05bca",tooltip="Convert a number&#39;s absolute value to a binary big-endian string. "];
+  Node9 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node9 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="secp256k1_scalar_is_one",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa1118b3273d3c9d15541f29373b93e97",tooltip="Check whether a scalar equals one. "];
+  Node9 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="secp256k1_scalar_mul\l_shift_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a8d19fb29bd4c9d863572eba08e97af20",tooltip="Multiply a and b (without taking the modulus!), divide by 2**shift, and round to the nearest integer..."];
+  Node9 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="secp256k1_scalar_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a83257652850276cd74c7cdd1f9444d9c",tooltip="Add two scalars together (modulo the group order). "];
+}

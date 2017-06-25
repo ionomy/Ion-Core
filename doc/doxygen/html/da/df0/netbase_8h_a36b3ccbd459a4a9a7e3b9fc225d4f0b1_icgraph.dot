@@ -1,0 +1,31 @@
+digraph "SetProxy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node439 [label="SetProxy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node439 -> Node440 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node440 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node440 -> Node441 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node441 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node441 -> Node442 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node442 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node440 -> Node443 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node443 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node439 -> Node444 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node444 [label="TorController::auth_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#ae36bc33cb3088384517c68f71e9944ce",tooltip="Callback for AUTHENTICATE result. "];
+  Node444 -> Node445 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node445 [label="TorController::authchallenge_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#a86f1396b9f242183ffe777e0951eb997",tooltip="Callback for AUTHCHALLENGE result. "];
+  Node445 -> Node446 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node446 [label="TorController::protocolinfo_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#aee36fcd1cd60d7f4eb007d909894b1c3",tooltip="Callback for PROTOCOLINFO result. "];
+  Node446 -> Node447 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node447 [label="TorController::connected_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#a59d56a1525a08235b07dd9eadbae0d1f",tooltip="Callback after successful connection. "];
+  Node447 -> Node448 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node448 [label="TorController::TorController",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#ab38d90df15a9e3f2c6e1f4f24073a64e"];
+  Node447 -> Node449 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node449 [label="TorController::Reconnect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#ae5d4304836fce79574ec540c5ada8269",tooltip="Reconnect, after getting disconnected. "];
+  Node449 -> Node450 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node450 [label="TorController::reconnect_cb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dd9/class_tor_controller.html#a2fa9614b4fa0e24c57f443b3c56f835c",tooltip="Callback for reconnect timer. "];
+  Node450 -> Node448 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node444 -> Node446 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

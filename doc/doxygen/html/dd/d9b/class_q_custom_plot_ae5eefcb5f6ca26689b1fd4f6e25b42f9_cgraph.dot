@@ -1,0 +1,11 @@
+digraph "QCustomPlot::axisRect"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node169 [label="QCustomPlot::axisRect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node169 -> Node170 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node170 [label="QCustomPlot::axisRects",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a12af771429e2d7e313c8c5d5fca068fe"];
+  Node170 -> Node171 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node171 [label="QCPLayoutElement::elements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a76dec8cb31e498994a944d7647a43309"];
+}

@@ -1,0 +1,19 @@
+digraph "InvalidBlockFound"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3803 [label="InvalidBlockFound",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3803 -> Node3804 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3804 [label="ConnectTip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a6aed3630ddc1f0822daf257250d4799a",tooltip="Connect a new block to chainActive. "];
+  Node3804 -> Node3805 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3805 [label="ActivateBestChainStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a4e2b817360d39dc766271f51fc146c96",tooltip="Try to make some progress towards making pindexMostWork the active block. "];
+  Node3805 -> Node3806 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3806 [label="ActivateBestChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a81d9ced51eb72d4df66abddb00318b64",tooltip="Find the best known block, and make it the tip of the block chain. "];
+  Node3806 -> Node3807 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3807 [label="PreciousBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a04e493dc156338a1b2f457f7a7feaaa9",tooltip="Mark a block as precious and reorganize. "];
+  Node3806 -> Node3808 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3808 [label="ProcessNewBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a290fce59049c0951b8eb73f0129bf6f0",tooltip="Process an incoming block. "];
+  Node3806 -> Node3809 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3809 [label="LoadExternalBlockFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a2233339a13d09038cf2e46f4d0144be4",tooltip="Import blocks from an external file. "];
+}

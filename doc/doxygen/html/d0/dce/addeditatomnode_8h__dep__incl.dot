@@ -1,0 +1,10 @@
+digraph "src/qt/addeditatomnode.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="src/qt/addeditatomnode.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="src/qt/addeditatomnode.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d6e/addeditatomnode_8cpp.html"];
+  Node4 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/qt/masternodemanager.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc8/masternodemanager_8cpp.html"];
+}

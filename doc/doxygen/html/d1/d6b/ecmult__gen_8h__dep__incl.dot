@@ -1,0 +1,29 @@
+digraph "src/secp256k1/src/ecmult_gen.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node5 [label="src/secp256k1/src/ecmult\l_gen.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="src/secp256k1/src/ecmult\l_gen_impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d00/ecmult__gen__impl_8h.html"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="src/secp256k1/src/secp256k1.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="src/secp256k1/src/bench\l_internal.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5e/bench__internal_8c.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="src/secp256k1/src/tests.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html"];
+  Node6 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="src/secp256k1/src/gen\l_context.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dde/gen__context_8c.html"];
+  Node5 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="src/secp256k1/src/ecdsa\l_impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d27/ecdsa__impl_8h.html"];
+  Node11 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="src/secp256k1/src/eckey.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/dff/eckey_8h.html"];
+  Node12 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="src/secp256k1/src/eckey\l_impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd9/eckey__impl_8h.html"];
+  Node13 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="src/secp256k1/src/modules\l/schnorr/schnorr_impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8b/schnorr__impl_8h.html"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="src/secp256k1/src/modules\l/schnorr/main_impl.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dab/schnorr_2main__impl_8h.html"];
+}

@@ -1,0 +1,38 @@
+digraph "repairwallet"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1346 [label="repairwallet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1346 -> Node1347 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1347 [label="CWallet::FixSpentCoins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a241637cb0e658b5980037e1490d31b11"];
+  Node1347 -> Node1348 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1348 [label="CTxDB::ReadTxIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d8d/class_c_tx_d_b.html#a8a138e5dcc3ef98991abaa16eaa8ddeb"];
+  Node1347 -> Node1349 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1349 [label="CTransaction::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d43/class_c_transaction.html#a0b46d80e82ca324e82c2ce3fc1492bfa"];
+  Node1349 -> Node1350 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1350 [label="SerializeHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dfb/hash_8h.html#a6de694e43f17c62025c6883965b65e63"];
+  Node1350 -> Node1351 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1351 [label="CHashWriter::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/def/class_c_hash_writer.html#ae94a937211502eabf19477630090093a"];
+  Node1347 -> Node1352 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1352 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node1352 -> Node1353 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1353 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node1352 -> Node1352 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1347 -> Node1354 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1354 [label="CWalletTx::IsSpent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#a6b01c779a9ddc9d3554b7ec1b770f512"];
+  Node1347 -> Node1355 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1355 [label="FormatMoney",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a3293aaba439017a99a494cbf39fb5681"];
+  Node1347 -> Node1356 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1356 [label="base_uint::ToString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#acccba4d9d51a0c36261718ca0cbb293b"];
+  Node1347 -> Node1357 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1357 [label="CWalletTx::MarkUnspent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#a15588d9e12497ec4c10a53ab629fa244"];
+  Node1347 -> Node1358 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1358 [label="CWalletTx::WriteToDisk",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#ada0e71d717dd360faf047de54eef4942"];
+  Node1358 -> Node1359 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1359 [label="CWalletDB::WriteTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a76d2ca02898221ab66df5d5f7491164e"];
+  Node1347 -> Node1360 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1360 [label="CWalletTx::MarkSpent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#af2fc13459e324ad2b3f7c9914d86e7c8"];
+  Node1346 -> Node1361 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1361 [label="ValueFromAmount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#a577ce17add6d7e837a6e0653f8c048a1"];
+}

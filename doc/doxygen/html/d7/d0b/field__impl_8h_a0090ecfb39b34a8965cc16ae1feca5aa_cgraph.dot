@@ -1,0 +1,30 @@
+digraph "secp256k1_fe_inv_var"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node26 [label="secp256k1_fe_inv_var",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node26 -> Node27 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="secp256k1_fe_inv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d0b/field__impl_8h.html#a3a071aa04ce0d88003b059c0a8ee0c0e"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="secp256k1_fe_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a6cbe550ca5eb35e683b1c8d68d8de26b",tooltip="Sets a field element to be the square of another. "];
+  Node27 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="secp256k1_fe_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a542b97d2574d9687c563d002587cf9a2",tooltip="Sets a field element to be the product of two others. "];
+  Node26 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="secp256k1_fe_normalize_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a2d45c987537eadb2923c93aa3af9db71",tooltip="Normalize a field element, without constant-time guarantee. "];
+  Node26 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="secp256k1_fe_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#abb1017649be14b9ac1823be3c573e542",tooltip="Convert a field element to a 32-byte big endian value. "];
+  Node26 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="secp256k1_num_set_bin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#a4a7f500a93d330df44bbe3adda388868",tooltip="Set a number to the value of a binary big-endian string. "];
+  Node26 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="secp256k1_num_mod_inverse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#a96a66a341ddf203e7dbf85d1cca1c178",tooltip="Compute a modular inverse. "];
+  Node26 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="secp256k1_num_get_bin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#aada7ead84b86388284323f31b9d05bca",tooltip="Convert a number&#39;s absolute value to a binary big-endian string. "];
+  Node26 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="secp256k1_fe_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a5c86a65052e3b135919c00fe2233a43d",tooltip="Set a field element equal to 32-byte big endian value. "];
+  Node26 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="secp256k1_fe_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a7512f80b60598e4af89c004890880fc7",tooltip="Adds a field element to another. "];
+  Node26 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="secp256k1_fe_normalizes\l_to_zero_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a67adb176b8e6efd2d2475a9d0a199e18",tooltip="Verify whether a field element represents zero i.e. "];
+}

@@ -1,0 +1,9 @@
+digraph "secp256k1_scalar_sqr_512"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node86 [label="secp256k1_scalar_sqr_512",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node86 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="secp256k1_scalar_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db6/scalar__8x32__impl_8h.html#a2e65618baa17c59e89149a9f7e632f69"];
+}

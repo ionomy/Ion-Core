@@ -1,0 +1,29 @@
+digraph "test_ecmult_constants"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1645 [label="test_ecmult_constants",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1645 -> Node1646 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1646 [label="secp256k1_ge_neg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#abcb34de0cfdf82a125e059f4f98de1d9"];
+  Node1645 -> Node1647 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1647 [label="secp256k1_scalar_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a41cb11650e4dea0fe7ac5b59b9fce9dc",tooltip="Set a scalar to an unsigned integer. "];
+  Node1645 -> Node1648 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1648 [label="secp256k1_ecmult_gen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/ecmult__gen_8h.html#a5ed744c720cbb0a397c8d4c42c637f24",tooltip="Multiply with the generator: R = a*G. "];
+  Node1645 -> Node1649 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1649 [label="ge_equals_gej",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a7930deeb9d6815fba34afad98b8dfa69"];
+  Node1649 -> Node1650 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1650 [label="secp256k1_fe_sqr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a6cbe550ca5eb35e683b1c8d68d8de26b",tooltip="Sets a field element to be the square of another. "];
+  Node1649 -> Node1651 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1651 [label="secp256k1_fe_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a542b97d2574d9687c563d002587cf9a2",tooltip="Sets a field element to be the product of two others. "];
+  Node1649 -> Node1652 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1652 [label="secp256k1_fe_normalize_weak",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a0aaec7df2f708a451a8e1f41a943d8b1",tooltip="Weakly normalize a field element: reduce it magnitude to 1, but don&#39;t fully normalize. "];
+  Node1649 -> Node1653 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1653 [label="secp256k1_fe_equal_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a16ab4d0dd8bcb5da1b888288063014f3",tooltip="Compare two field elements. "];
+  Node1645 -> Node1654 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1654 [label="secp256k1_gej_add_ge",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a586b55d5921edcd68799f584c0a3c58d",tooltip="Set r equal to the sum of a and b (with b given in affine coordinates, and not infinity). "];
+  Node1645 -> Node1655 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1655 [label="secp256k1_gej_is_infinity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a33786d5853579c92d46fac51f6a40093",tooltip="Check whether a group element is the point at infinity. "];
+  Node1645 -> Node1656 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1656 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+}

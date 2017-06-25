@@ -1,0 +1,35 @@
+digraph "secp256k1_ecdsa_verify"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1351 [label="secp256k1_ecdsa_verify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1351 -> Node1352 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1352 [label="secp256k1_ecmult_context\l_is_built",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d94/ecmult_8h.html#aa4f6f213989d3ec35850c40c8f1b313b"];
+  Node1351 -> Node1353 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1353 [label="secp256k1_scalar_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a25cc2d45ae1d1765d07c3313cdf46fa0",tooltip="Set a scalar from a big endian byte array. "];
+  Node1351 -> Node1354 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1354 [label="secp256k1_ecdsa_signature_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#af2027241c9dfc85fa5b6a3bb5fe41d18"];
+  Node1354 -> Node1355 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1355 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node1355 -> Node1356 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1356 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node1355 -> Node1357 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1357 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node1354 -> Node1353 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1351 -> Node1358 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1358 [label="secp256k1_scalar_is_high",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aab66620cbbe49bec3c7c02f4a1219c05",tooltip="Check whether a scalar is higher than the group order divided by 2. "];
+  Node1351 -> Node1359 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1359 [label="secp256k1_pubkey_load",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d8c/secp256k1_8c.html#a9966ec041e71010d1593ae2211ffb843"];
+  Node1359 -> Node1355 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1359 -> Node1360 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1360 [label="secp256k1_ge_from_storage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a8c1e7f328284d9ba56404bb8d99bf765",tooltip="Convert a group element back from the storage type. "];
+  Node1359 -> Node1361 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1361 [label="secp256k1_fe_set_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a5c86a65052e3b135919c00fe2233a43d",tooltip="Set a field element equal to 32-byte big endian value. "];
+  Node1359 -> Node1362 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1362 [label="secp256k1_ge_set_xy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dd1/group_8h.html#a34ab3d1a9a0a7ff0ed1cedff9db5f73c",tooltip="Set a group element equal to the point with given X and Y coordinates. "];
+  Node1359 -> Node1363 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1363 [label="secp256k1_fe_is_zero",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5a/field_8h.html#a619ec4805df6cc54d70e6682ceebd098",tooltip="Verify whether a field element is zero. "];
+  Node1351 -> Node1364 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1364 [label="secp256k1_ecdsa_sig\l_verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d5d/ecdsa_8h.html#a6e24b57323f9c38b266c5e28b60c92bd"];
+}

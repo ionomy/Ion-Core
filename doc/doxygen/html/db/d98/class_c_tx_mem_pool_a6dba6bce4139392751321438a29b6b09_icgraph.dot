@@ -1,0 +1,23 @@
+digraph "CTxMemPool::clear"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node152 [label="CTxMemPool::clear",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node152 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="UpdateMempoolForReorg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#aaa1204b724d7b62f09ef22df4c6a592d"];
+  Node153 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="ActivateBestChainStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a4e2b817360d39dc766271f51fc146c96",tooltip="Try to make some progress towards making pindexMostWork the active block. "];
+  Node154 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="ActivateBestChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a81d9ced51eb72d4df66abddb00318b64",tooltip="Find the best known block, and make it the tip of the block chain. "];
+  Node155 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 [label="PreciousBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a04e493dc156338a1b2f457f7a7feaaa9",tooltip="Mark a block as precious and reorganize. "];
+  Node155 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 [label="ProcessNewBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a290fce59049c0951b8eb73f0129bf6f0",tooltip="Process an incoming block. "];
+  Node155 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="LoadExternalBlockFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a2233339a13d09038cf2e46f4d0144be4",tooltip="Import blocks from an external file. "];
+  Node153 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="InvalidateBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#adf70cddb5b3b3218a7f22da08dc4a456",tooltip="Mark a block as invalid. "];
+  Node152 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="UnloadBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#ac98b87e479f71b7be2b990a10c4ebc2d",tooltip="Unload database information. "];
+}

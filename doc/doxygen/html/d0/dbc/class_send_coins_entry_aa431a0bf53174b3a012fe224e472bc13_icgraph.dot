@@ -1,0 +1,42 @@
+digraph "SendCoinsEntry::setupTabChain"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node186 [label="SendCoinsEntry::setupTab\lChain",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node186 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node187 [label="SendCoinsDialog::setupTab\lChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a689658987f2af0896f25bf37bb945d91",tooltip="Set up the tab chain manually, as Qt messes up the tab chain by default in some cases (issue https://..."];
+  Node187 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node188 [label="SendCoinsDialog::updateTabs\lAndLabels",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a3b834c739f7d02d8086a2bf58525c5f0"];
+  Node188 -> Node189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node189 [label="SendCoinsDialog::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a127bddff45f49ff5e6e263efe218ae26"];
+  Node189 -> Node190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node190 [label="SendCoinsDialog::SendCoins\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a0df5bc29d1df68eda44826651afc595f"];
+  Node189 -> Node191 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node191 [label="SendCoinsDialog::reject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a4879553d77d29f522ac92ac04580f4ad"];
+  Node189 -> Node192 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node192 [label="SendCoinsDialog::accept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#af2185c3d29e43d37c30669f0def46060"];
+  Node192 -> Node193 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node193 [label="SendCoinsDialog::send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#afd8d436a16ea7dba1276e8fdfdc8b2d3"];
+  Node193 -> Node194 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node194 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+  Node188 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 [label="SendCoinsDialog::addEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a3d680a76b967641115c6ff2fa83fb62a"];
+  Node195 -> Node190 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 -> Node189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node196 [label="SendCoinsDialog::removeEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#aabd82a79bd2358493f36425f1d62136b"];
+  Node196 -> Node195 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node195 -> Node197 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node197 [label="SendCoinsDialog::setAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a920b2dbf121ca3cfac2adc56e96295f8"];
+  Node195 -> Node198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node198 [label="SendCoinsDialog::pasteEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a4440d15ced5d217baaad33a17d56b409"];
+  Node198 -> Node199 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node199 [label="SendCoinsDialog::handleURI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a0b55c56582d3352734eb01e8a6f404c1"];
+  Node199 -> Node200 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node200 [label="IonGUI::dropEvent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a42edcabd719877fa223bfc4ce1004950"];
+  Node199 -> Node201 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node201 [label="IonGUI::handleURI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a96c92e010ff8af010b4053c09128a273"];
+  Node188 -> Node196 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node188 -> Node198 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

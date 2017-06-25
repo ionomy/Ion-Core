@@ -1,0 +1,11 @@
+digraph "QCPPlotTitle::deselectEvent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node29 [label="QCPPlotTitle::deselectEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="QCPPlotTitle::setSelected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de4/class_q_c_p_plot_title.html#a8d441a889d371307df86f1ab7687a333"];
+  Node30 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="QCPPlotTitle::selected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/de4/class_q_c_p_plot_title.html#a60c91808dbd29640429549947a38f191"];
+}

@@ -1,0 +1,21 @@
+digraph "ErrorReply"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node28 [label="ErrorReply",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="JSONRPCReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d30/rpcprotocol_8cpp.html#a091e4839a15f5f6d569a97c709d80374"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="JSONRPCReplyObj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d30/rpcprotocol_8cpp.html#a48add16ec902386cc873c5cf0b40b2dd"];
+  Node28 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="HTTPReply",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d30/rpcprotocol_8cpp.html#afa39f57077df4d88ad60373f58d793e1"];
+  Node31 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="rfc1123Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d30/rpcprotocol_8cpp.html#ad5c2a0d44659f8cd91839821b68b5224"];
+  Node32 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="DateTimeStrFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a749bc6776c8ec72d7c5e4dea56aee415"];
+  Node32 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node31 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="FormatFullVersion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ac2170cca99e9347171fca492ae533d96"];
+}

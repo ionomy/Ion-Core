@@ -1,0 +1,19 @@
+digraph "LockWallet"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1242 [label="LockWallet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1242 -> Node1243 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1243 [label="CWallet::Lock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a0404b6bc1cb804aadc69b9902b52282a"];
+  Node1243 -> Node1244 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1244 [label="CStealthAddress::Encoded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d37/class_c_stealth_address.html#a1318c3f56f64354f4c909380ba692c91"];
+  Node1244 -> Node1245 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1245 [label="AppendChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#aa4f182dc0efd181cef81ca75ae960533"];
+  Node1245 -> Node1246 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1246 [label="StashedSilkChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#abb79a3b98a10b85daf3f3ff35c1cbfa8"];
+  Node1244 -> Node1247 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1247 [label="EncodeBase58",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d9c/base58_8cpp.html#a8d6f0e9d5df175b4966dcede31dc90ad",tooltip="Encode a byte sequence as a base58-encoded string. "];
+  Node1243 -> Node1248 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1248 [label="CWalletDB::ReadStealthAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#aebcc02069f91916c652d4e3e13be0f0b"];
+}

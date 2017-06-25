@@ -1,0 +1,11 @@
+digraph "CoinControlDialog::viewItemChanged"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node669 [label="CoinControlDialog::\lviewItemChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node669 -> Node670 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node670 [label="CoinControlDialog::\lCoinControlDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#a0945e59c25f956fdab199dbaf252eff5"];
+  Node669 -> Node671 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node671 [label="CoinControlDialog::\lparentViewItemChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/dfb/class_coin_control_dialog.html#af649bd96e37668b175510f0357650ecc"];
+}

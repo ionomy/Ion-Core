@@ -1,0 +1,28 @@
+digraph "AddressTableModel::removeRows"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node213 [label="AddressTableModel::\lremoveRows",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node213 -> Node214 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node214 [label="AddressTablePriv::index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dba/class_address_table_priv.html#af311eb7d0189a74a508d7ad0f563f307"];
+  Node213 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node215 [label="CWallet::DelAddressBookName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ac21ad6cf1271b08f0392259643ef5804"];
+  Node215 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node216 [label="NotifyAddressBookChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d9b/walletmodel_8cpp.html#ab4e3d5ba1daba2e9a4cdd0d20bf25833"];
+  Node216 -> Node217 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 [label="CStealthAddress::Encoded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d37/class_c_stealth_address.html#a1318c3f56f64354f4c909380ba692c91"];
+  Node217 -> Node218 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node218 [label="AppendChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#aa4f182dc0efd181cef81ca75ae960533"];
+  Node218 -> Node219 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node219 [label="StashedSilkChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#abb79a3b98a10b85daf3f3ff35c1cbfa8"];
+  Node217 -> Node220 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node220 [label="EncodeBase58",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d9c/base58_8cpp.html#a8d6f0e9d5df175b4966dcede31dc90ad",tooltip="Encode a byte sequence as a base58-encoded string. "];
+  Node215 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node221 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node221 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node222 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node221 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node215 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node223 [label="CWalletDB::EraseName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a319209fcf90ea860b668b92c44a3fa7a"];
+}

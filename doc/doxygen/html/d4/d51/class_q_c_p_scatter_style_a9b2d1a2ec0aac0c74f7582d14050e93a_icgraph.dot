@@ -1,0 +1,15 @@
+digraph "QCPScatterStyle::pixmap"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node62 [label="QCPScatterStyle::pixmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node62 -> Node63 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="QCPScatterStyle::setPixmap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d51/class_q_c_p_scatter_style.html#a5fb611d46acfac520d7b89a1c71d9246"];
+  Node63 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="QCPGraph::drawLegendIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#ae962caca309faae29ce0988d0d0eff4b"];
+  Node63 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="QCPCurve::drawLegendIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d30/class_q_c_p_curve.html#acccc86e9f496bb0392529f59f3a69dbc"];
+  Node62 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

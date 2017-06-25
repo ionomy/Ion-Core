@@ -1,0 +1,11 @@
+digraph "QCPAxis::scaleTypeChanged"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node566 [label="QCPAxis::scaleTypeChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node566 -> Node567 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node567 [label="QCPAxis::setScaleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#adef29cae617af4f519f6c40d1a866ca6"];
+  Node567 -> Node568 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node568 [label="QCPAxisRect::setupFullAxesBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4"];
+}

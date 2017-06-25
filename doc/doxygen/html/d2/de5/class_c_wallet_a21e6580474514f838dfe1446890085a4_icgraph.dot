@@ -1,0 +1,26 @@
+digraph "CWallet::LoadKeyMetadata"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2367 [label="CWallet::LoadKeyMetadata",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2367 -> Node2368 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2368 [label="ReadKeyValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d75/walletdb_8cpp.html#ad1f171cf096f5479805a06fc20480343"];
+  Node2368 -> Node2369 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2369 [label="CWalletDB::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a14f26e53502d1a60dd2b034f830acf03"];
+  Node2369 -> Node2370 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2370 [label="CWallet::LoadWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a5d7b244b8ed0cbe24233ee0b6ca3cae0"];
+  Node2370 -> Node2371 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2371 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node2371 -> Node2372 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2372 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node2372 -> Node2373 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2373 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node2371 -> Node2374 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2374 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node2368 -> Node2375 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2375 [label="CWalletDB::Recover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a3ebeb12f37d9c66512e2bc2903a6854a"];
+  Node2375 -> Node2371 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2375 -> Node2376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2376 [label="CWalletDB::Recover",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#a44388f1c3ee63191dcb78b1001e9390c"];
+}

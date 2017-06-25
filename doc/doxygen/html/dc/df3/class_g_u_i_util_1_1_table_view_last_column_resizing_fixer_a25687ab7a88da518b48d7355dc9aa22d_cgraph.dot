@@ -1,0 +1,13 @@
+digraph "GUIUtil::TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="GUIUtil::TableViewLastColumn\lResizingFixer::TableViewLastColumn\lResizingFixer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="GUIUtil::TableViewLastColumn\lResizingFixer::setViewHeaderResizeMode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/df3/class_g_u_i_util_1_1_table_view_last_column_resizing_fixer.html#a1ab8c5370bc88fa8fdd5894d73161f41"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GUIUtil::GetStartOnSystem\lStartup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d87/namespace_g_u_i_util.html#adca0cdbc1de324bc53c891bdcafa6513"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GUIUtil::SetStartOnSystem\lStartup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d87/namespace_g_u_i_util.html#a82afe76b9469d777217438a25ab7f95e"];
+}

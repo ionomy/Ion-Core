@@ -1,0 +1,11 @@
+digraph "IonGUI::changeEvent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node187 [label="IonGUI::changeEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node187 -> Node188 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node188 [label="ClientModel::getOptionsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#ae8da1e2eabfbbcc49a7eed821908bdb6"];
+  Node187 -> Node189 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node189 [label="OptionsModel::getMinimize\lToTray",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#af026ad3b0705de76c1f57d9a6132aec0"];
+}

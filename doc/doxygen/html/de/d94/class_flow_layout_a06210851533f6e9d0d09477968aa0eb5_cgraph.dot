@@ -1,0 +1,9 @@
+digraph "FlowLayout::verticalSpacing"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node58 [label="FlowLayout::verticalSpacing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="FlowLayout::smartSpacing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d94/class_flow_layout.html#aa8c99ccccc834c47f125040205f1aac8",tooltip="[11] [12] "];
+}

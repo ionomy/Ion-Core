@@ -1,0 +1,38 @@
+digraph "DisconnectBlock"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2551 [label="DisconnectBlock",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2551 -> Node2552 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2552 [label="CBlockIndex::GetBlockHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dbd/class_c_block_index.html#a98490a2788c65cdd6ae9002b004dd74c"];
+  Node2551 -> Node2553 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2553 [label="error",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#af8985880cf4ef26df0a5aa2ffcb76662"];
+  Node2553 -> Node2554 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2554 [label="LogPrintStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#afd4c3002b2797c0560adddb6af3ca1da"];
+  Node2554 -> Node2555 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2555 [label="DebugPrintInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a751ff5f21d880737811136b5e0bcea12"];
+  Node2555 -> Node2556 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2556 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab83866a054745d4b30a3948a1b44beba"];
+  Node2556 -> Node2557 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2557 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node2556 -> Node2558 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2558 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node2556 -> Node2559 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2559 [label="GetDefaultDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab272995de020a3bcbf743be630e485c6"];
+  Node2556 -> Node2560 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2560 [label="CChainParams::DataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a959488b5d8e6fe62857940b831d73a78"];
+  Node2554 -> Node2556 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2554 -> Node2561 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2561 [label="DateTimeStrFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a749bc6776c8ec72d7c5e4dea56aee415"];
+  Node2554 -> Node2562 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2562 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node2551 -> Node2563 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2563 [label="CTransaction::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d43/class_c_transaction.html#a0b46d80e82ca324e82c2ce3fc1492bfa"];
+  Node2563 -> Node2564 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2564 [label="SerializeHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dfb/hash_8h.html#a6de694e43f17c62025c6883965b65e63"];
+  Node2564 -> Node2565 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2565 [label="CHashWriter::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/def/class_c_hash_writer.html#ae94a937211502eabf19477630090093a"];
+  Node2551 -> Node2566 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2566 [label="ApplyTxInUndo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a492da8f7add38097a8e55f3445a9c83b",tooltip="Restore the UTXO in a Coin at a given COutPoint. "];
+}

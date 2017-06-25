@@ -1,0 +1,16 @@
+digraph "IonGUI::showNormalIfMinimized"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1506 [label="IonGUI::showNormalIfMinimized",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1506 -> Node1507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1507 [label="IonGUI::createActions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5a5e1c2fbc2fec3d925d654c61a8b252",tooltip="Create the main UI actions. "];
+  Node1507 -> Node1508 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1508 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+  Node1506 -> Node1509 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1509 [label="IonGUI::handleURI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a96c92e010ff8af010b4053c09128a273"];
+  Node1506 -> Node1510 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1510 [label="IonGUI::toggleHidden",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#acd9faf93dc249693cb0ccbeeacb578fb",tooltip="simply calls showNormalIfMinimized(true) for use in SLOT() macro "];
+  Node1510 -> Node1507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

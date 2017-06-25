@@ -1,0 +1,11 @@
+digraph "secp256k1_rand_bits"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="secp256k1_rand_bits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="secp256k1_rand32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d04/testrand__impl_8h.html#afcae276b983a14e4d69501fce31c96af"];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="secp256k1_rfc6979_hmac\l_sha256_generate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd7/secp256k1_2src_2hash_8h.html#a993c3261472ef00e4738e0fe7a99b7cb"];
+}

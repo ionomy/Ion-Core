@@ -1,0 +1,38 @@
+digraph "QCPLayerable::parentPlot"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node176 [label="QCPLayerable::parentPlot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node176 -> Node177 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node177 [label="QCPLayerable::initialize\lParentPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#a8cbe5a0c9a5674249982f5ca5f8e02bc"];
+  Node177 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node178 [label="QCPLayoutElement::parent\lPlotInitialized",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a1478899e80e8244b411e96ec3b2e5ce2"];
+  Node177 -> Node179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node179 [label="QCPLayout::adoptElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d58/class_q_c_p_layout.html#af6dbbc24156a808da29cd1ec031729a3"];
+  Node179 -> Node180 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node180 [label="QCPLayoutGrid::addElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#adff1a2ca691ed83d2d24a4cd1fe17012"];
+  Node180 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node181 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8"];
+  Node179 -> Node182 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node182 [label="QCPLayoutInset::addElement",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d91/class_q_c_p_layout_inset.html#ad61529eb576af7f04dff94abb10c745a"];
+  Node182 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node177 -> Node181 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node177 -> Node183 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node183 [label="QCPAxisRect::QCPAxisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042"];
+  Node176 -> Node178 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 -> Node179 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 -> Node184 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node184 [label="QCPAbstractPlottable\l::QCPAbstractPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#af78a036e40db6f53a31abadc5323715a"];
+  Node176 -> Node185 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node185 [label="QCustomPlot::addPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ab7ad9174f701f9c6f64e378df77927a6"];
+  Node185 -> Node186 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node186 [label="QCustomPlot::addGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a6fb2873d35a8a8089842d81a70a54167"];
+  Node176 -> Node186 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node176 -> Node187 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node187 [label="QCustomPlot::addItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#aa500620379262321685cb7a7674cbd2a"];
+  Node176 -> Node188 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node188 [label="QCPAxisRect::removeAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a03c39cd9704f0d36fb6cf980cdddcbaa"];
+  Node176 -> Node189 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node189 [label="QCPItemTracer::setGraph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/da3/class_q_c_p_item_tracer.html#af5886f4ded8dd68cb4f3388f390790c0"];
+}

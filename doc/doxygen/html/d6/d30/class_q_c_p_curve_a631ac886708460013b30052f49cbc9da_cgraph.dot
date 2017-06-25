@@ -1,0 +1,9 @@
+digraph "QCPCurve::setData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node292 [label="QCPCurve::setData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node292 -> Node293 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node293 [label="QCPCurve::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d30/class_q_c_p_curve.html#a667ca2594cf651e3032c624dbaa95add"];
+}

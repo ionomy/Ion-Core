@@ -1,0 +1,27 @@
+digraph "TransactionView::changedAmount"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node199 [label="TransactionView::changed\lAmount",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node199 -> Node200 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node200 [label="IonUnits::parse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a25349c520a1994f8c772db61b23208d6",tooltip="Parse string to coin amount. "];
+  Node200 -> Node201 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node201 [label="IonUnits::valid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a23c5b1306ed473dbb2375a6675a2ce13",tooltip="Is unit ID valid? "];
+  Node200 -> Node202 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node202 [label="IonUnits::decimals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a5e9c7a5b666b858c171760273c51c9d7",tooltip="Number of decimals left. "];
+  Node200 -> Node203 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node203 [label="IonUnits::removeSpaces",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a3076278f67f3b32262dcbaa4944698f4"];
+  Node203 -> Node204 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 [label="IonUnits::maxMoney",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#ad263cf356fe762bfe92eb11f2306c36a",tooltip="Return maximum number of base units (Satoshis) "];
+  Node199 -> Node205 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node205 [label="WalletModel::getOptionsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a96d53e56b3f8f07537ea2523f7a7d300"];
+  Node199 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 [label="OptionsModel::getDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a3b6e4d4ef42be3aaba315b8cd14f468e"];
+  Node206 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="OptionsModel::getProxySettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a0fa582a801df3753c2c50840c40bb350"];
+  Node207 -> Node208 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node208 [label="GetProxy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0e/netbase_8cpp.html#a4e67b39fc1769663260d791d2f4d049d"];
+  Node199 -> Node209 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node209 [label="TransactionFilterProxy\l::setMinAmount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/ddd/class_transaction_filter_proxy.html#a14688071f18551bf7d78225feb8ca8df"];
+}

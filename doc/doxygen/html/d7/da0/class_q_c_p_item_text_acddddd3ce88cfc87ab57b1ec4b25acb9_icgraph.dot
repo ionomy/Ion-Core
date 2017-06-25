@@ -1,0 +1,9 @@
+digraph "QCPItemText::mainBrush"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node65 [label="QCPItemText::mainBrush",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node65 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="QCPItemText::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#a8793adb271ab79b4cf391dc55e9987f1"];
+}

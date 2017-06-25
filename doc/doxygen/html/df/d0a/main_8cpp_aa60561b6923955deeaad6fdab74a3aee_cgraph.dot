@@ -1,0 +1,19 @@
+digraph "UnregisterWallet"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6845 [label="UnregisterWallet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6845 -> Node6846 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6846 [label="CWalletInterface::Resend\lWalletTransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1a/class_c_wallet_interface.html#acd71e9479057c2fdc433fc576e625edf"];
+  Node6845 -> Node6847 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6847 [label="CWalletInterface::Inventory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1a/class_c_wallet_interface.html#a32858e2bb7bb6cb81ac391e0e2a0d4c1"];
+  Node6845 -> Node6848 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6848 [label="CWalletInterface::SetBest\lChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1a/class_c_wallet_interface.html#ac9c87a58906081f6629f3f82439dad8e"];
+  Node6845 -> Node6849 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6849 [label="CWalletInterface::Updated\lTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1a/class_c_wallet_interface.html#a07b55d9aede02e25a5e8d8027c67954f"];
+  Node6845 -> Node6850 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6850 [label="CWalletInterface::EraseFrom\lWallet",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1a/class_c_wallet_interface.html#a209e0de8725bab3274e7d79567cca630"];
+  Node6845 -> Node6851 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6851 [label="CWalletInterface::SyncTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d1a/class_c_wallet_interface.html#a7bde8e284f9405dd858c9b4cbf960ae5"];
+}

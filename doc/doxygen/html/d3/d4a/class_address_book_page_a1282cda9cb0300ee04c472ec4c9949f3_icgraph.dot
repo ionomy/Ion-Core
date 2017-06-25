@@ -1,0 +1,19 @@
+digraph "AddressBookPage::setModel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node112 [label="AddressBookPage::setModel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node112 -> Node113 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node113 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node113 -> Node114 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node114 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node112 -> Node115 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node115 [label="MultisigAddressEntry\l::on_addressBookButton\l_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d39/class_multisig_address_entry.html#a6077acfd02d628465478c463c3024e6e"];
+  Node112 -> Node116 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node116 [label="SendCoinsEntry::on\l_addressBookButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbc/class_send_coins_entry.html#ac661741d286d9f3db32f78bd22125cb0"];
+  Node112 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node117 [label="SignVerifyMessageDialog\l::on_addressBookButton\l_SM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a792a3bd647958c8ae74286c5ab3cf205"];
+  Node112 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node118 [label="SignVerifyMessageDialog\l::on_addressBookButton\l_VM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a90ceb00084c68da5e9c481ba0841d976"];
+}

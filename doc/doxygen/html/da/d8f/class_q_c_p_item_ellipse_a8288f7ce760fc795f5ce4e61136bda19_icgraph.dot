@@ -1,0 +1,14 @@
+digraph "QCPItemEllipse::pen"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node43 [label="QCPItemEllipse::pen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node43 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="QCPItemEllipse::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d8f/class_q_c_p_item_ellipse.html#adb81a663ed2420fcfa011e49f678d1a6"];
+  Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="QCPItemEllipse::QCPItemEllipse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d8f/class_q_c_p_item_ellipse.html#a759b77ef002515eba0263b5447ecb3fb"];
+  Node43 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="QCPItemEllipse::setSelectedPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d8f/class_q_c_p_item_ellipse.html#a6c542fba1dc918041c583f58a50dde99"];
+  Node46 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,37 @@
+digraph "CActiveMasternode::GetMasterNodeVin"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node322 [label="CActiveMasternode::\lGetMasterNodeVin",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node322 -> Node323 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node323 [label="CActiveMasternode::\lManageStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#a8004b3b2100da7dcfedbd1e959633e51"];
+  Node323 -> Node324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node324 [label="CActiveMasternode::\lCActiveMasternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#a7ffb946d1b2aad0054d3b3efce8c0543"];
+  Node323 -> Node325 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node325 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node325 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node326 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node326 -> Node327 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node327 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node325 -> Node328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node328 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node323 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node329 [label="masternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a30609e443aeb47c29ed0878d16b1b5e1"];
+  Node323 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node330 [label="ThreadCheckStashedSendPool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dbc/stashedsend_8h.html#ab583ddc86effded8432ea5387f77d883"];
+  Node330 -> Node325 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node330 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node331 [label="CStashedsendPool::IsSession\lReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#acb903e97bacd0ecf2f1c3c0d82e6641c",tooltip="Do we have enough users to take entries? "];
+  Node322 -> Node332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node332 [label="CActiveMasternode::\lRegister",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#aacd8f048772ab4f9908c11d29727063d",tooltip="Register remote Masternode. "];
+  Node332 -> Node323 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node332 -> Node324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node332 -> Node333 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node333 [label="MasternodeManager::\lon_startButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#a83f5cf149fdaf6d7fce1a3378611c3f9"];
+  Node332 -> Node334 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node334 [label="MasternodeManager::\lon_startAllButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d70/class_masternode_manager.html#aad77095fab625d3a02afa52696f64e2f"];
+  Node332 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node322 -> Node324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node322 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

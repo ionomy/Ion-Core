@@ -1,0 +1,21 @@
+digraph "QCPLayoutGrid::updateLayout"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node220 [label="QCPLayoutGrid::updateLayout",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node220 -> Node221 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node221 [label="QCPLayoutGrid::getMinimum\lRowColSizes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a4b9a251919936f127a63fc1b9911cd4e"];
+  Node221 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node222 [label="QCPLayoutGrid::columnCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a1a2962cbf45011405b64b913afa8e7a2"];
+  Node221 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node223 [label="QCPLayoutGrid::rowCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a19c66fd76cbce58a8e94f33797e0c0aa"];
+  Node220 -> Node224 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node224 [label="QCPLayoutGrid::getMaximum\lRowColSizes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dd4/class_q_c_p_layout_grid.html#a9be77011ec5b5dfbe7fbda126659e1eb"];
+  Node224 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node224 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node220 -> Node223 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node220 -> Node222 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node220 -> Node225 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node225 [label="QCPLayout::getSectionSizes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d58/class_q_c_p_layout.html#a3e77be8006d39f2aafc1313d6e8fc3fd"];
+}

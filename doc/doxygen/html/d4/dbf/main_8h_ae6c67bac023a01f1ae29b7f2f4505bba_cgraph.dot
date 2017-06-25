@@ -1,0 +1,17 @@
+digraph "AllowFree"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node450 [label="AllowFree",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node450 -> Node451 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node451 [label="IsStandardTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#a74832d5d658916e73adb139fd60e2354",tooltip="Check for standard transaction types. "];
+  Node450 -> Node452 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node452 [label="IsFinalTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dbf/main_8h.html#aa7ca31ac11bff224c6b0ac27fccce7b5"];
+  Node452 -> Node453 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node453 [label="GetAdjustedTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a09f81b9c7650f898cf3cf305b87547e6"];
+  Node453 -> Node454 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node454 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node453 -> Node455 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node455 [label="GetTimeOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a50ca5344c75631267633f15cfe5e983e"];
+}

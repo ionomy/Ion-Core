@@ -1,0 +1,28 @@
+digraph "bench_context_verify"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node13 [label="bench_context_verify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="secp256k1_context_destroy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#af8569fb9aa73c0acf46afce4df662950",tooltip="Destroy a secp256k1 context object. "];
+  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="secp256k1_ecmult_context\l_clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d94/ecmult_8h.html#a0e60dbc86c237360d13ac9433caa13af"];
+  Node14 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="secp256k1_ecmult_gen\l_context_clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/ecmult__gen_8h.html#a2832f924fc8c5c9d0540d808ccdd7072"];
+  Node13 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="secp256k1_context_create",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dd3/secp256k1_8h.html#a769d478f352afbb55200e33970533a3c",tooltip="Create a secp256k1 context object. "];
+  Node17 -> Node18 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="checked_malloc",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d99/secp256k1_2src_2util_8h.html#a20790114658c559e5048a38694708c3e"];
+  Node18 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="secp256k1_callback_call",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d99/secp256k1_2src_2util_8h.html#af3f36140c71c09ed1d274671518466e0"];
+  Node17 -> Node19 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node20 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="secp256k1_ecmult_context_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d94/ecmult_8h.html#a3d2b8a81ffed27e7eca0058eb65831b5"];
+  Node17 -> Node21 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="secp256k1_ecmult_gen\l_context_init",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/ecmult__gen_8h.html#a85f9fd11a4166d3d482309317d65c276"];
+  Node17 -> Node22 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="secp256k1_ecmult_gen\l_context_build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/ecmult__gen_8h.html#afaf90b2a6554053187cdc89df0dafd21"];
+  Node17 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="secp256k1_ecmult_context\l_build",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d94/ecmult_8h.html#acc2494f319c79f6cc15982f43e7a6f00"];
+}

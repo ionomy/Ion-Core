@@ -1,0 +1,30 @@
+digraph "tinyformat::detail::FormatIterator::finish"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node14 [label="tinyformat::detail\l::FormatIterator::finish",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="tinyformat::detail\l::FormatIterator::streamState\lFromFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d42/classtinyformat_1_1detail_1_1_format_iterator.html#a42ed39c6771b424bc084b32c5836e83e"];
+  Node14 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="tinyformat::detail\l::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d1a/namespacetinyformat_1_1detail.html#aa4b0590b3e34562c2d252a2086cec7ba"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="MRichTextEdit::setHtml",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/daa/class_m_rich_text_edit.html#a52a6c896bf5a1b407f16b0a3a7031c40"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="MRichTextEdit::setText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/daa/class_m_rich_text_edit.html#a399d16bc18b366934c362ffacfb1a451"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="MRichTextEdit::setTextCursor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/daa/class_m_rich_text_edit.html#a6a7a2a2cc996141c4e2b61df54933ac7"];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="QCPAxis::setDateTimeFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a2ee0191daa03524a682113e63e05f7a7"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="QCPAxisRect::setupFullAxesBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4"];
+  Node16 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="QCPAxis::grid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a63f1dd2df663680d2a8d06c19592dd63"];
+  Node22 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="QCustomPlot::QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a45b99626558651a6428b83972b0b34b8"];
+  Node22 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="QCPAxisRect::QCPAxisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a60b31dece805462c1b82eea2e69ba042"];
+  Node22 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="QCPColorScaleAxisRectPrivate\l::QCPColorScaleAxisRectPrivate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#ad3b242f75dd2b33581364a4e668a80db"];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,0 +1,37 @@
+digraph "CWalletTx::GetImmatureCredit"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node480 [label="CWalletTx::GetImmatureCredit",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node480 -> Node481 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node481 [label="CWallet::GetImmatureBalance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a6ab8dfa75c5c8d5539325f3981697964"];
+  Node481 -> Node482 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node482 [label="WalletModel::getImmature\lBalance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#ac5dbbc28b2c8ecd2e00fb45c6a2cb6f8"];
+  Node482 -> Node483 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node483 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node483 -> Node484 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node484 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node484 -> Node485 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node485 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node482 -> Node486 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node486 [label="SendCoinsDialog::setModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a73a6c1b1850a334ee652ac167713a2aa"];
+  Node486 -> Node484 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node482 -> Node487 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node487 [label="SendCoinsDialog::updateDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a74815ad8502b126200b6fd2e59e9f042"];
+  Node487 -> Node488 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node488 [label="SendCoinsDialog::SendCoins\lDialog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a0df5bc29d1df68eda44826651afc595f"];
+  Node487 -> Node486 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node482 -> Node489 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node489 [label="WalletModel::checkBalance\lChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#adcc4eb8cd71cb4de223621866bb7fb7d"];
+  Node489 -> Node490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node490 [label="WalletModel::pollBalance\lChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a51469b2d95cfd4bc0a14ee456fca7b95"];
+  Node490 -> Node491 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node491 [label="WalletModel::WalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#af50d9654d2f20e4e4f0789dcb64ad6b1"];
+  Node489 -> Node492 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node492 [label="WalletModel::sendCoins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a053fb3ff2b8b0347f83e6bb591126746"];
+  Node492 -> Node493 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node493 [label="SendCoinsDialog::send",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#afd8d436a16ea7dba1276e8fdfdc8b2d3"];
+  Node493 -> Node494 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node494 [label="SendCoinsDialog::on\l_sendButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de6/class_send_coins_dialog.html#a2cab7cf9ea5040b9e2189297f7d3c764"];
+}

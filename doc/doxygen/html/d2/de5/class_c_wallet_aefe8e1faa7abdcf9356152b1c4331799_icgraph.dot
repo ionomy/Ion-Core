@@ -1,0 +1,30 @@
+digraph "CWallet::SelectCoinsByDenominations"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3313 [label="CWallet::SelectCoinsByDenominations",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3313 -> Node3314 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3314 [label="CStashedsendPool::DoAutomatic\lDenominating",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#a21f19df4854af34c8f89187c768a524f",tooltip="Passively run Stashedsend in the background according to the configuration in settings (only for QT) ..."];
+  Node3314 -> Node3315 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3315 [label="OverviewPage::stashedsendAuto",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#abf60d7de5f283687a914b487dc44ca76"];
+  Node3315 -> Node3316 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3316 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node3316 -> Node3317 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3317 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node3317 -> Node3318 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3318 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node3314 -> Node3319 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3319 [label="stashedsend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a5a7cb1ad55aeaa8bcbb5172e9153a75a"];
+  Node3314 -> Node3320 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3320 [label="ThreadCheckStashedSendPool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dbc/stashedsend_8h.html#ab583ddc86effded8432ea5387f77d883"];
+  Node3320 -> Node3321 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3321 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node3321 -> Node3322 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3322 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node3322 -> Node3323 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3323 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node3321 -> Node3318 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3320 -> Node3324 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3324 [label="CStashedsendPool::IsSession\lReady",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d8a/class_c_stashedsend_pool.html#acb903e97bacd0ecf2f1c3c0d82e6641c",tooltip="Do we have enough users to take entries? "];
+}

@@ -1,0 +1,9 @@
+digraph "getsubsidy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node378 [label="getsubsidy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node378 -> Node379 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node379 [label="GetCoinstakeValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d08/proofs_8cpp.html#a84af3aad491438b64bc1a79a7fd1d659",tooltip="Determine Block Reward for Proof Of Stake. "];
+}

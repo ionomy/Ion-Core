@@ -1,0 +1,11 @@
+digraph "QCPMarginGroup::~QCPMarginGroup"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="QCPMarginGroup::~QCPMargin\lGroup",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPMarginGroup::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d08/class_q_c_p_margin_group.html#a144b67f216e4e86c3a3a309e850285fe"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPMarginGroup::elements",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d08/class_q_c_p_margin_group.html#ac967a4dc5fe02ae44aeb43511d5e1bd4"];
+}

@@ -1,0 +1,11 @@
+digraph "secp256k1_scalar_get_num"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="secp256k1_scalar_get_num",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="secp256k1_scalar_get_b32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4fa08f8af5a23f505b44c9ef1bec1831",tooltip="Convert a scalar to a byte array. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="secp256k1_num_set_bin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d98/num_8h.html#a4a7f500a93d330df44bbe3adda388868",tooltip="Set a number to the value of a binary big-endian string. "];
+}

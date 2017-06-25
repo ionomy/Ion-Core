@@ -1,0 +1,11 @@
+digraph "MRichTextEdit::setPlainText"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node131 [label="MRichTextEdit::setPlainText",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node131 -> Node132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node132 [label="MRichTextEdit::setText",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/daa/class_m_rich_text_edit.html#a399d16bc18b366934c362ffacfb1a451"];
+  Node132 -> Node133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node133 [label="MRichTextEdit::setTextCursor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/daa/class_m_rich_text_edit.html#a6a7a2a2cc996141c4e2b61df54933ac7"];
+}

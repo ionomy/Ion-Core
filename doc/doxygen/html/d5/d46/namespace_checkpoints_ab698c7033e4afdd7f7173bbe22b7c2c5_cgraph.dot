@@ -1,0 +1,9 @@
+digraph "Checkpoints::CheckSync"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node61 [label="Checkpoints::CheckSync",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="Checkpoints::AutoSelectSync\lCheckpoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d46/namespace_checkpoints.html#aa1915d9b1ed1c988b8477c3cc7ed1416"];
+}

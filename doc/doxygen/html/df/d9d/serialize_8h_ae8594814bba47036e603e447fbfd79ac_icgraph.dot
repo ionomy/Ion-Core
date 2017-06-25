@@ -1,0 +1,11 @@
+digraph "Unserialize_impl"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node492 [label="Unserialize_impl",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node492 -> Node493 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node493 [label="WrapVarInt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d9d/serialize_8h.html#a5748d9d17982b234b10a4b9e6f8e9f53"];
+  Node492 -> Node494 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node494 [label="Unserialize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d9d/serialize_8h.html#aefdf63d8c997767d3e3535a54f35025c"];
+}

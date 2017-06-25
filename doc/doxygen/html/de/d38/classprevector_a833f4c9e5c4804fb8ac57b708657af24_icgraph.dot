@@ -1,0 +1,26 @@
+digraph "prevector::capacity"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node145 [label="prevector::capacity",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node145 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node146 [label="prevector::assign",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#aecbf4de43de23c1b01a2e39bf974f14e"];
+  Node145 -> Node147 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node147 [label="prevector::resize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ad2d97a45e0d2872260e868a540d31860"];
+  Node147 -> Node148 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node148 [label="prevector::prevector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a0c428e879c43daac251d6fbbc2ab7b54"];
+  Node147 -> Node149 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node149 [label="prevector::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a325af27672f21e7f2a01d8cdae7abba8"];
+  Node147 -> Node150 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node150 [label="prevector::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a412f07b8bf5485dabe2fe9d6d5dfe763"];
+  Node150 -> Node146 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node150 -> Node151 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node151 [label="prevector::~prevector",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a507bc6d153e291d93c885162e3a3a8f7"];
+  Node145 -> Node152 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node152 [label="prevector::reserve",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ab9a34e0210debc65efda453dbd0cbd27"];
+  Node145 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="prevector::insert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ad4f368a9aa3f0f650e1b2a0894dafe51"];
+  Node145 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="prevector::push_back",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#af34b1eea43f461465aa29fe7ca67449d"];
+}

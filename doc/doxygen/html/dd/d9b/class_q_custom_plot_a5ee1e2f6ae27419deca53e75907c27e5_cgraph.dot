@@ -1,0 +1,9 @@
+digraph "QCustomPlot::setInteractions"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node934 [label="QCustomPlot::setInteractions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node934 -> Node935 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node935 [label="QCustomPlot::interactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a2c78c5fd2943c148ab76652801d3f2dc"];
+}

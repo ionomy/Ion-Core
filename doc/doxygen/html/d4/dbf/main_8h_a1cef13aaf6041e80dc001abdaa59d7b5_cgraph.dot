@@ -1,0 +1,11 @@
+digraph "IsDriftReduced"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1893 [label="IsDriftReduced",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1893 -> Node1894 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1894 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node1893 -> Node1895 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1895 [label="CChainParams::Fork1Time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a58ca2975b0b48604cd7c30d8a8e3660a"];
+}

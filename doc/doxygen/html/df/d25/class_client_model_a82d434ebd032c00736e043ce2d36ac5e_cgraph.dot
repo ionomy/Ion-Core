@@ -1,0 +1,17 @@
+digraph "ClientModel::updateTimer"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node610 [label="ClientModel::updateTimer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node610 -> Node611 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node611 [label="ClientModel::getNumBlocks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a9af729ddd1220f928d8cb3ef29f06f26"];
+  Node610 -> Node612 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node612 [label="ClientModel::getTotalBytesRecv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a3ecd021e48073debd6dfeb90fdb3e7bd"];
+  Node612 -> Node613 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node613 [label="CNode::GetTotalBytesRecv",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d64/class_c_node.html#a1988b63b48fdc9b72014bdf9588b0168"];
+  Node610 -> Node614 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node614 [label="ClientModel::getTotalBytesSent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a53cd536b119e49b0fab9c95d13a247ed"];
+  Node614 -> Node615 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node615 [label="CNode::GetTotalBytesSent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d64/class_c_node.html#af318a64e7ddad50d1e1b6fc123a5f0b9"];
+}

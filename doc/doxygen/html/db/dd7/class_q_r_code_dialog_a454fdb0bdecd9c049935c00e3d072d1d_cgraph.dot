@@ -1,0 +1,19 @@
+digraph "QRCodeDialog::on_chkReqPayment_toggled"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node37 [label="QRCodeDialog::on_chkReqPayment\l_toggled",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="QRCodeDialog::genCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dd7/class_q_r_code_dialog.html#a72ee8eb3c9145ffd6ea76ac29c305825"];
+  Node38 -> Node39 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="QRCodeDialog::getURI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dd7/class_q_r_code_dialog.html#a4f4b945407ffd62f9a619c158d9ebd5c"];
+  Node39 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="IonUnits::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a7cf8cdbd0a24c418ae91b511fac5bee4",tooltip="Format as string. "];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="IonUnits::valid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a23c5b1306ed473dbb2375a6675a2ce13",tooltip="Is unit ID valid? "];
+  Node40 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="IonUnits::factor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a210814a200496caf63083ed4abd1bd24",tooltip="Number of Satoshis (1e-8) per unit. "];
+  Node40 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="IonUnits::decimals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a5e9c7a5b666b858c171760273c51c9d7",tooltip="Number of decimals left. "];
+}

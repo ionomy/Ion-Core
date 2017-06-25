@@ -1,0 +1,11 @@
+digraph "WriteBE64"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node60 [label="WriteBE64",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="htobe64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d84/endian_8h.html#a55844e5fbe9a8ab3e9793335a16e2efc"];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="bswap_64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc9/byteswap_8h.html#aaf6a6e8515061fb001505d3b9f6164e2"];
+}

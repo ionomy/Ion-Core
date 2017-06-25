@@ -1,0 +1,17 @@
+digraph "ShrinkDebugFile"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6074 [label="ShrinkDebugFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6074 -> Node6075 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6075 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab83866a054745d4b30a3948a1b44beba"];
+  Node6075 -> Node6076 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6076 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node6075 -> Node6077 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6077 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node6075 -> Node6078 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6078 [label="GetDefaultDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab272995de020a3bcbf743be630e485c6"];
+  Node6075 -> Node6079 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6079 [label="CChainParams::DataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a959488b5d8e6fe62857940b831d73a78"];
+}

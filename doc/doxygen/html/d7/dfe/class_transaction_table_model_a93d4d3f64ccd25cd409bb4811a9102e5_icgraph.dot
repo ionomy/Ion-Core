@@ -1,0 +1,29 @@
+digraph "TransactionTableModel::formatTxStatus"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node664 [label="TransactionTableModel\l::formatTxStatus",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node664 -> Node665 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node665 [label="TransactionTableModel\l::formatTooltip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a535a0f50a4404a73194e02c3c09e13c0"];
+  Node665 -> Node666 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node666 [label="TransactionTableModel\l::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a02173c31b6014bff182e320217e30e10"];
+  Node666 -> Node667 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node667 [label="TransactionTableModel\l::index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#af3a9a49314f80268a77a704f7f028905"];
+  Node667 -> Node668 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node668 [label="IonGUI::incomingTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#acdb78c5d98fb4528bd0e9f5b9c5ad048",tooltip="Show incoming transaction notification for new transactions. "];
+  Node668 -> Node669 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node669 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node669 -> Node670 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node670 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node667 -> Node671 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node671 [label="TransactionTableModel\l::updateConfirmations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a5899d9eda6465bfb16d2846b6459567e"];
+  Node671 -> Node672 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node672 [label="WalletModel::pollBalance\lChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a51469b2d95cfd4bc0a14ee456fca7b95"];
+  Node672 -> Node673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node673 [label="WalletModel::WalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#af50d9654d2f20e4e4f0789dcb64ad6b1"];
+  Node667 -> Node674 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node674 [label="TransactionTableModel\l::updateDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a8b73ff7d72ec2dd69790bc61bbe8575e"];
+  Node674 -> Node675 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node675 [label="TransactionTableModel\l::TransactionTableModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a6c10b7cab9804eee6df9e049a978dc62"];
+}

@@ -1,0 +1,40 @@
+digraph "MultisigDialog::on_createTransactionButton_clicked"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node201 [label="MultisigDialog::on\l_createTransactionButton\l_clicked",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node201 -> Node202 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node202 [label="MultisigInputEntry\l::validate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/class_multisig_input_entry.html#ac00fe5c686fa9a5b60681714f2ae15e8"];
+  Node201 -> Node203 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node203 [label="MultisigInputEntry\l::getInput",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d3d/class_multisig_input_entry.html#a51788724dba408966291c6ef691dd86f"];
+  Node201 -> Node204 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node204 [label="SendCoinsEntry::validate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbc/class_send_coins_entry.html#ab77df95fe77e9a001190cd4dabe0dfec"];
+  Node204 -> Node205 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node205 [label="WalletModel::validateAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a04604615253aeaae1253b1412a70a1f7"];
+  Node205 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node206 [label="IsStealthAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#a26c89afcb720e8b1a9c9dadaee26757b"];
+  Node206 -> Node207 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node207 [label="DecodeBase58",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d9c/base58_8cpp.html#a0f74d1d6e7e982cad4b0e538acea4538",tooltip="Decode a base58-encoded string (psz) into a byte vector (vchRet). "];
+  Node206 -> Node208 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node208 [label="VerifyChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#a5ff6f6775db5f747f5088c7ef8264b74"];
+  Node208 -> Node209 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node209 [label="StashedSilkChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#abb79a3b98a10b85daf3f3ff35c1cbfa8"];
+  Node205 -> Node210 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node210 [label="CIonAddress::IsValid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/de4/class_c_ion_address.html#a93cb71370b938e7fad4a74c4b5775da6"];
+  Node210 -> Node211 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node211 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node210 -> Node212 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node212 [label="CChainParams::Base58Prefix",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a103c58eca4a26a71201882b3ed6c4cb4"];
+  Node201 -> Node213 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node213 [label="SendCoinsEntry::getValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbc/class_send_coins_entry.html#af36fb0ed9e2e07079c1a982b31e793c8"];
+  Node213 -> Node206 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node201 -> Node214 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node214 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node201 -> Node215 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node215 [label="HexStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#ace13a819ca4e98c22847d26b3b357e75"];
+  Node201 -> Node216 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node216 [label="CDataStream::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a2355d11752d8622badfbc03e9ed192fd"];
+  Node201 -> Node217 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node217 [label="CDataStream::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a66409dbd4403682fe674e2e71173cab4"];
+}

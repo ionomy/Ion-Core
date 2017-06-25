@@ -1,0 +1,30 @@
+digraph "CheckForkWarningConditions"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1715 [label="CheckForkWarningConditions",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1715 -> Node1716 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1716 [label="CheckForkWarningConditions\lOnNewFork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#ae93c8ad45e2ef9438abff483ce5beb23"];
+  Node1716 -> Node1717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1717 [label="ActivateBestChainStep",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a4e2b817360d39dc766271f51fc146c96",tooltip="Try to make some progress towards making pindexMostWork the active block. "];
+  Node1717 -> Node1718 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1718 [label="ActivateBestChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a81d9ced51eb72d4df66abddb00318b64",tooltip="Find the best known block, and make it the tip of the block chain. "];
+  Node1718 -> Node1719 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1719 [label="PreciousBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a04e493dc156338a1b2f457f7a7feaaa9",tooltip="Mark a block as precious and reorganize. "];
+  Node1718 -> Node1720 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1720 [label="ProcessNewBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a290fce59049c0951b8eb73f0129bf6f0",tooltip="Process an incoming block. "];
+  Node1718 -> Node1721 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1721 [label="LoadExternalBlockFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a2233339a13d09038cf2e46f4d0144be4",tooltip="Import blocks from an external file. "];
+  Node1715 -> Node1722 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1722 [label="InvalidChainFound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a13e27b2736226dd1e1cb3918eeb58153"];
+  Node1722 -> Node1723 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1723 [label="InvalidBlockFound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a14223fec767a6dcd89d03fc8aec056f4"];
+  Node1723 -> Node1724 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1724 [label="ConnectTip",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a6aed3630ddc1f0822daf257250d4799a",tooltip="Connect a new block to chainActive. "];
+  Node1724 -> Node1717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1722 -> Node1717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1722 -> Node1725 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1725 [label="InvalidateBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#adf70cddb5b3b3218a7f22da08dc4a456",tooltip="Mark a block as invalid. "];
+  Node1715 -> Node1717 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

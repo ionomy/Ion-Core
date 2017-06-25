@@ -1,0 +1,9 @@
+digraph "CWallet::SelectCoinsMinConf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3356 [label="CWallet::SelectCoinsMinConf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3356 -> Node3357 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3357 [label="CWallet::SelectCoins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ab768cfe20bf11e14415ef2b1452bf4c4"];
+}

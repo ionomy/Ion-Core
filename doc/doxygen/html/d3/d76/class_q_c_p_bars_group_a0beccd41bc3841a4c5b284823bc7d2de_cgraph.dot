@@ -1,0 +1,34 @@
+digraph "QCPBarsGroup::getPixelSpacing"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node41 [label="QCPBarsGroup::getPixelSpacing",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node41 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="QCPAbstractPlottable\l::keyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#a2cdd6f0dd5e9a979037f86b4000d9cfe"];
+  Node41 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="QCPAxis::orientation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#ab988ef4538e2655bb77bd138189cd42e"];
+  Node41 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="QCPAxis::axisRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#afc94bcfdf8adfe8e01013f13bdf159a2"];
+  Node41 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="QCPAxisRect::width",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a204645398a4f9d0b0189385c7c2cfb91"];
+  Node41 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node46 [label="QCPAxisRect::height",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#acc4377809e79d9a089ab790f39429b0d"];
+  Node41 -> Node47 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 [label="QCPAxis::coordToPixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#af15d1b3a7f7e9b53d759d3ccff1fe4b4"];
+  Node47 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 -> Node48 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node48 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f"];
+  Node47 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 -> Node49 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node49 [label="QCPAxisRect::left",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#afb4a3de02046b20b9310bdb8fca781c3"];
+  Node47 -> Node50 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node50 [label="QCPAxisRect::right",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a3f819d4a1b2193723d1fdafc573eea10"];
+  Node47 -> Node51 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="QCPAxis::baseLog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#ae759538b7eeb12259944e75a6bc359da"];
+  Node47 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="QCPAxisRect::bottom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#acefdf1abaa8a8ab681e906cc2be9581e"];
+  Node47 -> Node46 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node47 -> Node53 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="QCPAxisRect::top",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a45dbad181cbb9f09d068dbb76c817c95"];
+}

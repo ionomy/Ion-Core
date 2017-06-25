@@ -1,0 +1,38 @@
+digraph "PruneOrphanBlocks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4964 [label="PruneOrphanBlocks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4964 -> Node4965 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4965 [label="GetArg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a24f685720bf40370e5bd2a192ad50cd8",tooltip="Return string argument or default value. "];
+  Node4964 -> Node4966 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4966 [label="insecure_rand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#ae8f7a2f188545bbbf746160adc42038e"];
+  Node4966 -> Node4967 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4967 [label="seed_insecure_rand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#abef4e13668f53ac5404c796462aed9b4",tooltip="Seed insecure_rand using the random pool. "];
+  Node4967 -> Node4968 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4968 [label="GetRandBytes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#acf52c2aa8213c7b15e26594a2264ed8a"];
+  Node4968 -> Node4969 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4969 [label="LogPrint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#aab1f837a2366f424bdc996fdf6352171"];
+  Node4969 -> Node4970 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4970 [label="LogAcceptCategory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#a343d2a13efe00125f78d25dafb0a8d98"];
+  Node4969 -> Node4971 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4971 [label="LogPrintStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#afd4c3002b2797c0560adddb6af3ca1da"];
+  Node4971 -> Node4972 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4972 [label="DebugPrintInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a751ff5f21d880737811136b5e0bcea12"];
+  Node4972 -> Node4973 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4973 [label="GetDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab83866a054745d4b30a3948a1b44beba"];
+  Node4973 -> Node4974 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4974 [label="Params",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dbf/chainparams_8cpp.html#ace5c5b706d71a324a417dd2db394fd4a",tooltip="Return the currently selected parameters. "];
+  Node4973 -> Node4975 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4975 [label="CChainParams::NetworkID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a90dc493ec0c0325c98c3ac06eb99862b"];
+  Node4973 -> Node4976 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4976 [label="GetDefaultDataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#ab272995de020a3bcbf743be630e485c6"];
+  Node4973 -> Node4977 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4977 [label="CChainParams::DataDir",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d4f/class_c_chain_params.html#a959488b5d8e6fe62857940b831d73a78"];
+  Node4971 -> Node4973 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4971 -> Node4978 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4978 [label="DateTimeStrFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a749bc6776c8ec72d7c5e4dea56aee415"];
+  Node4971 -> Node4979 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4979 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+}

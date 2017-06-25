@@ -1,0 +1,13 @@
+digraph "RPCConsole::showOrHideBanTableIfRequired"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node394 [label="RPCConsole::showOrHideBan\lTableIfRequired",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node394 -> Node395 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node395 [label="ClientModel::getBanTable\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#ad02b8bf216a08845e393f9bac8c4ed42"];
+  Node394 -> Node396 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node396 [label="BanTableModel::shouldShow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d4f/class_ban_table_model.html#afbed923bfe027b3ae959e323d4b843cd"];
+  Node396 -> Node397 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node397 [label="BanTablePriv::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d05/class_ban_table_priv.html#ac2dd5abe4dba3d2838c7b1e31fbf5893"];
+}

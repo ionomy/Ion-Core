@@ -1,0 +1,47 @@
+digraph "FormatSubVersion"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1374 [label="FormatSubVersion",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1374 -> Node1375 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1375 [label="CAlert::AppliesToMe",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dff/class_c_alert.html#aba79cc9e957446fe93f05cb18f12b24b"];
+  Node1375 -> Node1376 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1376 [label="GetWarnings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#a70b1d1b79f1c760e65c960713b87b732"];
+  Node1376 -> Node1377 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1377 [label="ClientModel::getStatusBar\lWarnings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a16718fa6c90ac5bce0ce1dcbfb3ec95c",tooltip="Return warnings to be displayed in status bar. "];
+  Node1377 -> Node1378 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1378 [label="ClientModel::updateAlert",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d25/class_client_model.html#a16758b18ded91ceba202d6023cad4b51"];
+  Node1377 -> Node1379 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1379 [label="OverviewPage::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a5d2610ab2b9c58e3b5f67c05f984e097"];
+  Node1379 -> Node1380 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1380 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node1380 -> Node1381 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1381 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1376 -> Node1382 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1382 [label="getmininginfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#a89c187faff7322c7d15134d13570ca1e"];
+  Node1376 -> Node1383 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1383 [label="getstakinginfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#aedf628177ea04e0077d9d530963d40d6"];
+  Node1376 -> Node1384 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1384 [label="getinfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d48/rpcmisc_8cpp.html#a70335b93783d51e48d276a1e08bd721a"];
+  Node1376 -> Node1385 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1385 [label="CRPCTable::execute",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d6c/class_c_r_p_c_table.html#a18a39759205e739d86a35a1c92243760",tooltip="Execute a method. "];
+  Node1385 -> Node1386 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1386 [label="RPCExecutor::request",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dd5/class_r_p_c_executor.html#a26e314b5c74eef7a5d310578e1cdb1eb"];
+  Node1385 -> Node1387 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1387 [label="JSONRPCExecOne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#aa84f3199884bd0fa01edad0aa99602ef"];
+  Node1387 -> Node1388 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1388 [label="JSONRPCExecBatch",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#ad7931d42076c069db94baae77ec7f2fc"];
+  Node1388 -> Node1389 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1389 [label="ServiceConnection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#adda5af922ba2f27c9f6219394d3c4f4c"];
+  Node1389 -> Node1390 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1390 [label="RPCAcceptHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d76/rpcserver_8cpp.html#a1e6c8e04570f3b8f8a9fc49c2550f18c",tooltip="Accept and handle incoming connection. "];
+  Node1385 -> Node1389 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1374 -> Node1391 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1391 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node1391 -> Node1392 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1392 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node1392 -> Node1393 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1393 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node1391 -> Node1381 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

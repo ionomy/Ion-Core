@@ -1,0 +1,11 @@
+digraph "QCPAbstractLegendItem::selectableChanged"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39 [label="QCPAbstractLegendItem\l::selectableChanged",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="QCPAbstractLegendItem\l::setSelectable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d2f/class_q_c_p_abstract_legend_item.html#a9913ef48730551b696e7f98a2391c599"];
+  Node39 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="QCPLegend::setSelectable\lParts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/db1/class_q_c_p_legend.html#a9ce60aa8bbd89f62ae4fa83ac6c60110"];
+}

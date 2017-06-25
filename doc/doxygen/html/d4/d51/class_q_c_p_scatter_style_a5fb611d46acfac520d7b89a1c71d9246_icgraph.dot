@@ -1,0 +1,11 @@
+digraph "QCPScatterStyle::setPixmap"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node81 [label="QCPScatterStyle::setPixmap",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node81 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="QCPGraph::drawLegendIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#ae962caca309faae29ce0988d0d0eff4b"];
+  Node81 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node83 [label="QCPCurve::drawLegendIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d30/class_q_c_p_curve.html#acccc86e9f496bb0392529f59f3a69dbc"];
+}

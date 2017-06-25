@@ -1,0 +1,17 @@
+digraph "CheckStake"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node399 [label="CheckStake",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node399 -> Node400 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node400 [label="ThreadStakeMiner",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/de3/miner_8cpp.html#a31faece5ef0e403969b3d3debd79b352"];
+  Node400 -> Node401 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node401 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node401 -> Node402 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node402 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node402 -> Node403 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node403 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node401 -> Node404 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node404 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+}

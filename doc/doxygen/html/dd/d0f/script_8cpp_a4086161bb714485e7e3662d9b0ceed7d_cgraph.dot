@@ -1,0 +1,11 @@
+digraph "SignatureHash"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3189 [label="SignatureHash",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3189 -> Node3190 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3190 [label="CScript::FindAndDelete",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#aad6e9f84fe8aa2d27a979f1bc2732463"];
+  Node3189 -> Node3191 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3191 [label="CHashWriter::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/def/class_c_hash_writer.html#ae94a937211502eabf19477630090093a"];
+}

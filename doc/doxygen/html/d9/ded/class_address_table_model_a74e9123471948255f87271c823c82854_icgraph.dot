@@ -1,0 +1,38 @@
+digraph "AddressTableModel::index"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node152 [label="AddressTableModel::\lindex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node152 -> Node153 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node153 [label="AddressBookPage::selectNew\lAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d4a/class_address_book_page.html#a94958ad9ed9564af6480eb905fa91393",tooltip="New entry/entries were added to address table. "];
+  Node153 -> Node154 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node154 [label="AddressBookPage::setModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d4a/class_address_book_page.html#a1282cda9cb0300ee04c472ec4c9949f3"];
+  Node154 -> Node155 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node155 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node155 -> Node156 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node156 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node154 -> Node157 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node157 [label="MultisigAddressEntry\l::on_addressBookButton\l_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d39/class_multisig_address_entry.html#a6077acfd02d628465478c463c3024e6e"];
+  Node154 -> Node158 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node158 [label="SendCoinsEntry::on\l_addressBookButton_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dbc/class_send_coins_entry.html#ac661741d286d9f3db32f78bd22125cb0"];
+  Node154 -> Node159 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node159 [label="SignVerifyMessageDialog\l::on_addressBookButton\l_SM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a792a3bd647958c8ae74286c5ab3cf205"];
+  Node154 -> Node160 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node160 [label="SignVerifyMessageDialog\l::on_addressBookButton\l_VM_clicked",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d26/class_sign_verify_message_dialog.html#a90ceb00084c68da5e9c481ba0841d976"];
+  Node152 -> Node161 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node161 [label="AddressTableModel::\llookupAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a0beb94d838781d9055e393b37bf68f83"];
+  Node161 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node162 [label="TransactionView::editLabel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#a18817639384e53f94fc1ad956d7263d9"];
+  Node162 -> Node163 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node163 [label="TransactionView::TransactionView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#a0c5e8b90206b4e8b8bf68dd7e319798f"];
+  Node152 -> Node164 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node164 [label="AddressTableModel::\lemitDataChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a42cbcc82a8752c4af3b75fd62e8c7a40",tooltip="Notify listeners that data changed. "];
+  Node164 -> Node165 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node165 [label="AddressTablePriv::update\lEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dba/class_address_table_priv.html#aa0e92b8a58f68606b0fbb7faf04bda44"];
+  Node165 -> Node166 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node166 [label="AddressTableModel::\lupdateEntry",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a78d9d6f3db0ced72a29a32f487ab1c7f"];
+  Node166 -> Node167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node167 [label="WalletModel::updateAddressBook",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#ae2f0c65e5e19e71dc4766dfeb0425e99"];
+  Node152 -> Node162 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

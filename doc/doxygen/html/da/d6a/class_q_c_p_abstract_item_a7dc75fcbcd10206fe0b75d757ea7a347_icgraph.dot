@@ -1,0 +1,9 @@
+digraph "QCPAbstractItem::setClipAxisRect"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node169 [label="QCPAbstractItem::setClip\lAxisRect",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node169 -> Node170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node170 [label="QCPAbstractItem::QCPAbstractItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d6a/class_q_c_p_abstract_item.html#a9922507d8b4503a1fe1ed0b1030e23b6"];
+}

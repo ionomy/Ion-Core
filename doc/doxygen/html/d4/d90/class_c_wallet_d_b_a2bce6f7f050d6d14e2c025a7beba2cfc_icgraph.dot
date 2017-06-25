@@ -1,0 +1,19 @@
+digraph "CWalletDB::WriteStealthAddress"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node967 [label="CWalletDB::WriteStealthAddress",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node967 -> Node968 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node968 [label="CWallet::AddStealthAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a19d6a23e37ff619c741b7dfa9279b973"];
+  Node968 -> Node969 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node969 [label="AddressTableModel::\laddRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a08ab9ae401a18d193f0e39551de81280"];
+  Node969 -> Node970 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node970 [label="EditAddressDialog::\lsaveCurrentRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#a8494a551799cd1f4c253e557424c206c"];
+  Node970 -> Node971 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node971 [label="EditAddressDialog::\laccept",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#ac52b71129806bccf6533d0e9441393b6"];
+  Node968 -> Node972 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node972 [label="getnewstealthaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a59139de50de79af3d3960ddbb5ee5340"];
+  Node968 -> Node973 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node973 [label="importstealthaddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a4bde25c1b4a97ec6068d2808594c9820"];
+}

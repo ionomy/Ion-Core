@@ -1,0 +1,16 @@
+digraph "WalletTxToJSON"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2523 [label="WalletTxToJSON",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2523 -> Node2524 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2524 [label="ListTransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a460d931e7f098979bea783409c971d53"];
+  Node2524 -> Node2525 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2525 [label="listtransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a3247ccfc52f810122e28895d423e13fd"];
+  Node2524 -> Node2526 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2526 [label="listsinceblock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a53cf4975a89f414ef3bd180f6b4773cd"];
+  Node2524 -> Node2527 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2527 [label="gettransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a845c15a1402787fcf2cc021111ea89f5"];
+  Node2523 -> Node2527 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

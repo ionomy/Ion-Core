@@ -1,0 +1,20 @@
+digraph "GetMasternodeConfigFile"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3056 [label="GetMasternodeConfigFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3056 -> Node3057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3057 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node3057 -> Node3058 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3058 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node3058 -> Node3059 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3059 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node3057 -> Node3060 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3060 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node3056 -> Node3061 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3061 [label="CMasternodeConfig::read",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d46/class_c_masternode_config.html#a82185f7e744867ed213d2b25df61dfe4"];
+  Node3061 -> Node3057 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3061 -> Node3062 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3062 [label="CMasternodeConfig::\lCMasternodeConfig",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d46/class_c_masternode_config.html#acb7bc70387a57bdc9983ba4c668e77ac"];
+}

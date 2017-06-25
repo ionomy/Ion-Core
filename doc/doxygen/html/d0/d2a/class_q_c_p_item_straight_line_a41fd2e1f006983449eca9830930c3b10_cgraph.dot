@@ -1,0 +1,20 @@
+digraph "QCPItemStraightLine::QCPItemStraightLine"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QCPItemStraightLine\l::QCPItemStraightLine",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="QCPItemPosition::setCoords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#aa988ba4e87ab684c9021017dcaba945f"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPItemPosition::key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#a6fc519f1b73722a8d0cff7d4d647407e"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPItemPosition::value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#acfcf86f840a7366a4299bff593d5d636"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPItemStraightLine\l::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d2a/class_q_c_p_item_straight_line.html#a9f36c9c9e60d7d9ac084c80380ac8601"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPItemStraightLine::pen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d2a/class_q_c_p_item_straight_line.html#aa751d46cf36073607c11508763f85ff6"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPItemStraightLine\l::setSelectedPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d2a/class_q_c_p_item_straight_line.html#a5c33559498d33543fa95cf0a36e851ff"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

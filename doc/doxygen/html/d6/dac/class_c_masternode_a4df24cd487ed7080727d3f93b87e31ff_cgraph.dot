@@ -1,0 +1,13 @@
+digraph "CMasternode::UpdateLastSeen"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node411 [label="CMasternode::UpdateLastSeen",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node411 -> Node412 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node412 [label="GetAdjustedTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a09f81b9c7650f898cf3cf305b87547e6"];
+  Node412 -> Node413 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node413 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node412 -> Node414 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node414 [label="GetTimeOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a50ca5344c75631267633f15cfe5e983e"];
+}

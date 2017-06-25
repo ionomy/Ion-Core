@@ -1,0 +1,28 @@
+digraph "secp256k1_schnorr_sig_verify"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node25 [label="secp256k1_schnorr_sig\l_verify",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node25 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="secp256k1_schnorr_verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dab/schnorr_2main__impl_8h.html#a5d23afb11115cb53171b34da09ff3ad0",tooltip="Verify a signature created by secp256k1_schnorr_sign. "];
+  Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="benchmark_schnorr_verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/df4/bench__schnorr__verify_8c.html#a45550cf8aad65472340a81f6f05c6546"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/df4/bench__schnorr__verify_8c.html#a840291bc02cba5474a4cb46a9b9566fe"];
+  Node26 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="test_schnorr_end_to_end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#a0fadfae101d2df588a044f55eafcc0e6"];
+  Node29 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="run_schnorr_tests",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#a6b31cc8facecda629cf588196a4c936b"];
+  Node30 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#a3c04138a5bfe5d72780bb7e82a18e627"];
+  Node26 -> Node32 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="test_schnorr_threshold",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#a7c79e0204a103b99844bdf1b2ac4cb57"];
+  Node32 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 -> Node33 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="test_schnorr_sign_verify",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#ac01f457db870f54e7034a59bcf51f5fb"];
+  Node33 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 -> Node34 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="test_schnorr_recovery",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d1d/schnorr_2tests__impl_8h.html#afe1ab7f4400ea6152deaeea5959aa0bc"];
+  Node34 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

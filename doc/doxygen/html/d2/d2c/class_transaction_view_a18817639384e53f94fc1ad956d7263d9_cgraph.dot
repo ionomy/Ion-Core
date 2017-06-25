@@ -1,0 +1,27 @@
+digraph "TransactionView::editLabel"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node600 [label="TransactionView::editLabel",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node600 -> Node601 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node601 [label="WalletModel::getAddressTable\lModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a89ed202e2dbc04aaa70d72872b95b351"];
+  Node600 -> Node602 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node602 [label="AddressTableModel::data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a79b07007c147962c0119310ebd4931c1"];
+  Node602 -> Node603 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node603 [label="GUIUtil::ionAddressFont",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d87/namespace_g_u_i_util.html#a7cec12a5eacf453bfd69921c3e763b32"];
+  Node600 -> Node604 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node604 [label="AddressTableModel::\llookupAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a0beb94d838781d9055e393b37bf68f83"];
+  Node604 -> Node605 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node605 [label="AddressTableModel::\lindex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/ded/class_address_table_model.html#a74e9123471948255f87271c823c82854"];
+  Node605 -> Node602 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node605 -> Node606 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node606 [label="AddressTablePriv::index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/dba/class_address_table_priv.html#af311eb7d0189a74a508d7ad0f563f307"];
+  Node600 -> Node605 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node600 -> Node607 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node607 [label="EditAddressDialog::\lsetModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#a57d26af2c34bd45c06596e9b3fc9a446"];
+  Node600 -> Node608 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node608 [label="EditAddressDialog::\lloadRow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#a45d90d6f757fb4b20788710c8533036b"];
+  Node600 -> Node609 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node609 [label="EditAddressDialog::\lsetAddress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/db7/class_edit_address_dialog.html#afcaca5a8e493b9493d2ca2430f7ac5eb"];
+}

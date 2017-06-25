@@ -1,0 +1,13 @@
+digraph "NotifyHeaderTip"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4488 [label="NotifyHeaderTip",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4488 -> Node4489 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4489 [label="ProcessNewBlockHeaders",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a477cb57169aa4238b9b5a4bb4d9e33a9",tooltip="Process incoming block headers. "];
+  Node4488 -> Node4490 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4490 [label="ProcessNewBlock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a290fce59049c0951b8eb73f0129bf6f0",tooltip="Process an incoming block. "];
+  Node4488 -> Node4491 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4491 [label="LoadExternalBlockFile",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#a2233339a13d09038cf2e46f4d0144be4",tooltip="Import blocks from an external file. "];
+}

@@ -1,0 +1,13 @@
+digraph "COutPoint::IMPLEMENT_SERIALIZE"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node6 [label="COutPoint::IMPLEMENT\l_SERIALIZE",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="CTxIn::CTxIn",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/da8/class_c_tx_in.html#abcf9f5a65b0a016b31912f4cd1f32c73"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="CStashedsendQueue::\lCStashedsendQueue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d34/class_c_stashedsend_queue.html#abed6178709571bb82e2821c458a04978"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CTxOut::CTxOut",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/db7/class_c_tx_out.html#a46110a759b21c75968297768f759be59"];
+}

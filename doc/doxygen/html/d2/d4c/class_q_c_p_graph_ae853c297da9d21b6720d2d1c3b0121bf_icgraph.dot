@@ -1,0 +1,33 @@
+digraph "QCPGraph::getPreparedData"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node434 [label="QCPGraph::getPreparedData",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node434 -> Node435 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node435 [label="QCPGraph::getScatterPlotData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a6ea929da420e6c104998060d19740ed6"];
+  Node435 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node436 [label="QCPGraph::getPlotData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a5ec495f97b8185ba9712430cb1558f52"];
+  Node436 -> Node437 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node437 [label="QCPGraph::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a659218cc62c2a7786213d9dd429c1c8d"];
+  Node436 -> Node438 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node438 [label="QCPGraph::pointDistance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a96146099a5e68f49c7326a765f768da2"];
+  Node438 -> Node439 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node439 [label="QCPGraph::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a36011c34aca4f7a477de25961e2f6c13"];
+  Node435 -> Node438 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node434 -> Node440 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node440 [label="QCPGraph::getLinePlotData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a77314984a7af578a66e939db0db48556"];
+  Node440 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node434 -> Node441 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node441 [label="QCPGraph::getStepLeftPlotData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a8f8ae9cb4aa312c2085c3f6f298f19d4"];
+  Node441 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node434 -> Node442 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node442 [label="QCPGraph::getStepRightPlotData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a59fecb135f47db10e14d75018210bf80"];
+  Node442 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node434 -> Node443 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node443 [label="QCPGraph::getStepCenterPlotData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#ab860d67ecc7e2d7253ab1f19032958c2"];
+  Node443 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node434 -> Node444 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node444 [label="QCPGraph::getImpulsePlotData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#aae73c001a78cbe54e55e6779d7a70957"];
+  Node444 -> Node436 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

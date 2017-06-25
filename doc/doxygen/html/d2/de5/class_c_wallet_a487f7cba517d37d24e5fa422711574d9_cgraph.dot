@@ -1,0 +1,18 @@
+digraph "CWallet::AddToWalletIfInvolvingMe"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node269 [label="CWallet::AddToWalletIfInvolvingMe",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node269 -> Node270 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node270 [label="CTransaction::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d43/class_c_transaction.html#a0b46d80e82ca324e82c2ce3fc1492bfa"];
+  Node270 -> Node271 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node271 [label="SerializeHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dfb/hash_8h.html#a6de694e43f17c62025c6883965b65e63"];
+  Node271 -> Node272 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node272 [label="CHashWriter::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/def/class_c_hash_writer.html#ae94a937211502eabf19477630090093a"];
+  Node269 -> Node273 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node273 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node273 -> Node274 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node274 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node273 -> Node273 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

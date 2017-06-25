@@ -1,0 +1,11 @@
+digraph "CActiveMasternode::SelectCoinsMasternodeForPubKey"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node906 [label="CActiveMasternode::\lSelectCoinsMasternodeForPubKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node906 -> Node907 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node907 [label="CActiveMasternode::\lGetMasterNodeVinForPubKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#ada17e6bbfd69a3acf166b49c10365da4"];
+  Node906 -> Node908 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node908 [label="CActiveMasternode::\lCActiveMasternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d29/class_c_active_masternode.html#a7ffb946d1b2aad0054d3b3efce8c0543"];
+}

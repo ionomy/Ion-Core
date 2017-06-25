@@ -1,0 +1,29 @@
+digraph "CAddrInfo::GetNewBucket"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node27 [label="CAddrInfo::GetNewBucket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node27 -> Node28 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="CAddrInfo::GetNewBucket",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d92/class_c_addr_info.html#a85faee0bb6c4d2bd6e63ed66c011bc75"];
+  Node28 -> Node29 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="CNetAddr::GetGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/dc3/class_c_net_addr.html#a6f8211515f809f6972ce327433d41458"];
+  Node29 -> Node30 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="IsLocal",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d84/net_8cpp.html#a16fa1bd4d34c4c29c90903fc3cdf7517",tooltip="check whether a given address is potentially local "];
+  Node28 -> Node31 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="Hash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dfb/hash_8h.html#ab3f6c437460137530d86e09c2c102e99"];
+  Node28 -> Node32 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node32 [label="CDataStream::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a2355d11752d8622badfbc03e9ed192fd"];
+  Node28 -> Node33 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node33 [label="CDataStream::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d41/class_c_data_stream.html#a66409dbd4403682fe674e2e71173cab4"];
+  Node27 -> Node34 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node34 [label="CAddrInfo::IsTerrible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d92/class_c_addr_info.html#a600725db90b879aee92128a3409af8aa"];
+  Node27 -> Node35 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="GetAdjustedTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a09f81b9c7650f898cf3cf305b87547e6"];
+  Node35 -> Node36 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node35 -> Node37 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="GetTimeOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a50ca5344c75631267633f15cfe5e983e"];
+  Node27 -> Node38 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="CAddrInfo::GetChance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d92/class_c_addr_info.html#af6788fe5a5364e63896ab9dedb8e5d40"];
+}

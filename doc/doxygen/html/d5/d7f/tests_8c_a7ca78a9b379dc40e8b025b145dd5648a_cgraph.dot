@@ -1,0 +1,24 @@
+digraph "test_wnaf"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1836 [label="test_wnaf",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1836 -> Node1837 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1837 [label="secp256k1_scalar_set_int",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a41cb11650e4dea0fe7ac5b59b9fce9dc",tooltip="Set a scalar to an unsigned integer. "];
+  Node1836 -> Node1838 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1838 [label="secp256k1_ecmult_wnaf",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d17/ecmult__impl_8h.html#a48a8b6bbead18d4475c8a29d28376c5b",tooltip="Convert a number to WNAF notation. "];
+  Node1838 -> Node1839 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1839 [label="secp256k1_scalar_get_bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a70d7af05e9c9a579ed5cb20d9f22eeba",tooltip="Access bits from a scalar. "];
+  Node1838 -> Node1840 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1840 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#aa3f1c1d4536adf835ee256878c222968",tooltip="Compute the complement of a scalar (modulo the group order). "];
+  Node1838 -> Node1841 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1841 [label="secp256k1_scalar_get\l_bits_var",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#abede7dbe3b5a38a51b388d46f4c5b52d",tooltip="Access bits from a scalar. "];
+  Node1836 -> Node1842 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1842 [label="secp256k1_scalar_mul",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a89db15f705c8eafcd10c08181523acd0",tooltip="Multiply two scalars (modulo the group order). "];
+  Node1836 -> Node1840 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1836 -> Node1843 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1843 [label="secp256k1_scalar_add",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a83257652850276cd74c7cdd1f9444d9c",tooltip="Add two scalars together (modulo the group order). "];
+  Node1836 -> Node1844 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1844 [label="secp256k1_scalar_eq",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d94/scalar_8h.html#a4ba37c67745038e5ff23ca66f051837d",tooltip="Compare two scalars. "];
+}

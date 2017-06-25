@@ -1,0 +1,19 @@
+digraph "QCPColorMapData::setSize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node104 [label="QCPColorMapData::setSize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node104 -> Node105 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node105 [label="QCPColorMapData::QCPColor\lMapData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#aac9d8eb81e18e240d89d56c01933fd23"];
+  Node104 -> Node106 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node106 [label="QCPColorMapData::operator=",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#afdf4dd1b2f5714234fe84709b85c2a8d"];
+  Node104 -> Node107 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node107 [label="QCPColorMapData::setKeySize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#ac7ef70e383aface34b44dbde49234b6b"];
+  Node104 -> Node108 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node108 [label="QCPColorMapData::setValueSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a0893c9e3914513048b45e3429ffd16f2"];
+  Node104 -> Node109 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node109 [label="QCPColorMapData::clear",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a9910ba830e96955bd5c8e5bef1e77ef3"];
+  Node109 -> Node110 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node110 [label="QCPColorMap::clearData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/dea/class_q_c_p_color_map.html#a0545dce5383766885912331705a8e099"];
+}

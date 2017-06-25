@@ -1,0 +1,13 @@
+digraph "FormatHashBlocks"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node951 [label="FormatHashBlocks",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node951 -> Node952 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node952 [label="FormatHashBuffers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d13/miner_8h.html#a391a5a462c3f60bbb7dbf6a09fe2e78f",tooltip="Do mining precalculation. "];
+  Node952 -> Node953 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node953 [label="getworkex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#aa40f86dc468a3f2ef4a3bba99e20a069"];
+  Node952 -> Node954 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node954 [label="getwork",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#a356be62c93d38267a7da9e1cb644d547"];
+}

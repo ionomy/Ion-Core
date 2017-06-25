@@ -1,0 +1,9 @@
+digraph "QCustomPlot::setPlottingHints"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node952 [label="QCustomPlot::setPlotting\lHints",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node952 -> Node953 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node953 [label="QCustomPlot::setPlottingHint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a3b7c97bb6c16464e9e15190c07abe9a9"];
+}

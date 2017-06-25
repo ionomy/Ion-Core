@@ -1,0 +1,27 @@
+digraph "QCPItemPosition::setTypeY"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node280 [label="QCPItemPosition::setTypeY",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node280 -> Node281 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node281 [label="QCPItemPosition::pixelPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#a6cad070c22801295231f5bd6045afe70"];
+  Node281 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node282 [label="QCPItemAnchor::pixelPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d7c/class_q_c_p_item_anchor.html#ae1a21d9471d1d788624cad297e1b8d6f"];
+  Node282 -> Node283 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node283 [label="QCPAbstractItem::anchorPixel\lPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d6a/class_q_c_p_abstract_item.html#a5681c190803e899bac9a240753fdba00"];
+  Node281 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node284 [label="QCustomPlot::viewport",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a19842409b18f556b256d05e97fffc670"];
+  Node280 -> Node285 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node285 [label="QCPItemPosition::type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#abfd74d86bd799306ce0295ffe433bdfc"];
+  Node280 -> Node286 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node286 [label="QCPItemPosition::setPixel\lPoint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#ab404e56d9ac2ac2df0382c57933a71ef"];
+  Node286 -> Node282 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node286 -> Node284 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node286 -> Node287 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node287 [label="QCPItemPosition::setCoords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#aa988ba4e87ab684c9021017dcaba945f"];
+  Node287 -> Node288 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node288 [label="QCPItemPosition::key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#a6fc519f1b73722a8d0cff7d4d647407e"];
+  Node287 -> Node289 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node289 [label="QCPItemPosition::value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#acfcf86f840a7366a4299bff593d5d636"];
+}

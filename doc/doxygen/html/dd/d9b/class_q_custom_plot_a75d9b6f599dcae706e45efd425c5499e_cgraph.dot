@@ -1,0 +1,29 @@
+digraph "QCustomPlot::~QCustomPlot"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node56 [label="QCustomPlot::~QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node56 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="QCustomPlot::clearPlottables",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a9a409bb3201878adb7ffba1c89c4e004"];
+  Node57 -> Node58 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node58 [label="QCustomPlot::removePlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#af3dafd56884208474f311d6226513ab2"];
+  Node58 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node59 [label="QCustomPlot::plottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#adea38bdc660da9412ba69fb939031567"];
+  Node58 -> Node60 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node60 [label="QCPAbstractPlottable\l::removeFromLegend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#ac95fb2604d9106d0852ad9ceb326fe8c"];
+  Node60 -> Node61 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 [label="QCPLegend::itemWithPlottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/db1/class_q_c_p_legend.html#a91e790002d8bf15a20628a8e8841e397"];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="QCPPlottableLegendItem\l::plottable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d24/class_q_c_p_plottable_legend_item.html#af29e9a2c60b4cba0cac2447b8af7b488"];
+  Node60 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="QCPLegend::removeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/db1/class_q_c_p_legend.html#ac91595c3eaa746fe6321d2eb952c63bb"];
+  Node58 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="QCustomPlot::graph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#aac190865a67f19af3fdf2136774997af"];
+  Node56 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="QCustomPlot::clearItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#abdfd07d4f0591d0cf967f85013fd3645"];
+  Node65 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="QCustomPlot::removeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ae04446557292551e8fb6e2c106e1848d"];
+  Node66 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="QCustomPlot::item",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a12eb2a283cf10a8a9176c01c0443e83e"];
+}

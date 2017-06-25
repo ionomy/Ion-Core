@@ -1,0 +1,30 @@
+digraph "QCPAxisRect::update"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node513 [label="QCPAxisRect::update",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node513 -> Node514 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node514 [label="QCPLayoutElement::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a929c2ec62e0e0e1d8418eaa802e2af9b"];
+  Node514 -> Node515 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node515 [label="QCP::setMarginValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5c/namespace_q_c_p.html#afbf6e3084c108f2bb4372107945ee82f"];
+  Node514 -> Node516 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node516 [label="QCPLayoutElement::calculate\lAutoMargin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a005c9f0fe84bc1591a2cf2c46fd477b4"];
+  Node516 -> Node517 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node517 [label="QCP::getMarginValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d5c/namespace_q_c_p.html#a23a2679d3495c444acc26acc61e35b5b"];
+  Node514 -> Node517 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node514 -> Node518 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node518 [label="QCPLayoutElement::setMargins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a8f450b1f3f992ad576fce2c63d8b79cf"];
+  Node518 -> Node519 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node519 [label="QCPLayoutElement::margins",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#af4ac9450aa2d60863bf3a8ea0c940c9d"];
+  Node513 -> Node520 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node520 [label="QCPAxisRect::axes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a11657b8faebe9677180860e8057ede26"];
+  Node513 -> Node521 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node521 [label="QCPLayoutElement::setOuterRect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a38975ea13e36de8e53391ce41d94bc0f"];
+  Node521 -> Node522 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node522 [label="QCPLayoutElement::rect",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/db3/class_q_c_p_layout_element.html#a208effccfe2cca4a0eaf9393e60f2dd4"];
+  Node513 -> Node522 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node513 -> Node523 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node523 [label="QCPLayout::update",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d58/class_q_c_p_layout.html#a34ab477e820537ded7bade4399c482fd"];
+  Node523 -> Node514 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

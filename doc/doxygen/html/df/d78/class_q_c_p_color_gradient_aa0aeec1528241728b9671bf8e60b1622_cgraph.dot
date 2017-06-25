@@ -1,0 +1,13 @@
+digraph "QCPColorGradient::loadPreset"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node39 [label="QCPColorGradient::loadPreset",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node39 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="QCPColorGradient::clearColor\lStops",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d78/class_q_c_p_color_gradient.html#a939213e85f0d1279519d555c5fcfb6ad"];
+  Node39 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="QCPColorGradient::setColor\lInterpolation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d78/class_q_c_p_color_gradient.html#aa13fda86406e1d896a465a409ae63b38"];
+  Node39 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="QCPColorGradient::setColor\lStopAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d78/class_q_c_p_color_gradient.html#a3b48be5e78079db1bb2a1188a4c3390e"];
+}

@@ -1,0 +1,11 @@
+digraph "InsertBlockIndex"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3554 [label="InsertBlockIndex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3554 -> Node3555 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3555 [label="LoadBlockIndexDB",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#adc87847be035fb67de8bf116d24ab957"];
+  Node3555 -> Node3556 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3556 [label="LoadBlockIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d38/validation_8h.html#ac199fda2eb2ecbe7dfa224eb2a0af8e1",tooltip="Load the block tree and coins database from disk. "];
+}

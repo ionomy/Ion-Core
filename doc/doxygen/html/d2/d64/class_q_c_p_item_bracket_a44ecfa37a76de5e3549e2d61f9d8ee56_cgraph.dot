@@ -1,0 +1,28 @@
+digraph "QCPItemBracket::QCPItemBracket"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="QCPItemBracket::QCPItemBracket",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="QCPItemPosition::setCoords",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#aa988ba4e87ab684c9021017dcaba945f"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="QCPItemPosition::key",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#a6fc519f1b73722a8d0cff7d4d647407e"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="QCPItemPosition::value",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dad/class_q_c_p_item_position.html#acfcf86f840a7366a4299bff593d5d636"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="QCPItemBracket::setPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_q_c_p_item_bracket.html#ab13001d9cc5d8f9e56ea15bdda682acb"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="QCPItemBracket::pen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_q_c_p_item_bracket.html#a6013b3f83aab7bc82b485ee5447ecb1b"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QCPItemBracket::setSelectedPen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_q_c_p_item_bracket.html#a349785c31122778a520c64891fa204c5"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="QCPItemBracket::setLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_q_c_p_item_bracket.html#ac7cfc3da7da9b5c5ac5dfbe4f0351b2a"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="QCPItemBracket::length",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_q_c_p_item_bracket.html#af69dbe7ca5847f36403e1fb502e8e59d"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="QCPItemBracket::setStyle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_q_c_p_item_bracket.html#a612dffa2373422eef8754d690add3703"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="QCPItemBracket::style",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d64/class_q_c_p_item_bracket.html#a600ad8c0a3193cc2f335db6039f2932d"];
+}

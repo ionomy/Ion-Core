@@ -1,0 +1,36 @@
+digraph "CWallet::GetWatchOnlyBalance"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1973 [label="CWallet::GetWatchOnlyBalance",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1973 -> Node1974 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1974 [label="CWalletTx::IsTrusted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#a71efb0d5b5def8ae00a1d74b8741bfcb"];
+  Node1974 -> Node1975 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1975 [label="IsFinalTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#adc332cd7ac94e639bb4239618341be19"];
+  Node1975 -> Node1976 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1976 [label="GetAdjustedTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a09f81b9c7650f898cf3cf305b87547e6"];
+  Node1976 -> Node1977 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1977 [label="GetTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a46fac5fba8ba905b5f9acb364f5d8c6f"];
+  Node1976 -> Node1978 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1978 [label="GetTimeOffset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d2d/util_8cpp.html#a50ca5344c75631267633f15cfe5e983e"];
+  Node1974 -> Node1979 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1979 [label="CWallet::GetWalletTx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ac496716bb889a5934fa27398aeb2330a"];
+  Node1974 -> Node1980 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1980 [label="CWallet::IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a4eada57edc1c443564b8cc9b853d955c"];
+  Node1980 -> Node1981 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1981 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node1981 -> Node1982 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1982 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node1981 -> Node1981 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1973 -> Node1983 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1983 [label="CWalletTx::GetAvailableWatch\lOnlyCredit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#ac78c4da3c420b2b28370cba7044dd68d"];
+  Node1983 -> Node1984 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1984 [label="CWallet::IsSpent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a6adcf1c224ed3c3fe4b0b19f6fca75d8"];
+  Node1983 -> Node1985 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1985 [label="CWallet::GetCredit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#aa60b69c7d4ea6063ed83b13d7c6fe695"];
+  Node1985 -> Node1986 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1986 [label="MoneyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d2f/amount_8h.html#a12db56a9a1c931941f0943ecbb278aae"];
+  Node1985 -> Node1981 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1983 -> Node1986 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

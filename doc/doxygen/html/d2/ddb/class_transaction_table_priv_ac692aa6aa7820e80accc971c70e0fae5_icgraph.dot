@@ -1,0 +1,37 @@
+digraph "TransactionTablePriv::index"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node337 [label="TransactionTablePriv\l::index",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node337 -> Node338 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node338 [label="TransactionTableModel\l::index",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#af3a9a49314f80268a77a704f7f028905"];
+  Node338 -> Node339 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node339 [label="IonGUI::incomingTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#acdb78c5d98fb4528bd0e9f5b9c5ad048",tooltip="Show incoming transaction notification for new transactions. "];
+  Node339 -> Node340 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node340 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node340 -> Node341 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node341 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node338 -> Node342 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node342 [label="TransactionTableModel\l::updateConfirmations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a5899d9eda6465bfb16d2846b6459567e"];
+  Node342 -> Node343 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node343 [label="WalletModel::pollBalance\lChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a51469b2d95cfd4bc0a14ee456fca7b95"];
+  Node343 -> Node344 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node344 [label="WalletModel::WalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#af50d9654d2f20e4e4f0789dcb64ad6b1"];
+  Node338 -> Node345 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node345 [label="TransactionTableModel\l::updateDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a8b73ff7d72ec2dd69790bc61bbe8575e"];
+  Node345 -> Node346 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node346 [label="TransactionTableModel\l::TransactionTableModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dfe/class_transaction_table_model.html#a6c10b7cab9804eee6df9e049a978dc62"];
+  Node337 -> Node347 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node347 [label="TransactionView::contextualMenu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#abe5793b86a4ea6f80a6d822ee878e646"];
+  Node347 -> Node348 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node348 [label="TransactionView::TransactionView",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#a0c5e8b90206b4e8b8bf68dd7e319798f"];
+  Node337 -> Node349 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node349 [label="TransactionView::computeSum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#abb2ea48a61bb12a0dda9d63952adc50e",tooltip="Compute sum of all selected transactions. "];
+  Node349 -> Node348 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node349 -> Node350 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node350 [label="TransactionView::setModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#a4920c2cd57d72eb50248948fa160c83c"];
+  Node350 -> Node340 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node349 -> Node351 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node351 [label="TransactionView::focusTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d2c/class_transaction_view.html#ab6d126806467ae9dc273cbe19a7477cc"];
+}

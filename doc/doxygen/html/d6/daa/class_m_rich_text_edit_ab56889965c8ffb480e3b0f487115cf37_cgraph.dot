@@ -1,0 +1,9 @@
+digraph "MRichTextEdit::toPlainText"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node271 [label="MRichTextEdit::toPlainText",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node271 -> Node272 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node272 [label="MRichTextEdit::toHtml",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/daa/class_m_rich_text_edit.html#a7b01640bd3dbc547783d7954bce1698b"];
+}

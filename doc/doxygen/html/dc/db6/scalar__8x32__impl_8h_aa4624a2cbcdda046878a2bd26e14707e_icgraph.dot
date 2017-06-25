@@ -1,0 +1,11 @@
+digraph "secp256k1_scalar_is_zero"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node37 [label="secp256k1_scalar_is_zero",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="secp256k1_scalar_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db6/scalar__8x32__impl_8h.html#aa3f1c1d4536adf835ee256878c222968"];
+  Node37 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="secp256k1_scalar_cond\l_negate",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/db6/scalar__8x32__impl_8h.html#a854402245668666a879a0394e0ebfe01"];
+}

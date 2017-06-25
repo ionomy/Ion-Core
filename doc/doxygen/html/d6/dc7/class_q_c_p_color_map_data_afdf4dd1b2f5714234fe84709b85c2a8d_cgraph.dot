@@ -1,0 +1,35 @@
+digraph "QCPColorMapData::operator="
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node61 [label="QCPColorMapData::operator=",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node61 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node62 [label="QCPColorMapData::keySize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#abbda4d28de97aedce1e6e6f008a0a1f7"];
+  Node61 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node63 [label="QCPColorMapData::valueSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a8510cafea24645bbb62b5e0bfc43209f"];
+  Node61 -> Node64 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="QCPColorMapData::setSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a0d9ff35c299d0478b682bfbcdd9c097e"];
+  Node64 -> Node62 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 -> Node63 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 -> Node65 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="QCPColorMapData::fill",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a350f783260eb9b5de5c7b5e0d5d3e3c2"];
+  Node61 -> Node66 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="QCPColorMapData::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#aad9c1c7c703c1339489fc730517c83d4"];
+  Node66 -> Node67 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="QCPColorMapData::setKeyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a0738c485f3c9df9ea1241b7a8bb6a86e"];
+  Node67 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="QCPColorMapData::keyRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a1e43abd20a77b922b7cecfc69bf4dad7"];
+  Node66 -> Node69 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="QCPColorMapData::setValue\lRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#ada1b2680ba96a5f4175b6d341cf75d23"];
+  Node69 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="QCPColorMapData::valueRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/dc7/class_q_c_p_color_map_data.html#a818e4e384aa4e5fad69ac603924394d3"];
+  Node61 -> Node68 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 -> Node70 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node61 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node71 -> Node72 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node71 -> Node73 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node73 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+}

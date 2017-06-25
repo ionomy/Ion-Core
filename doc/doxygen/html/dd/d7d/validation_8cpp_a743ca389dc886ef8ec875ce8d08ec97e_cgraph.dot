@@ -1,0 +1,47 @@
+digraph "GenerateCoinbaseCommitment"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3209 [label="GenerateCoinbaseCommitment",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3209 -> Node3210 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3210 [label="GetWitnessCommitmentIndex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#aefbbe9094bd65ee8f223534a7dfe9987"];
+  Node3209 -> Node3211 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3211 [label="CHash256::Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dec/class_c_hash256.html#a9cc25033c6435cb28e2e8e377c949a7a"];
+  Node3211 -> Node3212 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3212 [label="CSHA256::Write",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d2e/class_c_s_h_a256.html#a9d7de520a562655da85349372820c883"];
+  Node3212 -> Node3213 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3213 [label="memcpy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a0f46826ab0466591e136db24394923cf"];
+  Node3213 -> Node3214 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3214 [label="memmove",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a9778d49e9029dd75bc53ecbbf9f5e9a1"];
+  Node3213 -> Node3215 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3215 [label="__chk_fail",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/glibc__compat_8cpp.html#a424ac71631da5ada2976630ff67051d1"];
+  Node3209 -> Node3216 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3216 [label="base_uint::begin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#aaa32054bf4e8fbb31d54a75f6065174d"];
+  Node3209 -> Node3217 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3217 [label="CHash256::Finalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/dec/class_c_hash256.html#aa8a70c1b7cf24ce7d00240a1131cf4e7"];
+  Node3217 -> Node3218 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3218 [label="CSHA256::Finalize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d2e/class_c_s_h_a256.html#a4259230be0caefa590bc324fc12b9b90"];
+  Node3218 -> Node3219 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3219 [label="WriteBE64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d54/common_8h.html#ab960e95bf479af0a88a20800366b6131"];
+  Node3219 -> Node3220 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3220 [label="htobe64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d84/endian_8h.html#a55844e5fbe9a8ab3e9793335a16e2efc"];
+  Node3220 -> Node3221 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3221 [label="bswap_64",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc9/byteswap_8h.html#aaf6a6e8515061fb001505d3b9f6164e2"];
+  Node3218 -> Node3212 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3218 -> Node3222 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3222 [label="WriteBE32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d54/common_8h.html#aa3a53ff883fd14480eb603d00123a74a"];
+  Node3222 -> Node3223 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3223 [label="htobe32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d84/endian_8h.html#a3ca91566984b6dca7a0f6fc2694a203c"];
+  Node3223 -> Node3224 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3224 [label="bswap_32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dc9/byteswap_8h.html#acdd5094f58e4c6e2b0176654b7f20e1c"];
+  Node3217 -> Node3225 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3225 [label="CSHA256::Reset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/d2e/class_c_s_h_a256.html#a2122395dd5604990eaa0077b43a0e8d4"];
+  Node3217 -> Node3212 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3209 -> Node3213 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3209 -> Node3226 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3226 [label="UpdateUncommittedBlockStructures",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#a916ce43a2b2658298882c4eb461d1110",tooltip="Update uncommitted block structures (currently: only the witness nonce). "];
+  Node3226 -> Node3210 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3226 -> Node3227 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3227 [label="IsWitnessEnabled",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d7d/validation_8cpp.html#acb0226867d001d0edd267f2e4842bace",tooltip="Check whether witness commitments are required for block. "];
+}

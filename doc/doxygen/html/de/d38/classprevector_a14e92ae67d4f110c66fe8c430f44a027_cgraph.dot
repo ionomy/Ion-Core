@@ -1,0 +1,24 @@
+digraph "prevector::pop_back"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node486 [label="prevector::pop_back",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node486 -> Node487 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node487 [label="prevector::erase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a780af143deebcaaecb164fa1a2d98156"];
+  Node486 -> Node488 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node488 [label="prevector::end",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#aab7f6e13a3cac85cc340fc6b90c5365c"];
+  Node488 -> Node489 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node489 [label="prevector::iterator\l::iterator",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d4b/classprevector_1_1iterator.html#ae9dd2b5e8d96f866e4b05d6b7535f285"];
+  Node488 -> Node490 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node490 [label="prevector::item_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a59f1d7bcbc751cfa0faddd7ffa184846"];
+  Node490 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node491 [label="prevector::is_direct",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a933e204a7e29c6bbc85479d023c00ff8"];
+  Node490 -> Node492 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node492 [label="prevector::direct_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a20150a43dd87c33f0e855a55bd3418e8"];
+  Node490 -> Node493 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node493 [label="prevector::indirect_ptr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#ae3343cc65be9fd678b4a6f8305624de6"];
+  Node488 -> Node494 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node494 [label="prevector::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/d38/classprevector.html#a626f7d206dbc24e5610631809762758b"];
+  Node494 -> Node491 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

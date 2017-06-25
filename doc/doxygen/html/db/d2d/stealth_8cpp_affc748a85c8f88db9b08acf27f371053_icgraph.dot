@@ -1,0 +1,11 @@
+digraph "StealthSecretSpend"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node291 [label="StealthSecretSpend",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node291 -> Node292 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node292 [label="CStealthAddress::operator==",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d37/class_c_stealth_address.html#aafdb2534bed64a42a3e3147a997514eb"];
+  Node291 -> Node293 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node293 [label="CWallet::UnlockStealthAddresses",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#ac45af0632ea59c56295d3158b7387f33"];
+}

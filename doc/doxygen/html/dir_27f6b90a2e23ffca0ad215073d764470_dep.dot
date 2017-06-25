@@ -1,0 +1,11 @@
+digraph "src/secp256k1/src/modules/recovery" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_403fe05abfd2d392aa3c0b8c300f7bf6 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="modules" fontname="Helvetica", fontsize="10", URL="dir_403fe05abfd2d392aa3c0b8c300f7bf6.html"]
+  dir_27f6b90a2e23ffca0ad215073d764470 [shape=box, label="recovery", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_27f6b90a2e23ffca0ad215073d764470.html"];
+  }
+  dir_1b4df0b9bba47cf333db333897c5a5a4 [shape=box label="include" URL="dir_1b4df0b9bba47cf333db333897c5a5a4.html"];
+  dir_27f6b90a2e23ffca0ad215073d764470->dir_1b4df0b9bba47cf333db333897c5a5a4 [headlabel="1", labeldistance=1.5 headhref="dir_000015_000009.html"];
+}

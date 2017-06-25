@@ -1,0 +1,29 @@
+digraph "CKey::MakeNewKey"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node497 [label="CKey::MakeNewKey",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node497 -> Node498 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node498 [label="ECC_InitSanityCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$de/de5/key_8h.html#a55cc40f04bf887c1000667caccb0684a",tooltip="Check that required EC support is available at runtime. "];
+  Node498 -> Node499 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node499 [label="InitSanityCheck",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/dc9/init_8cpp.html#a878797b40fb8eb0d7f330a41d7742d11",tooltip="Sanity checks Ensure that Ion is running in a usable environment with all necessary library support..."];
+  Node499 -> Node500 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node500 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node500 -> Node501 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node501 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node501 -> Node502 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node502 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node500 -> Node503 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node503 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node497 -> Node504 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node504 [label="CKey::IsCompressed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d63/class_c_key.html#a96b017433a65335775cf3807d73f85ce"];
+  Node504 -> Node505 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node505 [label="CIonSecret::SetKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d3/d88/class_c_ion_secret.html#af28cc32f79cc793418e810e8ae12e25e"];
+  Node497 -> Node506 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node506 [label="masternode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d6b/rpcstashedsend_8cpp.html#a30609e443aeb47c29ed0878d16b1b5e1"];
+  Node497 -> Node507 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node507 [label="makekeypair",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a99fe5f539a487e6da84f74ac47ae5ba6"];
+  Node497 -> Node508 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node508 [label="CWallet::GenerateNewKey",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/de5/class_c_wallet.html#a061fe7f54f80ec40f856b3e6365c2f4a"];
+}

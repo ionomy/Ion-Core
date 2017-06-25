@@ -1,0 +1,11 @@
+digraph "src/secp256k1/contrib" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_44f34d1e62fda08bdb4ca69ab2d205ae {
+    graph [ bgcolor="#ddddee", pencolor="black", label="secp256k1" fontname="Helvetica", fontsize="10", URL="dir_44f34d1e62fda08bdb4ca69ab2d205ae.html"]
+  dir_b0f147e0d78dd6f743f7b009c9930b03 [shape=box, label="contrib", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_b0f147e0d78dd6f743f7b009c9930b03.html"];
+  }
+  dir_1b4df0b9bba47cf333db333897c5a5a4 [shape=box label="include" URL="dir_1b4df0b9bba47cf333db333897c5a5a4.html"];
+  dir_b0f147e0d78dd6f743f7b009c9930b03->dir_1b4df0b9bba47cf333db333897c5a5a4 [headlabel="4", labeldistance=1.5 headhref="dir_000008_000009.html"];
+}

@@ -1,0 +1,11 @@
+digraph "ValueString"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3859 [label="ValueString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3859 -> Node3860 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3860 [label="CScriptNum::getint",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d95/class_c_script_num.html#ae205465ff5e3cfef3f2f6d29d3ee250d"];
+  Node3859 -> Node3861 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3861 [label="HexStr",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d3c/util_8h.html#ace13a819ca4e98c22847d26b3b357e75"];
+}

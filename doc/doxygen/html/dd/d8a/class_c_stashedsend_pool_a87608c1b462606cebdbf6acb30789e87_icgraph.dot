@@ -1,0 +1,21 @@
+digraph "CStashedsendPool::GetDenominationsToString"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1130 [label="CStashedsendPool::GetDenominations\lToString",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1130 -> Node1131 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1131 [label="OverviewPage::stashedSend\lStatus",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#ac6d1b3475132a87b31c1510014e4d0e7"];
+  Node1131 -> Node1132 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1132 [label="OverviewPage::OverviewPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a18c1a29cab6b745b25e701b20f234932"];
+  Node1131 -> Node1133 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1133 [label="OverviewPage::~OverviewPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a7fd68a7bebc327e3bbef2226b41298aa"];
+  Node1131 -> Node1134 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1134 [label="OverviewPage::stashedsend\lReset",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a6b87c065c31ccd136f541edd3bb73134"];
+  Node1134 -> Node1135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1135 [label="OverviewPage::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d91/class_overview_page.html#a2ed52a3a87e9c74fee38fa873c9bc71f"];
+  Node1135 -> Node1136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1136 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node1136 -> Node1137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1137 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+}

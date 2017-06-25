@@ -1,0 +1,31 @@
+digraph "WalletTxToJSON"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2510 [label="WalletTxToJSON",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2510 -> Node2511 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2511 [label="CMerkleTx::GetDepthInMain\lChain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/dff/class_c_merkle_tx.html#a887a9f1a0b7fc64b43e42cec76b38ef9"];
+  Node2511 -> Node2512 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2512 [label="CTxMemPool::exists",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d98/class_c_tx_mem_pool.html#a8b7a13b5289ab839d4460f41a7da9789"];
+  Node2512 -> Node2513 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2513 [label="CTxMemPool::lookup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d98/class_c_tx_mem_pool.html#ad6d9966cdeb4b6586f7186e709b4e77e"];
+  Node2510 -> Node2514 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2514 [label="GetIXConfirmations",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d0a/main_8cpp.html#afb9aef5806c13c7a81fda9854f852155"];
+  Node2510 -> Node2515 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2515 [label="CTransaction::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d43/class_c_transaction.html#a0b46d80e82ca324e82c2ce3fc1492bfa"];
+  Node2515 -> Node2516 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2516 [label="SerializeHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/dfb/hash_8h.html#a6de694e43f17c62025c6883965b65e63"];
+  Node2516 -> Node2517 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2517 [label="CHashWriter::GetHash",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/def/class_c_hash_writer.html#ae94a937211502eabf19477630090093a"];
+  Node2510 -> Node2518 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2518 [label="CTransaction::IsCoinBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d43/class_c_transaction.html#a96256e8ac1bf79ad9c057e48c41132dd"];
+  Node2510 -> Node2519 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2519 [label="CTransaction::IsCoinStake",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d43/class_c_transaction.html#ace4278a41a296d40dcf5fb2b9cf007ec"];
+  Node2510 -> Node2520 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2520 [label="base_uint::GetHex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#ae5e7b7481de91ebead20eebd5d685441"];
+  Node2510 -> Node2521 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2521 [label="CWalletTx::GetConflicts",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#a127b064ab044a96158117ec8162188a7"];
+  Node2510 -> Node2522 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2522 [label="CWalletTx::GetTxTime",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d53/class_c_wallet_tx.html#ab94368cf0553687d8f1fec5d2aaa1457"];
+}

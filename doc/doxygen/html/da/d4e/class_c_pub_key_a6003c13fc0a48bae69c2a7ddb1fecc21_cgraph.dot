@@ -1,0 +1,11 @@
+digraph "CPubKey::Serialize"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1137 [label="CPubKey::Serialize",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1137 -> Node1138 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1138 [label="base_uint\< 160 \>::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/df7/classbase__uint.html#a1f49b034e686269601ea89b0319b8004"];
+  Node1137 -> Node1139 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1139 [label="WriteCompactSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d9d/serialize_8h.html#a02cf7f551f8876dcd142e7c6c8a27e3b"];
+}

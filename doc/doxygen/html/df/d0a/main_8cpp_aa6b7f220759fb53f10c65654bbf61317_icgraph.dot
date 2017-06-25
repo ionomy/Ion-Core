@@ -1,0 +1,15 @@
+digraph "RegisterWallet"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node5601 [label="RegisterWallet",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5601 -> Node5602 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5602 [label="AppInit2",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dc0/init_8h.html#a1a4c1bfbf6ba1db77e988b89b9cadfd3",tooltip="Initialize ion. "];
+  Node5602 -> Node5603 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5603 [label="AppInit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#ac59316b767e6984e1285f0531275286b"];
+  Node5603 -> Node5604 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5604 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d35/iond_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node5602 -> Node5605 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5605 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+}

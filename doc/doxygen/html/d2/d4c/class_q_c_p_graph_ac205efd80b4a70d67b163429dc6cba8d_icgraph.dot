@@ -1,0 +1,11 @@
+digraph "QCPGraph::getValueRange"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node546 [label="QCPGraph::getValueRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node546 -> Node547 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node547 [label="QCPGraph::rescaleValueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a9e0e620a56932c4df80a3762c2f93608"];
+  Node547 -> Node548 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node548 [label="QCPGraph::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a9c3909d6116e9d03978f057d41174e6a"];
+}

@@ -1,0 +1,15 @@
+digraph "QCPAbstractItem::rectSelectTest"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node134 [label="QCPAbstractItem::rectSelectTest",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node134 -> Node135 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node135 [label="QCPItemRect::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/dcc/class_q_c_p_item_rect.html#abe1a6091591d3bad5e4efab2331f99ec"];
+  Node134 -> Node136 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node136 [label="QCPItemText::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/da0/class_q_c_p_item_text.html#aca74494fd5e769f331a6eb3e29f32916"];
+  Node134 -> Node137 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node137 [label="QCPItemPixmap::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dbd/class_q_c_p_item_pixmap.html#a7583a98ebd3f35d2ac5d6c05fad25a6c"];
+  Node134 -> Node138 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node138 [label="QCPItemTracer::selectTest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/da3/class_q_c_p_item_tracer.html#ae1dc728384936184e7552a6d0d67fd75"];
+}

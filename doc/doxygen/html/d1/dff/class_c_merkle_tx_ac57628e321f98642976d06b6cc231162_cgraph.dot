@@ -1,0 +1,11 @@
+digraph "CMerkleTx::Init"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node363 [label="CMerkleTx::Init",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node363 -> Node364 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node364 [label="SerReadWrite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d9d/serialize_8h.html#a9cd643cfa4ca2da679b6f9843bf319aa"];
+  Node364 -> Node365 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node365 [label="GetSerializeSize",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d9d/serialize_8h.html#a48239e478ae730373d1984fe304ca025"];
+}

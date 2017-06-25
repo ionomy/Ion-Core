@@ -1,0 +1,24 @@
+digraph "MacDockIconHandler::handleDockIconClickEvent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node34 [label="MacDockIconHandler\l::handleDockIconClickEvent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node34 -> Node35 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node35 [label="dockClickHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de5/macdockiconhandler_8mm.html#ab33de6d790611e30eb1985cca6ef2679"];
+  Node35 -> Node36 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node36 [label="setupDockClickHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/de5/macdockiconhandler_8mm.html#a9aec1ea4fb1121c1b089c5cb11445732"];
+  Node36 -> Node37 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node37 [label="MacDockIconHandler\l::MacDockIconHandler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dcd/class_mac_dock_icon_handler.html#ab44913b8dabec96186b74bc6f6896c46"];
+  Node37 -> Node38 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 [label="MacDockIconHandler\l::instance",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dcd/class_mac_dock_icon_handler.html#afd3ef7126d0b6ef02eaf85e5455fe6f4"];
+  Node38 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node39 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+  Node38 -> Node40 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node40 [label="IonGUI::setClientModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#aee0c583c834ce4f4c598c29db83b0680",tooltip="Set the client model. "];
+  Node40 -> Node39 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node38 -> Node41 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="IonGUI::createTrayIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ab2a52ae1062ead1fd597d1ef4a362c72",tooltip="Create system tray (notification) icon. "];
+  Node41 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+}

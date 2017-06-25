@@ -1,0 +1,13 @@
+digraph "QCPColorScale::type"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node116 [label="QCPColorScale::type",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node116 -> Node117 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node117 [label="QCPColorScale::setType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d2b/class_q_c_p_color_scale.html#a1bf9bdb291927c422dd66b404b206f1f"];
+  Node117 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node118 [label="QCPColorScale::QCPColorScale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d2b/class_q_c_p_color_scale.html#aa8debce1be38b54287c04d4f584394b4"];
+  Node116 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node119 [label="QCPColorScaleAxisRectPrivate\l::draw",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/ddc/class_q_c_p_color_scale_axis_rect_private.html#adb67bfe9057a9dd9a85f548c274e6d98"];
+}

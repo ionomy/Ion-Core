@@ -1,0 +1,13 @@
+digraph "ClientModel::inInitialBlockDownload"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node411 [label="ClientModel::inInitialBlock\lDownload",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node411 -> Node412 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node412 [label="IonGUI::incomingTransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#acdb78c5d98fb4528bd0e9f5b9c5ad048",tooltip="Show incoming transaction notification for new transactions. "];
+  Node412 -> Node413 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node413 [label="IonGUI::setWalletModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a37f87db65498b036d387c705a749c45d",tooltip="Set the wallet model. "];
+  Node413 -> Node414 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node414 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d2d/ion_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"];
+}

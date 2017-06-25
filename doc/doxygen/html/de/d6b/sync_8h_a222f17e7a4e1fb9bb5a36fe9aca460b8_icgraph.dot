@@ -1,0 +1,11 @@
+digraph "LeaveCritical"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="LeaveCritical",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="CMutexLock::TryEnter",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d15/class_c_mutex_lock.html#a9ba3770fa3e256a183b0ee52ebf048c4"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="CMutexLock::~CMutexLock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d1/d15/class_c_mutex_lock.html#af213c60c9abee229f5dc841670021c5a"];
+}

@@ -1,0 +1,18 @@
+digraph "GetIXConfirmations"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1166 [label="GetIXConfirmations",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1166 -> Node1167 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1167 [label="WalletTxToJSON",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a28e51f3edfce43e075603e9e315f40c4"];
+  Node1167 -> Node1168 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1168 [label="ListTransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a460d931e7f098979bea783409c971d53"];
+  Node1168 -> Node1169 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1169 [label="listtransactions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a3247ccfc52f810122e28895d423e13fd"];
+  Node1168 -> Node1170 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1170 [label="listsinceblock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a53cf4975a89f414ef3bd180f6b4773cd"];
+  Node1168 -> Node1171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1171 [label="gettransaction",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$df/d1d/rpcwallet_8cpp.html#a845c15a1402787fcf2cc021111ea89f5"];
+  Node1167 -> Node1171 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

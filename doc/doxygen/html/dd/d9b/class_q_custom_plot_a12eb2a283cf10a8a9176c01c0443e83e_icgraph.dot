@@ -1,0 +1,21 @@
+digraph "QCustomPlot::item"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node325 [label="QCustomPlot::item",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node325 -> Node326 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node326 [label="QCustomPlot::addItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#aa500620379262321685cb7a7674cbd2a"];
+  Node325 -> Node327 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node327 [label="QCustomPlot::removeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ae04446557292551e8fb6e2c106e1848d"];
+  Node327 -> Node328 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node328 [label="QCustomPlot::removeItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#abcfdda3d601c0441cab136137d715dea"];
+  Node327 -> Node329 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node329 [label="QCustomPlot::clearItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#abdfd07d4f0591d0cf967f85013fd3645"];
+  Node329 -> Node330 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node330 [label="QCustomPlot::~QCustomPlot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#a75d9b6f599dcae706e45efd425c5499e"];
+  Node325 -> Node331 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node331 [label="QCustomPlot::selectedItems",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#afda487bcf2d6cf1a57173d82495e29ba"];
+  Node325 -> Node332 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node332 [label="QCustomPlot::itemAt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ac08578e0e6c059c83a8d340ba0038e8e"];
+}

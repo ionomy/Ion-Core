@@ -1,0 +1,24 @@
+digraph "CWallet::SetAddressBookName"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3605 [label="CWallet::SetAddressBookName",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node3605 -> Node3606 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3606 [label="NotifyAddressBookChanged",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d9b/walletmodel_8cpp.html#ab4e3d5ba1daba2e9a4cdd0d20bf25833"];
+  Node3606 -> Node3607 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3607 [label="CStealthAddress::Encoded",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d37/class_c_stealth_address.html#a1318c3f56f64354f4c909380ba692c91"];
+  Node3607 -> Node3608 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3608 [label="AppendChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#aa4f182dc0efd181cef81ca75ae960533"];
+  Node3608 -> Node3609 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3609 [label="StashedSilkChecksum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d2d/stealth_8cpp.html#abb79a3b98a10b85daf3f3ff35c1cbfa8"];
+  Node3607 -> Node3610 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3610 [label="EncodeBase58",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$db/d9c/base58_8cpp.html#a8d6f0e9d5df175b4966dcede31dc90ad",tooltip="Encode a byte sequence as a base58-encoded string. "];
+  Node3605 -> Node3611 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3611 [label="IsMine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0f/script_8cpp.html#adc59cf67d903c1ba1ef225561b85bfce"];
+  Node3611 -> Node3612 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3612 [label="CScript::SetDestination",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d9/d4b/class_c_script.html#ad1b5a9077241aa06116040c4f1b7c31e"];
+  Node3611 -> Node3611 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3605 -> Node3613 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3613 [label="CWalletDB::WriteName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d90/class_c_wallet_d_b.html#ad1b3bce77e9dd6ddd8c668a469c38f0a"];
+}

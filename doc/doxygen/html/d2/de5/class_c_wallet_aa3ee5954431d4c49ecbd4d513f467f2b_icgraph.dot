@@ -1,0 +1,17 @@
+digraph "CWallet::GetStakeWeight"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1821 [label="CWallet::GetStakeWeight",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1821 -> Node1822 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1822 [label="IonGUI::updateWeight",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a2689de984576a927ea382a800a81a3f0"];
+  Node1822 -> Node1823 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1823 [label="IonGUI::updateStakingIcon",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#a5e9ba63b943650e5dec3ab6e13e9a20b"];
+  Node1823 -> Node1824 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1824 [label="IonGUI::IonGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dc/d0b/class_ion_g_u_i.html#ad0e22e4901b039bcc987ef0328c8c5d4"];
+  Node1821 -> Node1825 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1825 [label="getmininginfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#a89c187faff7322c7d15134d13570ca1e"];
+  Node1821 -> Node1826 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1826 [label="getstakinginfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/ddd/rpcmining_8cpp.html#aedf628177ea04e0077d9d530963d40d6"];
+}

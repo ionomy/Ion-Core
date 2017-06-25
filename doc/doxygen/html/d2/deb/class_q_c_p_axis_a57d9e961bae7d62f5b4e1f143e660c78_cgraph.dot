@@ -1,0 +1,22 @@
+digraph "QCPAxis::setupTickVectors"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node821 [label="QCPAxis::setupTickVectors",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node821 -> Node822 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node822 [label="QCPLayerable::visible",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d6/d4d/class_q_c_p_layerable.html#af0297b944b6192b6d67d00bff41b6b70"];
+  Node821 -> Node823 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node823 [label="QCPRange::size",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/d0b/class_q_c_p_range.html#a62326e7cc4316b96df6a60813230e63f"];
+  Node821 -> Node824 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node824 [label="QCPAxis::generateAutoTicks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a626eef437c874148df1a5ac78506d463"];
+  Node824 -> Node823 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node824 -> Node825 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node825 [label="QCPAxis::calculateAutoSub\lTickCount",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#aca96dda6dbd08b062fc96e34df16c68a"];
+  Node824 -> Node826 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node826 [label="QCPAxis::basePow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#aaa91530d01736d9b84dd91c1e8a26d56"];
+  Node824 -> Node827 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node827 [label="QCPAxis::baseLog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#ae759538b7eeb12259944e75a6bc359da"];
+  Node821 -> Node828 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node828 [label="QCPAxis::visibleTickBounds",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#aeda1feaedaabc6e0f0d5b0c18a3898d2"];
+}

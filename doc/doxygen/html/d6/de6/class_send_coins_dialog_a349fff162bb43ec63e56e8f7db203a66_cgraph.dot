@@ -1,0 +1,27 @@
+digraph "SendCoinsDialog::processSendCoinsReturn"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1041 [label="SendCoinsDialog::process\lSendCoinsReturn",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1041 -> Node1042 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1042 [label="IonUnits::formatWithUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a07052cd4b4b8496b73ffe657432a8624",tooltip="Format as string (with unit) "];
+  Node1042 -> Node1043 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1043 [label="IonUnits::format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a7cf8cdbd0a24c418ae91b511fac5bee4",tooltip="Format as string. "];
+  Node1043 -> Node1044 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1044 [label="IonUnits::valid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a23c5b1306ed473dbb2375a6675a2ce13",tooltip="Is unit ID valid? "];
+  Node1043 -> Node1045 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1045 [label="IonUnits::factor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a210814a200496caf63083ed4abd1bd24",tooltip="Number of Satoshis (1e-8) per unit. "];
+  Node1043 -> Node1046 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1046 [label="IonUnits::decimals",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a5e9c7a5b666b858c171760273c51c9d7",tooltip="Number of decimals left. "];
+  Node1042 -> Node1047 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1047 [label="IonUnits::name",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d7/dab/class_ion_units.html#a5bb4881389b09aeeb0bc235e87e0a42f",tooltip="Short name. "];
+  Node1041 -> Node1048 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1048 [label="WalletModel::getOptionsModel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d27/class_wallet_model.html#a96d53e56b3f8f07537ea2523f7a7d300"];
+  Node1041 -> Node1049 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1049 [label="OptionsModel::getDisplayUnit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a3b6e4d4ef42be3aaba315b8cd14f468e"];
+  Node1049 -> Node1050 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1050 [label="OptionsModel::getProxySettings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$da/d1f/class_options_model.html#a0fa582a801df3753c2c50840c40bb350"];
+  Node1050 -> Node1051 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1051 [label="GetProxy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d0/d0e/netbase_8cpp.html#a4e67b39fc1769663260d791d2f4d049d"];
+}

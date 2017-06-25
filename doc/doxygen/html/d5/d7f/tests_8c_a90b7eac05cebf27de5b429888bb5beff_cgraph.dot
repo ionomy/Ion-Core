@@ -1,0 +1,13 @@
+digraph "run_rand_bits"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1264 [label="run_rand_bits",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1264 -> Node1265 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1265 [label="test_rand_bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d7f/tests_8c.html#afbb9dd769d4d12035edc846bb697a0a3"];
+  Node1265 -> Node1266 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1266 [label="secp256k1_rand32",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0b/testrand_8h.html#a253bfecd8b27ee9e51ec9ae676c352be",tooltip="Generate a pseudorandom number in the range [0..2**32-1]. "];
+  Node1265 -> Node1267 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1267 [label="secp256k1_rand_bits",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d0b/testrand_8h.html#a70a3e97a30b94a77f4a59807ba01e6ba",tooltip="Generate a pseudorandom number in the range [0..2**bits-1]. "];
+}

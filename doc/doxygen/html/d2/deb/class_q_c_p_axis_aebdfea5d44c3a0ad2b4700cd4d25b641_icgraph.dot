@@ -1,0 +1,38 @@
+digraph "QCPAxis::setRange"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node672 [label="QCPAxis::setRange",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node672 -> Node673 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node673 [label="QCPAxis::setScaleType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#adef29cae617af4f519f6c40d1a866ca6"];
+  Node673 -> Node674 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node674 [label="QCPAxisRect::setupFullAxesBox",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d8/dad/class_q_c_p_axis_rect.html#a5fa906175447b14206954f77fc7f1ef4"];
+  Node672 -> Node675 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node675 [label="QCPAxis::setRange",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#acf60e5b2d631fbc8c4548c3d579cb6d0"];
+  Node672 -> Node676 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node676 [label="QCPAxis::setScaleRatio",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#af4bbd446dcaee5a83ac30ce9bcd6e125"];
+  Node672 -> Node677 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node677 [label="QCPAxis::rescale",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/deb/class_q_c_p_axis.html#a499345f02ebce4b23d8ccec96e58daa9"];
+  Node677 -> Node678 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node678 [label="QCustomPlot::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dd/d9b/class_q_custom_plot.html#ad86528f2cee6c7e446dea4a6e8839935"];
+  Node672 -> Node679 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node679 [label="QCPAbstractPlottable\l::rescaleKeyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#ae96b83c961e257da116c6acf9c7da308"];
+  Node679 -> Node680 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node680 [label="QCPAbstractPlottable\l::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#a1491c4a606bccd2d09e65e11b79eb882"];
+  Node680 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node681 [label="QCPGraph::adaptiveSampling",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a1ba934b9621270b9a40fcdd2d9ba2adb"];
+  Node679 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node672 -> Node682 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node682 [label="QCPAbstractPlottable\l::rescaleValueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d4/d89/class_q_c_p_abstract_plottable.html#aa1e408bb2d13999150c3f7f8a8579ca9"];
+  Node682 -> Node680 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node682 -> Node681 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node672 -> Node674 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node672 -> Node683 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node683 [label="QCPGraph::rescaleKeyAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a051fb77b459ba1ae8d65552c67f45e94"];
+  Node683 -> Node684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node684 [label="QCPGraph::rescaleAxes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a9c3909d6116e9d03978f057d41174e6a"];
+  Node672 -> Node685 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node685 [label="QCPGraph::rescaleValueAxis",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d2/d4c/class_q_c_p_graph.html#a9e0e620a56932c4df80a3762c2f93608"];
+  Node685 -> Node684 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

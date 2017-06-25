@@ -1,0 +1,11 @@
+digraph "FormatStateMessage"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node724 [label="FormatStateMessage",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node724 -> Node725 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node725 [label="CValidationState::GetReject\lReason",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df6/class_c_validation_state.html#a8fa9612cb40c3c8592f7cd29b5931ccd"];
+  Node724 -> Node726 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node726 [label="CValidationState::GetRejectCode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/df6/class_c_validation_state.html#ad90959549444c9795484785d8af97850"];
+}

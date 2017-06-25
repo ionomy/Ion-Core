@@ -1,0 +1,9 @@
+digraph "CMasternodeScanningError::Relay"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node21 [label="CMasternodeScanningError\l::Relay",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="CMasternodeScanning\l::DoMasternodePOSChecks",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$d5/d9f/class_c_masternode_scanning.html#a6bc18fb7508f702e2a2d1c3731342f8f"];
+}
